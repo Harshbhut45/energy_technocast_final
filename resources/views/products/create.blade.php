@@ -130,7 +130,7 @@
                         
                           <div class="button">
                             <a href="{{ route('products.index') }}" class="btn btn-warning mg-r-1">Cancel</a>
-                            <button type="submit" class="btn btn-primary user-form">Submit</button>
+                            <button type="submit" class="btn btn-primary ">Submit</button>
                          </div>
                        </form>
                     </div>

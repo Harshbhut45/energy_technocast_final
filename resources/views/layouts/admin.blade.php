@@ -29,6 +29,20 @@
     <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
     {{-- croppie --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.2/croppie.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ ('/css/custom.css') }}">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600%2C400%7CRoboto:500" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+
+   <!-- slider-CSS -->
+   <link href="https://googledrive.com/host/0B1RR6fhjI2QROGt0MTFoVkhMdUk/fonts.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+
+   
   </head>
   <body>
 
@@ -48,6 +62,11 @@
           <li class="nav-item">
             <a href="{{ route('products.index') }}" class="nav-link"><i data-feather="package"></i> Products</a>
           </li>
+
+          <li class="nav-item ">
+          <a href="/index" class="nav-link"><i data-feather="package"></i>Other</a>
+                    
+           </li>
           
          
           
@@ -70,7 +89,7 @@
           <script src="{{ asset('lib/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
          
           <script src="{{ asset('assets/js/dashforge.js') }}"></script>
-          <script src="{{ ('/js/custom.js') }}"></script>
+          <!-- <script src="{{ ('/js/custom.js') }}"></script> -->
 
   <!-- toastr -->
     <script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
@@ -142,6 +161,15 @@
 
       
       </script>
+
+       <!-- Dropdown-js --> 
+       <script src="{{ asset('js/dropdown.js') }}"></script>
+      <!-- Scrolltop-js --> 
+      <script src="{{ asset('js/scrolltop.js') }}"></script>
+      <!-- slider-js --> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+      <script src="{{ asset('js/slider.js') }}"></script>
 
       </body>
 </html>

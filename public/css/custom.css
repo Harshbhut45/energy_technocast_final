@@ -1,6 +1,15 @@
 body {
+    font-family: "Open Sans",sans-serif!important;
+    color: #555555;
+    line-height: 22px;
+    font-size: 15px!important;
+    font-style: normal;
     background: #f9f9f9!important;
+    position: relative;
 }
+
+
+/* table-css */
 .footer-button {
     display: flex;
     justify-content: flex-end;
@@ -78,3 +87,4 @@ body {
     margin-left: -12px;
 
 }
+  

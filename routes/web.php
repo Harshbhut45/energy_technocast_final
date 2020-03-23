@@ -34,5 +34,41 @@ Route::get('/products/{id}','ProductController@destroy')->name('products.delete'
 
 
 
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+
+    Route::get('/index', function () {
+        return view('pages.index');
+    });
+    
+    Route::get('/abouts-us', function () {
+        return view('pages.about-as');
+    });
+    
+    Route::get('/process', function () {
+        return view('pages.process');
+    });
+    
+    Route::get('/quality-assurance', function () {
+        return view('pages.quality-assurance');
+    });
+    
+    Route::get('/technical-capabilities', function () {
+        return view('pages.technical-capabilities');
+    });
+    
+    Route::get('/industries-servied', function () {
+        return view('pages.industries-servied');
+    });
+    
+    Route::get('/career', function () {
+        return view('pages.career');
+    });
+    
+    Route::get('/contact-us', function () {
+        return view('pages.contact-us');
+    });
+
+    Auth::routes();
+    Route::get('/home', 'HomeController@index')->name('home');

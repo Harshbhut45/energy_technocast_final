@@ -108,7 +108,6 @@
                         </div>
                        
                           
-                    
                         
                           <div class="button">
                             <a href="{{ route('categories.index') }}" class="btn btn-warning mg-r-1">Cancel</a>
