@@ -16,6 +16,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{ ('/css/energy_custom.css') }}">
 
+  
     <!-- Navbar-CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" rel="stylesheet">
 
@@ -74,14 +75,28 @@
           </nav>
         </div>
         <div class="topheader">
-          <nav class="navbar bg-faded">
-            <div class="container">
+        
+        <div class="nav navbar1 bg-faded">
+    
+          <input type="checkbox" id="nav-check">
+         
+       
+          <div class="nav-header">
+            <div class="nav-title">
             <a class="navbar-brand"  href="/"><img src="image/logo.png"></a>
-            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
-              &#9776;
-            </button>
-            <div class="collapse navbar-toggleable-xs " id="topheader">
-              <ul class="nav navbar-nav pull-sm-right pd-t-1">
+            </div>
+          </div>
+          <div class="nav-btn">
+            <label for="nav-check">
+              <span></span>
+              <span></span>
+              <span></span>
+            </label>
+          </div>
+  
+  <div class="nav-links">
+  <div class="collapse navbar-toggleable-xs pd-r" id="topheader">
+              <ul class="nav navbar-nav pull-sm-right ">
                 <li class="nav-item active"><a class="nav-link" href="/home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/abouts-us">About-US</a></li>
                 <li class="nav-item"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
@@ -89,7 +104,7 @@
                 <li class="nav-item"><a class="nav-link" href="/quality-assurance">Quality Assurance</a></li>
                 <li class="dropdown1 nav-item">
                   <a href="#" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Industries Served </a>
-                  <ul class="dropdown-menu" role="menu">
+                  <ul class="dropdown-menu " role="menu">
                     <div class="row">
                       <div class="column">
                         <a href="#">Link 1</a>
@@ -116,12 +131,10 @@
                 <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
                 
               </ul>
-             
-             
-            </div>
-           
-          </nav>
-          </div>
+  </div>
+</div>
+</div>
+
 
             
       </header>
@@ -171,10 +184,10 @@
             
             if (scrollTop >= 100) {
               $('#header-default .navbar-brand ').addClass('scrolled-nav');
-              $('#header-default .pd-t-1 ').addClass('scrolled-nav1');
+              $('#header-default .nav').addClass('scrolled-nav1');
             } else if (scrollTop < 100) {
               $('#header-default .navbar-brand').removeClass('scrolled-nav');
-              $('#header-default .pd-t-1').removeClass('scrolled-nav1');
+              $('#header-default .nav').removeClass('scrolled-nav1');
             } 
             
           }); 

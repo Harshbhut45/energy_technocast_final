@@ -55,11 +55,19 @@ html {
     position: relative;
     padding-top: 0;
 }
-.navbar {
+.navbar1 {
     position: relative;
-    min-height: 75px!important;
+    min-height: 75px;
     margin-bottom: 0px!important;
     border: 1px solid transparent;
+}
+.nav {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.nav-links {
+    margin: -2px;
 }
 #menu-main-menu {
     color: #FFF;
@@ -150,9 +158,14 @@ html {
     margin-right: 0px!important;
     float: left;
     height: 80px;
-    padding: 15px 0px!important;
     font-size: 18px;
     line-height: 20px;
+    margin-top: -7px;
+    padding-left: 75px!important;
+}
+.pd-r {
+    padding-right: 110px;
+    padding-top: 25px;
 }
 
 
@@ -1448,20 +1461,14 @@ table td strong {
 }
 
 .scrolled-nav {
-    /* height: 20px !important;
-    line-height: 60px !important;
-    padding: 0px!important; */
-    width: 22%!important;
-    padding-top: 10px!important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 75%!important;
+    min-height: 50px!important;
+   
     
 
   }
   .scrolled-nav1 {
-    padding-top: 8px!important;
+    min-height: 40px!important;
 
   }
 
@@ -1539,24 +1546,105 @@ table td strong {
 
 /* responsive-all-pages */
 
-/* index-page */
-@media(max-width:1199px) {
-    .navbar-brand>img {
-        display: block;
-        width: 60%;
-        margin-top: -10px;
+
+
+/* new header */
+
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    /* float: right; */
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:1329px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 100px;
+      top: 15px;
     }
-    .nav-item {
-        font-size: 12px;
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
     }
-    .navbar-nav {
-        margin-top: -45px!important;
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
     }
-    .scrolled-nav1 {
-        margin-top: 10px!important;
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
     }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  @media (max-width:991px) {
+    .nav-flex-icons {
+        display: none;
+    }
+    .list-inline>li {
+        padding-left: 0px!important;
+    }
+    
+   }
+   @media (max-width:590px) {
     .navbar-brand {
-        margin-top: 12px;
+        padding-left: 25px!important;
     }
- 
-}
+    
+    
+   }
