@@ -36,11 +36,11 @@ $(document).ready(function(){
     nextArrow:'<span class="Slick-Next"></span>',
     easing:"linear",
     responsive:[
-      {breakpoint:801,settings:{
+      {breakpoint:991,settings:{
         slidesToShow:3,
       }},
       {breakpoint:641,settings:{
-        slidesToShow:3,
+        slidesToShow:2,
       }},
       {breakpoint:481,settings:{
         slidesToShow:1,

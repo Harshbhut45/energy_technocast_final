@@ -95,7 +95,7 @@
           </div>
   
   <div class="nav-links">
-  <div class="collapse navbar-toggleable-xs pd-r" id="topheader">
+  <div class="collapse navbar-toggleable-xs pd-r " id="topheader">
               <ul class="nav navbar-nav pull-sm-right ">
                 <li class="nav-item active"><a class="nav-link" href="/home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/abouts-us">About-US</a></li>

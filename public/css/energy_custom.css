@@ -119,6 +119,7 @@ html {
 .bg-faded {
     background-color: #f0801a;
     padding:0px!important;
+    display: flex;
 }
 .navbar-nav .nav-link {
     color: #111f28;;
@@ -335,7 +336,7 @@ address {
     font-size: 15px;
 }
 .footer-widget  {
-    width: 30%;
+    width: 100%;
     margin-right: 40px;
 }
 .footer-widget i {
@@ -1632,6 +1633,22 @@ table td strong {
       overflow-y: auto;
     }
   }
+
+  @media (max-width:1199px) {
+      .clearfix_res {
+          display: grid;
+      }
+      .clearfix__short {
+         width: 100%; 
+    }
+    .clearfix_res{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+  }
   @media (max-width:991px) {
     .nav-flex-icons {
         display: none;
@@ -1639,12 +1656,42 @@ table td strong {
     .list-inline>li {
         padding-left: 0px!important;
     }
-    
+    .footer-widget h3 {
+        width: 40%;
+    }
+    #footer ul.social-media li {
+        width: 26%;
+        
+    }
+    .social-media {
+        display: grid;
+    }
+    .footer-copyrights-details {
+        display: inline;
+    }
+    .footer-company-name {
+        padding-bottom: 15px;
+    }
+    .footer-company-Visitors {
+        padding-bottom: 15px;
+    }
+   #footer {
+    padding: 10px 0;
    }
+   .footer_res {
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+   #content {
+    margin-top: 10px;
+}
+}
    @media (max-width:590px) {
     .navbar-brand {
         padding-left: 25px!important;
     }
     
     
-   }
+}
+
