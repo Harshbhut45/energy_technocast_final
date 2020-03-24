@@ -11,6 +11,9 @@ html {
     font-family: "Open Sans",sans-serif;
     font-weight: 400;
 }
+table {
+    text-align: center;
+}
 #entry-wrapper {
     width: 100%;
     max-width: 100%;
@@ -455,6 +458,8 @@ address {
 #entry-separator {
     /* background-color: #001e57; */
     color: #fff;
+    width: 100%;
+    height: auto;
    
 }
 #entry-separator .breadcrumb {
@@ -1587,6 +1592,10 @@ table td strong {
   .nav > #nav-check {
     display: none;
   }
+  .process_img {
+      float: right;
+  }
+  
   
   @media (max-width:1329px) {
     .nav > .nav-btn {
@@ -1638,6 +1647,9 @@ table td strong {
       .clearfix_res {
           display: grid;
       }
+      .clearfix_res1 {
+        display: grid;
+    }
       .clearfix__short {
          width: 100%; 
     }
@@ -1647,7 +1659,26 @@ table td strong {
         align-items: center;
         text-align: center;
     }
-
+    td {
+        padding: 10px!important;
+    }
+    .sidebar_res {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .clearfix_res1 {
+        width: 100%;
+        justify-content: center;
+    }
+    .clearfix_res {
+        width: 250px;
+    }
+    .widget {
+        width: 250px;
+    }
   }
   @media (max-width:991px) {
     .nav-flex-icons {
@@ -1685,7 +1716,53 @@ table td strong {
    }
    #content {
     margin-top: 10px;
-}
+    }
+    .clearfix-sidebar {
+        width: 250px;
+    }
+    .sidebar_res {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        overflow-x: hidden;
+    }
+    .about_img {
+        width: auto;
+        height: 230px;
+        margin-left: -80px;
+    }
+    .partners-carousel > .carousel-title {
+        left: 45%;
+    }
+    .about-group p {
+        width: 90%;
+    }
+    h3.short_title {
+        width: 90%;
+    }
+
+    .capability-table {
+        display: inline;
+    }
+    .capability_res {
+        width: 100%;
+    } 
+    .clearfix_res1 {
+        width: 100%;
+    }
+    .process-page {
+        display: inline;
+    }
+    .process_img {
+        float: none;
+    }
+    .process-image {
+        text-align: center;
+    }
+    .span12 {
+        text-align: center;
+    }
 }
    @media (max-width:590px) {
     .navbar-brand {

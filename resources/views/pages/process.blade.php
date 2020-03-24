@@ -24,8 +24,8 @@
             <div class="row-fluid">
               <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-sm-12 col-xs-12">
-                    <div class="sidebar clearfix-sidebar ">
+                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
+                    <div class="sidebar clearfix-sidebar clearfix_res1">
                         <div class="widget" id="nav_menu-2">
                             <h3 class="short_title">Industries Served ?</h3>
                             <div class="menu-features-container">
@@ -46,13 +46,13 @@
                
 
                 <div class="span12" style="margin:0 0;">
-                    <img src="image/process8.jpg" style="border: 1px solid #dfdfdf; float: right; margin: 0 0 10px 20px; padding: 3px;">
-                    <img src="image/process8.jpg" style="border: 1px solid #dfdfdf; float: right; margin: 0 0 10px 20px; padding: 3px;">
-                    <img src="image/process8.jpg" style="border: 1px solid #dfdfdf; float: right; margin: 0 0 10px 20px; padding: 3px;">
+                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf;  margin: 0 0 10px 20px; padding: 3px;">
+                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf;  margin: 0 0 10px 20px; padding: 3px;">
+                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
                 </div>
             </div>
 
-            <div class="col-lg-9 col-md-9 col-sm-9 col-sm-12 col-xs-12">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                 
                     <article class="page type-page status-publish hentry">
                         <h3 class="short_title">Process</h3>
@@ -76,11 +76,11 @@
                         </ul>
                         </div>
                         <div class="process-image">
-                            <img src="image/process8.jpg" style="border: 1px solid #dfdfdf; float: right; margin: 0 0 10px 20px; padding: 3px;">
-                            <img src="image/process8.jpg" style="border: 1px solid #dfdfdf; float: right; margin: 0 0 10px 20px; padding: 3px;">
-                            <img src="image/process8.jpg" style="border: 1px solid #dfdfdf; float: right; margin: 0 0 10px 20px; padding: 3px;">
-                            <img src="image/process8.jpg" style="border: 1px solid #dfdfdf; float: right; margin: 0 0 10px 20px; padding: 3px;">
-                            <img src="image/process8.jpg" style="border: 1px solid #dfdfdf; float: right; margin: 0 0 10px 20px; padding: 3px;">
+                            <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
+                            <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
+                            <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
+                            <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
+                            <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
                         </div>
                     </div>
                 </article>

@@ -22,8 +22,8 @@
             <div class="row-fluid">
               <div class="container">
                 <div class="row">
-                   <div class="col-lg-3 col-md-3 col-sm-3 col-sm-12 col-xs-12">
-                     <div class="sidebar clearfix-sidebar ">
+                   <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 sidebar_res">
+                     <div class="sidebar clearfix-sidebar clearfix_res ">
                         <div class="widget" id="nav_menu-2">
                             <h3 class="short_title">Industries Served ?</h3>
                             <div class="menu-features-container">
@@ -46,12 +46,12 @@
                     </div>
 
 
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-sm-12 col-xs-12">
+                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <article class="type-page status-publish hentry">
                             <h3 class="short_title">Technical Capabilities</h3>
                             <h4>Materials Poured at RTCPL : </h4>
                                 <div class="capability-table">
-                                    <div class="pull-left">
+                                    <div class="pull-left capability_res">
                                         <table width="100%" cellspacing="1" cellpadding="3" bordercolor="#666666" border="1" style="float:left;">
                                         <tbody>
                                             <tr>
@@ -219,7 +219,7 @@
                                         </tbody>
                                         </table>  
                                         </div>
-                                        <div class="pull-right mr-l-20">
+                                        <div class="pull-right mr-l-20 capability_res">
                                             <table width="100%" cellspacing="1" cellpadding="3" bordercolor="#666666" border="1" style="float:left;">
                                         <tbody>
                                             <tr>

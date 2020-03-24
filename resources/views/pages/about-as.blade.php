@@ -25,7 +25,7 @@
     <div class="row-fluid">
         <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-sm-12 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 col-xs-12 sidebar_res">
             <div class="sidebar clearfix-sidebar ">
                 <div class="widget" id="nav_menu-2">
                     <h3 class="short_title">Industries Served ?</h3>
@@ -45,13 +45,13 @@
                 <div class="divider plus"><span class="plus-ico"></span></div>
             </div>
         </div>
-        <div class="col-lg-9 col-md-9 col-sm-9 col-sm-12 col-xs-12">
+        <div class="col-lg-9 col-md-9 col-sm-12 col-sm-12 col-xs-12 sidebar_res">
             <div class="about-group">
                 <article class="page type-page status-publish hentry">
                     <h3 class="short_title"> The Company</h3>
                     <p>The seeds of <strong>Energy Techno Cast Pvt. Ltd. </strong> were sown in 1992 by Mr. Parshottambhai Patel, with production capacity of 20 Tones of Lost Wax Investment Castings per month. Since then we have progressed exponentially and today the company produces 100 Tons of lost wax Investment Castings per month. Till now we have developed more than 1500 components applicable to a wide range of Industries and today we are one of the largest manufacturers of lost wax investment castings in INDIA.<br>
                     This success and continuous growth was only possible because of our commitment to produce best quality Investment Castings with on time deliveries to our customers.</p>
-                    <div style="text-align:center; margin: 0 0 10px 20px; padding: 3px;"><img src="image/production_chart.jpg" style="border: 1px solid #dfdfdf;"></div>
+                    <div style="text-align:center; margin: 0 0 10px 20px; padding: 3px;"><img src="image/production_chart.jpg"  class="about_img" style="border: 1px solid #dfdfdf;"></div>
                     <div class="clearfix"></div>
                     <p>Today <strong>RTCPL </strong> has team of well qualified and professional team of engineers, technicians and workers to satisfy your needs.<br>
                     <strong>RTCPL </strong> is aggregated to the following certificates :</p>
