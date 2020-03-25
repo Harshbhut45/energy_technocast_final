@@ -22,7 +22,7 @@
             <div class="row-fluid">
               <div class="container">
                 <div class="row">
-                   <div class="col-lg-3 col-md-3 col-sm-3 col-sm-12 col-xs-12">
+                   <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 sidebar_res">
                      <div class="sidebar clearfix-sidebar ">
                         <div class="widget" id="nav_menu-2">
                             <h3 class="short_title">Industries Served ?</h3>
@@ -44,9 +44,9 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-sm-12 col-xs-12">
+                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="">
-                        	<article class="post-442 page type-page status-publish hentry">
+                        	<article class="page type-page status-publish hentry">
                                 <h3 class="short_title">Jobs / Career</h3>
                                 <p>If you are passionate about making hight quality Investment castings &amp; machining , then RTCPL is the right place for you.<br>
                                 Since 1994 RTCPL is continoulsy growing its strength and building a world class foundry team.<br>

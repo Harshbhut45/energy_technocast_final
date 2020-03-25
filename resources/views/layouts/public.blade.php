@@ -156,6 +156,7 @@
 
       <!-- Dropdown-js --> 
       <script src="{{ asset('js/dropdown.js') }}"></script>
+     
       <!-- Scrolltop-js --> 
       <script src="{{ asset('js/scrolltop.js') }}"></script>
       <!-- slider-js --> 
@@ -165,7 +166,7 @@
      
       
 
-      {{-- <script>
+     <script>
           $(document).ready(function() {
           $('.nav-item').on('click',function() {
             //  console.log("Clicked");
@@ -173,7 +174,7 @@
              $(this).addClass('active');
          });
         });
-        </script> --}}
+        </script> 
       
         <script>
         $(document).ready(function(){
@@ -196,7 +197,7 @@
       </script>
 
 
-  {{-- <script>
+  <script>
     $(document).ready(function(){
       var scrollTop = 0;
       $(window).scroll(function(){
@@ -213,7 +214,7 @@
       }); 
       
     });
-  </script> --}}
+  </script> 
    <script>
       $(document).ready(function(){
           $(".dropdown1").hover(            

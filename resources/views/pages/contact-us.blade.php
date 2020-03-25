@@ -30,16 +30,16 @@
             <div class="row-fluid">
               <div class="container">
                 <div class="row">
-                   <div class="col-lg-4 col-md-4 col-sm-4 col-sm-12 col-xs-12">
-                     <div class="sidebar clearfix-sidebar ">
+                   <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                     <div class="sidebar clearfix-sidebar clearfix_res1">
                         <div class="contactus" id="nav_menu-2">
                             <h2>Contact Us Now</h2>
                 <div class="border"></div>
                 <br>
                 <p>For any product-related enquiry, feel free to get in touch with us. Leave a message, and our representative will get in touch with you shortly.</p>
                 <br>
-                <div class="contact_details">
-                    <div class="row">
+                <div class="contact_details contact_item">
+                    <div class="row contact_icon">
                     <div class="col-md-2">
                         <p class="icons icons__mobile"><i class="fa fa-mobile"></i></p>
                     </div>
@@ -49,11 +49,11 @@
                     </div>
                     </div>
                     <div class="clearfix"></div>
-                <div class="row">
+                <div class="row contact_icon">
                     <div class="col-md-2">
                         <p class="icons icons__envelope"><i class="fa fa-envelope"></i></p>
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-md-10 email_res">
                         <h5>Email Us :</h5>
                         <p><a href="info@energytechnocast.net"> info@energytechnocast.net</a></p>
                     </div>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-sm-12 col-xs-12 contact_info">
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact_info">
                         <div class="contact_info active">
                             <form action="#" method="post" enctype="multipart/form-data" onchange="return setdata();">
                                 <h3>Drop a Message</h3>
@@ -75,13 +75,13 @@
                                     <div class="form-group col-md-12">
                                         <select id="country" class="dropdown form-control form-control1" >
                                             <option selected="" disabled="">--- Select Country ---</option>
-                                            <option data-ccode="+91"  value="all" data-consernname="Mr. Harsh Bhut">India</option>
-                                            <option data-ccode="+49" value="all" data-consernname="Mr. JJ">USA</option>
-                                            <option data-ccode="+39" value="all" data-consernname="Mr. KZ">Canada</option>
+                                            <option data-ccode="+91"  data-nnumber="813-521-9635" value="all" data-consernname="Mr. Harsh Bhut">India</option>
+                                            <option data-ccode="+1 " data-nnumber="813-521-9635" value="all" data-consernname="Mr. Savan Goswami- ">USA</option>
+                                            <option data-ccode="+39" data-nnumber="813-521-9635" value="all" data-consernname="Mr. KZ">Canada</option>
                                         </select>
                                     </div>
                            
-                          <div id="all" class="hide">
+                          <div id="all" class="">
                             <div class="form_click_inner1">
                                 <div class="form-group col-md-12">
                                     <div class="col-md-3 nopadding">
@@ -106,7 +106,8 @@
                                         <span name="contactnumner" id="show_exploreccode" class="form-control form-control1"></span>
                                     </div>
                                     <div class="col-md-10 nopadding">
-                                        <input type="text" name="cnumbercontact" id="cnumbercontact" placeholder="Mobile Number*" class="form-control number form-control1" required="">
+                                        <!-- <input type="text" name="cnumbercontact" id="cnumbercontact" placeholder="Mobile Number*" class="form-control number form-control1" required=""> -->
+                                        <span name="contactnumner" id="show_explorennumber" class="form-control form-control1"></span>
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>

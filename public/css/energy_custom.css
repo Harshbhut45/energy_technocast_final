@@ -695,7 +695,7 @@ h3.short_title {
     background-color: #47aede;
     line-height: 22px;
     margin-top: -10px;
-    z-index: 200;
+    /* z-index: 200; */
     letter-spacing: 1px;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
@@ -885,6 +885,7 @@ table td strong {
     padding: 18px 12px;
     border: 1px solid #ccc;
     border-radius: 0px;
+    margin-top: 0px;
 }
 .form-control:focus {
     border-color: #66afe9!important;
@@ -1595,6 +1596,9 @@ table td strong {
   .process_img {
       float: right;
   }
+  .quality_img {
+    float: right;
+}
   
   
   @media (max-width:1329px) {
@@ -1679,6 +1683,23 @@ table td strong {
     .widget {
         width: 250px;
     }
+    .pro-cat-list > ul.portfolio-list {
+        display: inline;
+    }
+    .process_img {
+        float: left;
+    }
+    .quality_img {
+        float: left;
+    }
+    .pro-cat-list {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .type-page {
+        text-align: center;
+    }
   }
   @media (max-width:991px) {
     .nav-flex-icons {
@@ -1754,7 +1775,7 @@ table td strong {
     .process-page {
         display: inline;
     }
-    .process_img {
+    .quality_img {
         float: none;
     }
     .process-image {
@@ -1763,12 +1784,66 @@ table td strong {
     .span12 {
         text-align: center;
     }
+    .quality-page {
+        display: inline-block;
+    }
+    
+}
+
+@media (max-width:767px) {
+    .type-page {
+        text-align: center;
+    }
+    .quality_list ul li:before {
+        position: relative;
+        left: -10px;
+    }
+    .quality-image {
+        width: auto;
+    }
+    .pro-cat-list > ul.portfolio-list > li {
+        float: initial;
+        margin: 0px;
+    }
+    .contact_icon {
+        display: flex;
+        align-items: center;
+    }
+    .contact_item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .contact_info {
+        padding: 0px 20px 10px 20px;
+        margin-top: 10px;
+    }
+    .clearfix_res1 {
+        margin-left: 15px;
+    }
+    .contact_info h3 {
+        font-size: 25px;
+    }
+    .contact_item {
+         display: inline; 
+    }
+    .entry-head {
+        display: inline;
+    }
+    #entry-separator .breadcrumb {
+        float: left;
+        margin-top: 10px;
+    }
 }
    @media (max-width:590px) {
     .navbar-brand {
         padding-left: 25px!important;
     }
-    
+    .contact_icon {
+        align-items: center;
+        justify-content: center;
+    }
     
 }
 
