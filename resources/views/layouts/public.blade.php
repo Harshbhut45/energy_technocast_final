@@ -30,6 +30,7 @@
 
    <!-- header-dropdown-CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
 
 </head>
     <body>
@@ -78,7 +79,7 @@
         
         <div class="nav navbar1 bg-faded">
     
-          <input type="checkbox" id="nav-check">
+          <!-- <input type="checkbox" id="nav-check"> -->
          
        
           <div class="nav-header">
@@ -95,17 +96,17 @@
           </div>
   
   <div class="nav-links">
-  <div class="collapse navbar-toggleable-xs pd-r " id="topheader">
+  <div class="collapse navbar-toggleable-xs  " id="topheader">
               <ul class="nav navbar-nav pull-sm-right ">
                 <li class="nav-item active"><a class="nav-link" href="/home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/abouts-us">About-US</a></li>
                 <li class="nav-item"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
                 <li class="nav-item"><a class="nav-link" href="/process">Process</a></li>
                 <li class="nav-item"><a class="nav-link" href="/quality-assurance">Quality Assurance</a></li>
-                <li class="dropdown1 nav-item">
-                  <a href="#" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Industries Served </a>
-                  <ul class="dropdown-menu " role="menu">
-                    <div class="row">
+                <li class="nav-item"><a class="nav-link" href="/industries-servied">Industries Served</a>
+                
+        <ul class="submenu-bottom">
+        <div class="row">
                       <div class="column">
                         <a href="#">Link 1</a>
                         <a href="#">Link 2</a>
@@ -113,20 +114,22 @@
                         <a href="#">Link 4</a>
                       </div>
                       <div class="column">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                        <a href="#">Link 4</a>
+                        <a href="#">Link 5</a>
+                        <a href="#">Link 6</a>
+                        <a href="#">Link 7</a>
+                        <a href="#">Link 8</a>
                       </div>
-                      <div class="column">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                        <a href="#">Link 4</a>
+                      <div class="column ">
+                        <a href="#">Link 9</a>
+                        <a href="#">Link 10</a>
+                        <a href="#">Link 11</a>
+                        <a href="#">Link 12</a>
                       </div>
                 </div>
-                </ul>
-                </li>
+         </ul>
+      </li>
+
+
                 <li class="nav-item"><a class="nav-link" href="/career">Career</a></li>
                 <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
                 
@@ -164,6 +167,7 @@
       <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
       <script src="{{ asset('js/slider.js') }}"></script>
      
+    
       
 
      <script>
@@ -186,9 +190,11 @@
             if (scrollTop >= 100) {
               $('#header-default .navbar-brand ').addClass('scrolled-nav');
               $('#header-default .nav').addClass('scrolled-nav1');
+              $('#header-default .pd-r').removeClass('scrolled-nav2');
             } else if (scrollTop < 100) {
               $('#header-default .navbar-brand').removeClass('scrolled-nav');
               $('#header-default .nav').removeClass('scrolled-nav1');
+              $('#header-default .pd-r').removeClass('scrolled-nav2');
             } 
             
           }); 

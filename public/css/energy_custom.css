@@ -89,6 +89,11 @@ table {
 .navbar-nav li > a:hover, #topheader .navbar-nav li > a:focus {
     color: #fc6804;
 }
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #f7f7f9!important;
+}
+
 /* .nav li {
     padding-top: 25px;
 } */
@@ -102,7 +107,7 @@ table {
 .navbar-brand>img {
     display: block;
     width: 75%;
-    margin-top: -10px;
+    margin-top: -2px;
 }
 .navbar-nav .nav-link{
     display: block;
@@ -123,6 +128,7 @@ table {
     background-color: #f0801a;
     padding:0px!important;
     display: flex;
+    align-items: center;
 }
 .navbar-nav .nav-link {
     color: #111f28;;
@@ -131,9 +137,9 @@ table {
     padding-bottom: 0px!important;
     padding: 5px;
 }
-.nav-item .nav-link:after {
+/* .nav-item .nav-link:after {
     background-color: #fc6804;
-}
+} */
 .nav-item:hover .nav-link:after {
     bottom: -1px;
     opacity: 1;
@@ -164,8 +170,9 @@ table {
     height: 80px;
     font-size: 18px;
     line-height: 20px;
-    margin-top: -7px;
+    /* margin-top: -7px; */
     padding-left: 75px!important;
+    padding-top: 0px!important;
 }
 .pd-r {
     padding-right: 110px;
@@ -181,7 +188,7 @@ table {
 }
 .nav-item {
     list-style: none;
-    font-size: 15px;
+    /* font-size: 15px; */
     font-family: "Carrois Gothic",sans-serif;
     font-weight: 500;
 }
@@ -1470,25 +1477,25 @@ table td strong {
 .scrolled-nav {
     width: 75%!important;
     min-height: 50px!important;
-   
-    
-
   }
   .scrolled-nav1 {
-    min-height: 40px!important;
-
+    min-height: 35px!important;
+    transition-duration: 0.9s;
   }
+  .scrolled-nav2 {
+    padding-top: 10px!important;
+}
 
-  .nav > li.dropdown.open .dropdown-menu {
+  /* .nav > li.dropdown.open .dropdown-menu {
     display: table!important;
     border-radius: 0px;
     width: 100%;
     text-align: center;
     left: 0;
     right: 0;
-  }
+  } */
  
-  .dropdown-menu {
+  /* .dropdown-menu {
     position: absolute;
     top: 100%;
     left: -180px!important;
@@ -1509,7 +1516,7 @@ table td strong {
     border-radius: 4px;
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
-}
+} */
 
   /* .dropdown-menu > li {
     display: table-cell!important;
@@ -1517,7 +1524,7 @@ table td strong {
     width: 100%;
     vertical-align: middle;
   } */
-  .column {
+  /* .column {
     float: left;
     width: auto;
     display: flex;
@@ -1549,58 +1556,11 @@ table td strong {
 }
 .foot-logo {
     padding-top: 25px;
-}
+} */
 
 /* responsive-all-pages */
 
 
-
-/* new header */
-
-  
-  .nav > .nav-header {
-    display: inline;
-  }
-  
-  .nav > .nav-header > .nav-title {
-    display: inline-block;
-    font-size: 22px;
-    color: #fff;
-    padding: 10px 10px 10px 10px;
-  }
-  
-  .nav > .nav-btn {
-    display: none;
-  }
-  
-  .nav > .nav-links {
-    display: inline;
-    /* float: right; */
-    font-size: 18px;
-  }
-  
-  .nav > .nav-links > a {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
-    text-decoration: none;
-    color: #efefef;
-  }
-  
-  .nav > .nav-links > a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  
-  .nav > #nav-check {
-    display: none;
-  }
-  .process_img {
-      float: right;
-  }
-  .quality_img {
-    float: right;
-}
-  
-  
   @media (max-width:1329px) {
     .nav > .nav-btn {
       display: inline-block;
@@ -1690,7 +1650,7 @@ table td strong {
         float: left;
     }
     .quality_img {
-        float: left;
+        float: right;
     }
     .pro-cat-list {
         justify-content: center;
@@ -1847,3 +1807,46 @@ table td strong {
     
 }
 
+
+/* new header css */
+.submenu-bottom {
+    display: none;
+    position: fixed;
+    background-color: #e3e4e4;
+    padding: 10px 0px 10px 0px;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+    left: 100px;
+    right: 0;
+    width: 82%;
+    transform-origin: 0% 100%;
+    transition-duration: 1.3s;
+}
+.nav-item:hover .submenu-bottom {
+    display: block;
+}
+.column {
+    line-height: 1.5em;
+    padding: 0.6em 20px;
+    white-space: nowrap;
+    /* transition: color 0.1s, background-color 0.1s; */
+    display: flex;
+}
+.column a {
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition-duration: 0.6s;
+}
+.column a:hover {
+    width: 100%;
+    display: block;
+    background-color: rgba(61,64,148,.93);
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 0.6s;
+}

@@ -44,11 +44,11 @@
                     </div>
 
                     <div class="span12" style="margin:0 0;">
-                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
+                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 0px -2px; padding: 3px;">
+                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 0px -2px; padding: 3px;">
+                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 0px -2px; padding: 3px;">
+                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 0px -2px; padding: 3px;">
+                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 0px -2px; padding: 3px;">
                     </div>
                 </div>
 

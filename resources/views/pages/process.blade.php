@@ -46,9 +46,9 @@
                
 
                 <div class="span12" style="margin:0 0;">
-                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf;  margin: 0 0 10px 20px; padding: 3px;">
-                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf;  margin: 0 0 10px 20px; padding: 3px;">
-                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
+                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf;  margin: 0 0 0px -2px; padding: 3px;">
+                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf;  margin: 0 0 0px -2px; padding: 3px;">
+                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 0px -2px; padding: 3px;">
                 </div>
             </div>
 
