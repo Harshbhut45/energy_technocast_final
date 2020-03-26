@@ -70,5 +70,9 @@ Route::get('/products/{id}','ProductController@destroy')->name('products.delete'
         return view('pages.contact-us');
     });
 
+    Route::get('/industries-servied-valves', function () {
+        return view('pages.industries-servied-valves');
+    });
+
     Auth::routes();
     Route::get('/home', 'HomeController@index')->name('home');

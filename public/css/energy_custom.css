@@ -484,6 +484,13 @@ address {
     display: flex;
     justify-content: space-between;
 }
+.entry-head-servied {
+    display: flex;
+    justify-content: center;
+}
+.entry-head-servied h1 {
+    font-size: 27px!important;
+}
 #entry-separator .breadcrumb a {
     color: #777;
     font-weight: bold;
@@ -626,6 +633,7 @@ h3.short_title {
     top: -2px;
     font-size: 13px;
     color: #da251c;
+    font-family: 'FontAwesome';
 }
 .process-image {
     width: fit-content;
@@ -675,6 +683,7 @@ h3.short_title {
     top: -2px;
     font-size: 13px;
     color: #f0801a;
+    font-family: 'FontAwesome';
 }
 .quality-image {
     width: min-content;
@@ -716,6 +725,7 @@ h3.short_title {
 .recent-works {
     padding-top: 15px;
     width: 268px;
+    position: sticky;
 }
 .media-thumb {
     position: relative;
@@ -1208,7 +1218,7 @@ table td strong {
 /* Slick Slider Css Ruls */
 
 .slick-slider {
-    position: relative;
+    position: sticky;
     display: block;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -1813,7 +1823,7 @@ table td strong {
     display: none;
     position: fixed;
     background-color: #e3e4e4;
-    padding: 10px 0px 10px 0px;
+    padding: 4px 0px 4px 0px;
     text-decoration: none;
     text-align: center;
     list-style: none;
@@ -1849,4 +1859,5 @@ table td strong {
     color: #fff;
     text-decoration: none;
     transition-duration: 0.6s;
+
 }

@@ -108,16 +108,16 @@
         <ul class="submenu-bottom">
         <div class="row">
                       <div class="column">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                        <a href="#">Link 4</a>
+                        <a href="#">Industrial Valves</a>
+                        <a href="#">Industrial Pumps</a>
+                        <a href="#">Automotives</a>
+                        <a href="#">Power Plant Equipment</a>
                       </div>
                       <div class="column">
-                        <a href="#">Link 5</a>
-                        <a href="#">Link 6</a>
-                        <a href="#">Link 7</a>
-                        <a href="#">Link 8</a>
+                        <a href="#">Aerospace</a>
+                        <a href="#">Marine</a>
+                        <a href="#">Power Plant Boiler Parts</a>
+                        <a href="#">Defense</a>
                       </div>
                       <div class="column ">
                         <a href="#">Link 9</a>

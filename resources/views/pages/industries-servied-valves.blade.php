@@ -6,15 +6,12 @@
 @section('content-company')
         <div id="entry-separator">
             <div class="container">
-                <div class="entry-head">
+                <div class="entry-head-servied">
                     <div class="entry-header">	
-                        <h1 class="entry-title">Industries-Servied</h1>
-                        <div class="clear"></div>
-                            Energy Techno Cast Pvt. Ltd.
+                        <h1 class="entry-title">Industries-Valves</h1>
+                        
                     </div>
-                    <div class="entry-breadcrumb">
-                        <p class="breadcrumb"><i class="fa fa-home "></i><a href="index.html">Home </a>&nbsp;/&nbsp;&nbsp; About Company</p>
-                    </div>	
+                    	
                 </div>	
             </div>	
         </div>
@@ -41,19 +38,14 @@
                             </div>
                         </div>
 
-                        <div style="text-align:center; margin-bottom:10px;"><img src="image/material-chart.jpg" style=""></div>
+                     
                         <div class="divider plus"><span class="plus-ico"></span></div>
                         </div>
                     </div>
 
                     <div class="col-lg-9 col-md-9 col-sm-9 col-sm-12 col-xs-12">
                         	<article class="page type-page status-publish hentry">
-                                <h3 class="short_title">Industries Served</h3>
-                                <p>RTCPL manufactures Lost Wax Investment Castings for a wide range of industries such as :</p>
-                                <p>In general we can make any intricate Lost Wax Investment Castings for various industries.<br>
-                                <strong>Castings weighing from 0.015 Kilograms to 100.00 Kilograms per piece.</strong> </p>
-                                <div class="clearfix margin-20b"></div>
-
+                                
                                 <div class="flexslider single-carousel pro-cat-list">
                                 	<ul class="slides portfolio-list__img">
                                         <li>
