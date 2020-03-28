@@ -96,8 +96,8 @@
             </label>
           </div>
   
-  <div class="nav-links">
-  <div class="collapse navbar-toggleable-xs  " id="topheader">
+       <div class="nav-links">
+          <div class="collapse navbar-toggleable-xs  " id="topheader">
               <ul class="nav navbar-nav pull-sm-right ">
                 <li class="nav-item active"><a class="nav-link" href="/home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/abouts-us">About-US</a></li>
@@ -106,20 +106,20 @@
                 <li class="nav-item"><a class="nav-link" href="/quality-assurance">Quality Assurance</a></li>
                 <li class="nav-item"><a class="nav-link" href="/industries-servied">Industries Served</a>
                 
-        <ul class="submenu-bottom">
-        <div class="row">
-                      <div class="column" id="select-box">
-                        <a href="/industries-servied-valves" class="tab-link">Industrial Valves</a>
-                        <a href="/industries-servied-valves" class="tab-link">Industrial Pumps</a>
-                        <a href="/industries-servied-valves">Automotives</a>
-                        <a href="#">Power Plant Equipment</a>
-                      </div>
-                      <div class="column">
-                        <a href="/industries-servied-valves">Aerospace</a>
-                        <a href="#">Marine</a>
-                        <a href="#">Power Plant Boiler Parts</a>
-                        <a href="#">Defense</a>
-                      </div>
+         <ul class="submenu-bottom">
+            <div class="row">
+                <div class="column menu__list" id="select-box">
+                    <a href="/industries-servied-valves" class="tab-link">Industrial Valves</a>
+                    <a href="/industries-servied-valves" class="tab-link">Industrial Pumps</a>
+                    <a href="/industries-servied-valves">Automotives</a>
+                    <a href="#">Power Plant Equipment</a>
+                </div>
+                <div class="column">
+                    <a href="/industries-servied-valves">Aerospace</a>
+                    <a href="#">Marine</a>
+                    <a href="#">Power Plant Boiler Parts</a>
+                    <a href="#">Defense</a>
+                </div>
                       <div class="column ">
                         <a href="#">Link 9</a>
                         <a href="#">Link 10</a>
@@ -148,8 +148,7 @@
         <div class="">
             @yield('content-company')
         </div>
-
-        @include('includes.footer')
+           @include('includes.footer')
 
         
      <!-- Navbar-js -->  
@@ -157,7 +156,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.4/js/tether.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"></script>
     
-
       <!-- Dropdown-js --> 
       <script src="{{ asset('js/dropdown.js') }}"></script>
      
@@ -167,94 +165,14 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
       <script src="{{ asset('js/slider.js') }}"></script>
+      <script src="{{ asset('js/active.js') }}"></script>
+      <script src="{{ asset('js/scrolled.js') }}"></script>
      
-    
-      
 
-     <script>
-          $(document).ready(function() {
-          $('.nav-item').on('click',function() {
-            //  console.log("Clicked");
-             $('.nav-item a.active').removeClass('active');
-             $(this).addClass('active');
-         });
-        });
-        </script> 
      
-     <!-- industries-served-dropdown-active -->
-<script>
-
-  $(document).ready(function () {
-  $('.menu').each(function(index) {
-    $(this).children('li').first().children('li').addClass('is-active').next().addClass('is-open').show();
-  });
-  $('.menu').on('click', 'li > a.tab-link', function(event) {
-    // console.log("clicked1");
-    if (!$(this).hasClass('is-active')) {
-      
-      event.preventDefault();
-      var accordionTabs = $(this).closest('.menu');
-      accordionTabs.find('.is-open').removeClass('is-open').hide();
-
-      $(this).next().toggleClass('is-open').toggle();
-      accordionTabs.find('.is-active').removeClass('is-active');
-      $(this).addClass('is-active');
-    } else {
-      event.preventDefault();
-    }
-  });
-});
-    
-</script>
 
 
-        <script>
-        $(document).ready(function(){
-          var scrollTop = 0;
-          $('.nav-item').hover(function() {
-            console.log("hover");
-            $(this).find('.submenu-bottom').stop(true, true).delay(500).fadeIn(1000);
-            }, function() {
-              $(this).find('.submenu-bottom').stop(true, true).delay(200).fadeOut(500);
-          });
-          $(window).scroll(function(){
-            scrollTop = $(window).scrollTop();
-             $('.counter').html(scrollTop);
-            
-            if (scrollTop >= 100) {
-              $('#header-default .navbar-brand ').addClass('scrolled-nav');
-              $('#header-default .nav').addClass('scrolled-nav1');
-              $('#header-default .pd-r').removeClass('scrolled-nav2');
-            } else if (scrollTop < 100) {
-              $('#header-default .navbar-brand').removeClass('scrolled-nav');
-              $('#header-default .nav').removeClass('scrolled-nav1');
-              $('#header-default .pd-r').removeClass('scrolled-nav2');
-            } 
-            
-          }); 
-          
-        });
-      </script>
 
-
-  <script>
-    $(document).ready(function(){
-      var scrollTop = 0;
-      $(window).scroll(function(){
-        scrollTop = $(window).scrollTop();
-         $('.counter').html(scrollTop);
-         $('#header-default .navbar-brand').on('click', function(){
-         })
-        // /* if (scrollTop >= 100) {
-        //   $('#header-default>.navbar-brand').addClass('scrolled-nav');
-        // } else if (scrollTop < 100) {
-        //   $('#header-default>.navbar-brand').removeClass('scrolled-nav');
-        // }  */
-        
-      }); 
-      
-    });
-  </script> 
    <script>
       $(document).ready(function(){
           $(".dropdown1").hover(       

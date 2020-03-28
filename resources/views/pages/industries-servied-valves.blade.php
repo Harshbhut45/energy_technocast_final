@@ -25,16 +25,18 @@
                         <div class="widget" id="nav_menu-2">
                             <h3 class="short_title">Industries Served ?</h3>
                             <div class="menu-features-container">
-                                <ul class="menu" id="menu-features">
-                                    <li class="tab-link is-active"><a href="/industries-servied-valves" class="tab-link" ><i style="font-size:20px" class="fa">&#xf105;</i>Industrial Valves</a></li>
+                                <ul class="menu__list" id="menu-features">
+                                    <li class="tab-link is-active"><a href="/industries-servied-valves" ><i style="font-size:20px" class="fa">&#xf105;</i>Industrial Valves</a></li>
                                    
-                                    <li class="tab-link"><a href="/industries-servied-valves" class="tab-link"  ><i style="font-size:20px" class="fa">&#xf105;</i>Industrial Pumps</a></li>
-                                    <li class="tab-link"><a href="/industries-servied-valves" class="tab-link"  ><i style="font-size:20px" class="fa">&#xf105;</i>Automotives</a></li>
-                                    <li class="tab-link"><a href="/industries-servied-valves" class="tab-link"><i style="font-size:20px" class="fa">&#xf105;</i>Power Plant Equipment</a></li>
-                                    <li class="tab-link"><a href="/industries-servied-valves" class="tab-link"><i style="font-size:20px" class="fa">&#xf105;</i>Aerospace</a></li>
-                                    <li class="tab-link"><a href="/industries-servied-valves" class="tab-link"><i style="font-size:20px" class="fa">&#xf105;</i>Marine</a></li>
-                                    <li class="tab-link"><a href="/industries-servied-valves" class="tab-link"><i style="font-size:20px" class="fa">&#xf105;</i>Power Plant Boiler Parts</a></li>
-                                    <li class="tab-link"><a href="/industries-servied-valves" class="tab-link"><i style="font-size:20px" class="fa">&#xf105;</i>Defense</a></li>
+                                    <li class="tab-link"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Industrial Pumps</a></li>
+
+                                    <li class="tab-link"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Automotives</a></li>
+
+                                    <li class="tab-link"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Power Plant Equipment</a></li>
+                                    <li class="tab-link"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Aerospace</a></li>
+                                    <li class="tab-link"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Marine</a></li>
+                                    <li class="tab-link"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Power Plant Boiler Parts</a></li>
+                                    <li class="tab-link"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Defense</a></li>
                                 </ul>
                             </div>
                         </div>

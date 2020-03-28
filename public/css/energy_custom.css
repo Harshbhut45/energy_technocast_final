@@ -527,12 +527,23 @@ address {
     font-size: 11px;
     font-weight: bold;
 }
+.sidebar .menu__list li, [id^="recent-posts-"] li, [id^="pages-"] li {
+    border-bottom: 1px dotted #dfdfdf;
+    padding: 8px 0 8px 15px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
 #menu-features {
     list-style: none;
     padding: 0px;
     text-decoration: none;
 }
 .menu i {
+    padding-right: 15px;
+}
+.menu__list i {
     padding-right: 15px;
 }
 [class*="span"].pull-right, .row-fluid [class*="span"].pull-right {
@@ -1901,10 +1912,18 @@ table td strong {
     padding: 0.75em 1.618em;
     text-decoration: none; } */
   
-.tab-link:hover {
+/* .tab-link:hover {
     color: #477dca; 
+} */
+.menu__list:hover {
+    text-decoration: none;
 }
-  
+.menu__list a:hover {
+    text-decoration: none;
+}
+.menu__list li:hover {
+    color: #f0801a!important;
+}
 .tab-link:focus {
     outline: none; 
     text-decoration: none;
@@ -1912,15 +1931,22 @@ table td strong {
 .tab-link {
     width: 100%;
     display: flex;
-    padding: 8px 0 8px 0px;
+    align-items: center;
+    padding: 8px 0 8px 0px; 
+    padding-left: 15px;
+}
+.tab-link a {
+    width: 100%;
+    padding: 8px 0 8px 0px; 
+    padding-left: 15px;
 }
 li.tab-link {
     padding: 0px!important;
 }
   
-.tab-link.is-active {
+li.tab-link.is-active {
     border-bottom: 0;
-    background-color: pink; 
+    background-color: #f0801a; 
     width: 100%;
     display: flex;
     align-items: center;
@@ -1930,6 +1956,7 @@ a.links {
     margin-left:25px; 
 }
 
+/* active remove  */
 
   
  
