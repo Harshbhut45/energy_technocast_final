@@ -31,6 +31,7 @@
    <!-- header-dropdown-CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   
+  
 
 </head>
     <body>
@@ -107,14 +108,14 @@
                 
         <ul class="submenu-bottom">
         <div class="row">
-                      <div class="column">
-                        <a href="#">Industrial Valves</a>
-                        <a href="#">Industrial Pumps</a>
-                        <a href="#">Automotives</a>
+                      <div class="column" id="select-box">
+                        <a href="/industries-servied-valves" class="tab-link">Industrial Valves</a>
+                        <a href="/industries-servied-valves" class="tab-link">Industrial Pumps</a>
+                        <a href="/industries-servied-valves">Automotives</a>
                         <a href="#">Power Plant Equipment</a>
                       </div>
                       <div class="column">
-                        <a href="#">Aerospace</a>
+                        <a href="/industries-servied-valves">Aerospace</a>
                         <a href="#">Marine</a>
                         <a href="#">Power Plant Boiler Parts</a>
                         <a href="#">Defense</a>
@@ -179,10 +180,43 @@
          });
         });
         </script> 
+     
+     <!-- industries-served-dropdown-active -->
+<script>
+
+  $(document).ready(function () {
+  $('.menu').each(function(index) {
+    $(this).children('li').first().children('li').addClass('is-active').next().addClass('is-open').show();
+  });
+  $('.menu').on('click', 'li > a.tab-link', function(event) {
+    // console.log("clicked1");
+    if (!$(this).hasClass('is-active')) {
       
+      event.preventDefault();
+      var accordionTabs = $(this).closest('.menu');
+      accordionTabs.find('.is-open').removeClass('is-open').hide();
+
+      $(this).next().toggleClass('is-open').toggle();
+      accordionTabs.find('.is-active').removeClass('is-active');
+      $(this).addClass('is-active');
+    } else {
+      event.preventDefault();
+    }
+  });
+});
+    
+</script>
+
+
         <script>
         $(document).ready(function(){
           var scrollTop = 0;
+          $('.nav-item').hover(function() {
+            console.log("hover");
+            $(this).find('.submenu-bottom').stop(true, true).delay(500).fadeIn(1000);
+            }, function() {
+              $(this).find('.submenu-bottom').stop(true, true).delay(200).fadeOut(500);
+          });
           $(window).scroll(function(){
             scrollTop = $(window).scrollTop();
              $('.counter').html(scrollTop);
@@ -223,13 +257,15 @@
   </script> 
    <script>
       $(document).ready(function(){
-          $(".dropdown1").hover(            
+          $(".dropdown1").hover(       
+               
               function() {
-                  $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+                console.log("hover");
+                  $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("800");
                   $(this).toggleClass('open');        
               },
               function() {
-                  $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+                  $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("800");
                   $(this).toggleClass('open');       
               }
           );

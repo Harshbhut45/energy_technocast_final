@@ -29,10 +29,11 @@
                             <h3 class="short_title">Industries Served ?</h3>
                             <div class="menu-features-container">
                                 <ul class="menu" id="menu-features">
-                                    <li><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Industrial Valves</a></li>
-                                    <li><i style="font-size:20px" class="fa">&#xf105;</i><a href="industrial-pumps.html">Industrial Pumps</a></li>
+                                    <li class="tab-content"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Industrial Valves</a></li>
+
+                                    <li class="tab-content"><i style="font-size:20px" class="fa">&#xf105;</i><a href="/industries-servied-valves">Industrial Pumps</a></li>
                                     <li><i style="font-size:20px" class="fa">&#xf105;</i><a href="automotive.html">Automotives</a></li>
-                                    <li><i style="font-size:20px" class="fa">&#xf105;</i><a href="power-plant-equipment.html">Power Plant Equipment</a></li>
+                                    <li class="tab-content"><i style="font-size:20px" class="fa">&#xf105;</i><a href="power-plant-equipment.html">Power Plant Equipment</a></li>
                                     <li><i style="font-size:20px" class="fa">&#xf105;</i><a href="javascript:void(0);">Aerospace</a></li>
                                     <li><i style="font-size:20px" class="fa">&#xf105;</i><a href="javascript:void(0);">Marine</a></li>
                                     <li><i style="font-size:20px" class="fa">&#xf105;</i><a href="power-plant-boiler-parts.html">Power Plant Boiler Parts</a></li>
