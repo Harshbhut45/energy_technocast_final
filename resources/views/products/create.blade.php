@@ -79,7 +79,6 @@
                                     @if($errors->has('category'))
                                         <div class="error">{{ $errors->first('category') }}</div>
                                     @endif
-                                  
                                 </div>
                             </div>
 
@@ -98,8 +97,6 @@
                                 </div>
                               </div>
 
-                              
-
                               <div class="col-md-6 m-t-38" >
                                 <div class="form-group">
                                     <div class="custom-control custom-checkbox">
@@ -107,8 +104,6 @@
                                       <label class="custom-control-label" for="is_featured">Featured</label>
                                   </div>
                                 </div>  
-                       
-      
                               </div>
                             </div>
                           </div>
@@ -125,12 +120,9 @@
                           
                         </div>
                        
-                          
-                    
-                        
                           <div class="button">
                             <a href="{{ route('products.index') }}" class="btn btn-warning mg-r-1">Cancel</a>
-                            <button type="submit" class="btn btn-primary ">Submit</button>
+                            <button type="submit" class="btn btn-primary user-form">Submit</button>
                          </div>
                        </form>
                     </div>

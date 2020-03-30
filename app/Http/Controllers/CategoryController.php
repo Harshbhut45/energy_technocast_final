@@ -66,8 +66,8 @@ class CategoryController extends Controller
             if (!file_exists($app_path)) {
                 \File::makeDirectory($app_path, 0777, true);
             }
-            $file->move($app_path, $filename);
-            // file_put_contents($app_path.$filename, $data);
+            // $file->move($app_path, $filename);
+            file_put_contents($app_path.$filename, $data);
         
            
     

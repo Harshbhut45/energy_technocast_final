@@ -169,8 +169,7 @@
       <script src="{{ asset('js/scrolled.js') }}"></script>
      
 
-     
-
+   
 
 
    <script>
@@ -178,7 +177,7 @@
           $(".dropdown1").hover(       
                
               function() {
-                console.log("hover");
+                // console.log("hover");
                   $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("800");
                   $(this).toggleClass('open');        
               },

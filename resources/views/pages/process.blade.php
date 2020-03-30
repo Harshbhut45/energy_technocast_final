@@ -53,37 +53,36 @@
             </div>
 
             <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-                
-                    <article class="page type-page status-publish hentry">
-                        <h3 class="short_title">Process</h3>
-                        <div class="process-page">
-                        <div class="process_list">
-                        <ul>
-                            <li>The Dies (Patterns/Tools) are manufactured using latest CAD/CAM facilities.</li>
-                            <li>RTCPL also provides technical support to its customers to develop cost saving and more efficient products.</li>
-                            <li>Injection and production of wax pattern from Dies (Patterns/tools). All Wax patterns are 100% dimensionally checked.</li>
-                            <li>The Wax pattern after forming the tree or cluster undergoes the ceramic coating process. This process is done in temperature and Humidity controlled rooms, so that best dimensional accuracy and excellent surface finish is achieved.</li>
-                            <li>After completing the coating process, the wax is removed by de-waxing process, which is done by putting the ceramic mould in the hot bath of wax.</li>
-                            <li>The Ceramic moulds are baked at temperature ranging from 900°C to 1150°C depending on the geometry and size of the casting. The molten metal is then poured in the baked ceramic moulds.</li>
-                            <li>The casting then undergoes fettling and finishing process such as Gate Cutting, Gate Machining / grinding, Sand Blasting, Shot Blasting, Leaching, Deburring etc.</li>
-                            <li>The coating then undergo the Heat Treatment as Per the material specifications.</li>
-                            <li>Heat Treatment graphs are cycles are recorded and documented.</li>
-                            <li>Heat Treatment furnace is calibrated and certified by LLOYDS REGISTER OF SHIPPING.</li>
-                            <li>All castings are subject to 100% visual inspection.</li>
-                            <li>All critical dimensions are 100% inspected before packing and shipment.</li>
-                            <li>RTCPL can also supply castings in machined condition.</li>
-                            <li>Castings can be also supplied with various type of finishing such as passivation, Electro-polishing, Blackening, powder coating, shot blasted, Glass bead blasted.</li>
-                        </ul>
-                        </div>
-                        <div class="process-image">
-                            <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                            <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                            <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                            <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                            <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                        </div>
-                    </div>
-                </article>
+                <article class="page type-page status-publish hentry">
+                    <h3 class="short_title">Process</h3>
+                    <div class="process-page">
+                    <div class="process_list">
+                    <ul>
+                        <li>The Dies (Patterns/Tools) are manufactured using latest CAD/CAM facilities.</li>
+                        <li>RTCPL also provides technical support to its customers to develop cost saving and more efficient products.</li>
+                        <li>Injection and production of wax pattern from Dies (Patterns/tools). All Wax patterns are 100% dimensionally checked.</li>
+                        <li>The Wax pattern after forming the tree or cluster undergoes the ceramic coating process. This process is done in temperature and Humidity controlled rooms, so that best dimensional accuracy and excellent surface finish is achieved.</li>
+                        <li>After completing the coating process, the wax is removed by de-waxing process, which is done by putting the ceramic mould in the hot bath of wax.</li>
+                        <li>The Ceramic moulds are baked at temperature ranging from 900°C to 1150°C depending on the geometry and size of the casting. The molten metal is then poured in the baked ceramic moulds.</li>
+                        <li>The casting then undergoes fettling and finishing process such as Gate Cutting, Gate Machining / grinding, Sand Blasting, Shot Blasting, Leaching, Deburring etc.</li>
+                        <li>The coating then undergo the Heat Treatment as Per the material specifications.</li>
+                        <li>Heat Treatment graphs are cycles are recorded and documented.</li>
+                        <li>Heat Treatment furnace is calibrated and certified by LLOYDS REGISTER OF SHIPPING.</li>
+                        <li>All castings are subject to 100% visual inspection.</li>
+                        <li>All critical dimensions are 100% inspected before packing and shipment.</li>
+                        <li>RTCPL can also supply castings in machined condition.</li>
+                        <li>Castings can be also supplied with various type of finishing such as passivation, Electro-polishing, Blackening, powder coating, shot blasted, Glass bead blasted.</li>
+                    </ul>
+                </div>
+                <div class="process-image">
+                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
+                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
+                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
+                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
+                    <img src="image/process8.jpg" class="process_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
+                </div>
+            </div>
+        </article>
             </div>
           </div>
         </div>

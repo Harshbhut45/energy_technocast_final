@@ -12,29 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.index');
 });
 
 // categories CRUD
-Route::get('/categories', 'CategoryController@index')->name('categories.index');
-Route::get('/categories/create', 'CategoryController@create')->name('categories.create');
-Route::post('/categories', 'CategoryController@store')->name('categories.store');
-Route::get('/categories/{id}/edit', 'CategoryController@edit')->name('categories.edit');
-Route::post('/categories/{id}', 'CategoryController@update')->name('categories.update');
-Route::get('/categories/{id}','CategoryController@destroy')->name('categories.delete');
+    Route::get('/categories', 'CategoryController@index')->name('categories.index');
+    Route::get('/categories/create', 'CategoryController@create')->name('categories.create');
+    Route::post('/categories', 'CategoryController@store')->name('categories.store');
+    Route::get('/categories/{id}/edit', 'CategoryController@edit')->name('categories.edit');
+    Route::post('/categories/{id}', 'CategoryController@update')->name('categories.update');
+    Route::get('/categories/{id}','CategoryController@destroy')->name('categories.delete');
 
 
 // products CRUD
-Route::get('/products', 'ProductController@index')->name('products.index');
-Route::get('/products/create', 'ProductController@create')->name('products.create');
-Route::post('/products', 'ProductController@store')->name('products.store');
-Route::get('/products/{id}/edit', 'ProductController@edit')->name('products.edit');
-Route::post('/products/{id}', 'ProductController@update')->name('products.update');
-Route::get('/products/{id}','ProductController@destroy')->name('products.delete');
-
-
-
-
+    Route::get('/products', 'ProductController@index')->name('products.index');
+    Route::get('/products/create', 'ProductController@create')->name('products.create');
+    Route::post('/products', 'ProductController@store')->name('products.store');
+    Route::get('/products/{id}/edit', 'ProductController@edit')->name('products.edit');
+    Route::post('/products/{id}', 'ProductController@update')->name('products.update');
+    Route::get('/products/{id}','ProductController@destroy')->name('products.delete');
 
 
 

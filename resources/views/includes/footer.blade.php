@@ -81,8 +81,8 @@
                     <div class="footer-company-name">
                         2015 © Copyright Rajan Techno Cast Pvt. Ltd.	
                     </div>
-                       <div class="footer-company-Visitors">Total Visitors : <img src="https://counter6.statcounterfree.com/private/freecounterstat.php?c=73b0f56daeed1c9dacc7dc59776063da" border="0" title="" alt=""> 
-                       </div>
+                       {{-- <div class="footer-company-Visitors">Total Visitors : <img src="https://counter6.statcounterfree.com/private/freecounterstat.php?c=73b0f56daeed1c9dacc7dc59776063da" border="0" title="" alt=""> 
+                       </div> --}}
                     <div class="additional-info">
                         Design By :<a href="#">KonnectionIndia.com</a></div> 
                 </div> <!-- /container -->	

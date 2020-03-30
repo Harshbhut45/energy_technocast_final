@@ -64,7 +64,7 @@
           </li>
 
           <li class="nav-item ">
-          <a href="/index" class="nav-link"><i data-feather="package"></i>Other</a>
+          <a href="/index" class="nav-link"><i data-feather="package"></i>Add</a>
                     
            </li>
           
@@ -91,79 +91,81 @@
           <script src="{{ asset('assets/js/dashforge.js') }}"></script>
           <!-- <script src="{{ ('/js/custom.js') }}"></script> -->
 
-  <!-- toastr -->
-    <script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-    <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
-    {!! Toastr::message() !!} 
+        <!-- toastr -->
+          <script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+          <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
+          {!! Toastr::message() !!} 
 
-    <script>
-      $(function(){
-        'use strict'
+          <script>
+            $(function(){
+              'use strict'
 
-      });
-    </script>
-  <!-- Select2 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
-  {{-- <script src="../assets/js/select2.js"></script> --}}
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.2/croppie.js"></script>
-  
-  <script type="text/javascript">
-      $.ajaxSetup({
-      headers: {
-          'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-      }
-      });
-      
-      
-      $uploadCrop = $('#upload-demo').croppie({
-        url : $('#upload-demo-image').val(),
-          enableExif: true,
-          enableOrientation: true,    
-          viewport: { // Default { width: 100, height: 100, type: 'square' } 
-              width: 200,
-              height: 200,
-              type: 'circle' //square
-          },
-          boundary: {
-              width: 300,
-              height: 300
-          }
-      });
-      
-      
-      $('#image').on('change', function () {
-        var reader = new FileReader();
-          reader.onload = function (e) {
-            $uploadCrop.croppie('bind', {
-              url: e.target.result
-            }).then(function(data){
-              console.log('jQuery bind complete',data);
             });
-          }
-          reader.readAsDataURL(this.files[0]);
-      });
-      
-      
-      $('.user-form').on('click', function (ev) {
-        ev.preventDefault();
-        $uploadCrop.croppie('result', {
-          type: 'canvas',
-          size: 'viewport'
-        }).then(function (base64) {
-          console.log(base64)
-          $('#profile_picture').val(base64);
-            $('.user-form').unbind().submit();
-        });
-      });
-      
+          </script>
+        <!-- Select2 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+        {{-- <script src="../assets/js/select2.js"></script> --}}
 
-      
-      </script>
+        {{-- croppie-image --}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.2/croppie.js"></script>
 
-       <!-- Dropdown-js --> 
-       <script src="{{ asset('js/dropdown.js') }}"></script>
+       
+  
+        <script type="text/javascript">
+            $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+            });
+            
+            
+            $uploadCrop = $('#upload-demo').croppie({
+              url : $('#upload-demo-image').val(),
+                enableExif: true,
+                enableOrientation: true,    
+                viewport: { // Default { width: 100, height: 100, type: 'square' } 
+                    width: 200,
+                    height: 200,
+                    type: 'circle' //square
+                },
+                boundary: {
+                    width: 300,
+                    height: 300
+                }
+            });
+            
+            
+            $('#image').on('change', function () {
+              var reader = new FileReader();
+                reader.onload = function (e) {
+                  $uploadCrop.croppie('bind', {
+                    url: e.target.result
+                  }).then(function(data){
+                    console.log('jQuery bind complete',data);
+                  });
+                }
+                reader.readAsDataURL(this.files[0]);
+            });
+            
+            
+            $('.user-form').on('click', function (ev) {
+              // ev.preventDefault();
+              $uploadCrop.croppie('result', {
+                type: 'canvas',
+                size: 'viewport'
+              }).then(function (base64) {
+                console.log(base64)
+                $('#profile_picture').val(base64);
+                  $('.user-form').unbind().submit();
+          
+            
+              });
+            });
+        </script>
+
+      <!-- Dropdown-js --> 
+      <script src="{{ asset('js/dropdown.js') }}"></script>
       <!-- Scrolltop-js --> 
       <script src="{{ asset('js/scrolltop.js') }}"></script>
       <!-- slider-js --> 

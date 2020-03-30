@@ -60,7 +60,7 @@
                 <div class="Content">
                   <div class="img-fill">
                     <div class="w-portfolio-item-image">
-                        <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> <img src="https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png" width="306" height="210" alt="Pump Industries"></div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries1</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
+                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries1</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
                     </div>
                 
                 </div>
@@ -71,60 +71,81 @@
               <div class="ProductBlock">
                 <div class="Content">
                   <div class="img-fill">
-                    <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> <img src="https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png" width="306" height="210" alt="Pump Industries"></div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries2</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                  </div>
+                    <div class="w-portfolio-item-image">
+                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries2</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
+                    </div>
+                
                 </div>
+            </div>
               </div>
               <!-- Item -->
               <!-- Item -->
               <div class="ProductBlock">
                 <div class="Content">
                   <div class="img-fill">
-                    <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> <img src="https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png" width="306" height="210" alt="Pump Industries"></div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries3</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                  </div>
+                    <div class="w-portfolio-item-image">
+                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries3</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
+                    </div>
+                
                 </div>
+            </div>
               </div>
               <!-- Item -->
               <!-- Item -->
               <div class="ProductBlock">
                 <div class="Content">
                   <div class="img-fill">
-                    <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> <img src="https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png" width="306" height="210" alt="Pump Industries"></div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries4</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                  </div>
+                    <div class="w-portfolio-item-image">
+                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries4</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
+                    </div>
+                
                 </div>
+            </div>
               </div>
               <!-- Item -->
               <!-- Item -->
               <div class="ProductBlock">
                 <div class="Content">
                   <div class="img-fill">
-                    <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> <img src="https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png" width="306" height="210" alt="Pump Industries"></div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries5</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                  </div>
+                    <div class="w-portfolio-item-image">
+                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries5</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
+                    </div>
+                
                 </div>
+            </div>
               </div>
               <!-- Item -->
               <div class="ProductBlock">
                 <div class="Content">
                   <div class="img-fill">
-                    <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> <img src="https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png" width="306" height="210" alt="Pump Industries"></div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries6</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                  </div>
+                    <div class="w-portfolio-item-image">
+                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries6</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
+                    </div>
+                
                 </div>
+            </div>
               </div>
               <!-- Item -->
               <div class="ProductBlock">
                 <div class="Content">
                   <div class="img-fill">
-                    <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> <img src="https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png" width="306" height="210" alt="Pump Industries"></div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries7</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                  </div>
+                    <div class="w-portfolio-item-image">
+                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries7</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
+                    </div>
+                
                 </div>
+            </div>
               </div>
               <!-- Item -->
               <div class="ProductBlock">
                 <div class="Content">
                   <div class="img-fill">
-                    <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> <img src="https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png" width="306" height="210" alt="Pump Industries"></div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries8</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                  </div>
+                    <div class="w-portfolio-item-image">
+                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries8</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
+                    </div>
+                
                 </div>
+            </div>
               </div>
               <!-- Item -->
             </div>
@@ -167,27 +188,25 @@
     </div>
 
 
-    <div class="container">
+      <div class="container">
         <div class="">
-          <div class="partners-carousel">
-            <div class="carousel-title">ETPL Exports to</div>
-                            <ul class="slides-partners clearfix">
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>Germany</p></li>
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>Italy</p></li>
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>USA</p></li>
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>Spain</p></li>
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>Canada</p></li>
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>Denmark</p></li>
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>Belgium</p></li>
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>France</p></li>
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>Turkey</p></li>
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>U.K.</p></li>
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>Sweden</p></li>
-                                <li><img class="img-responsive" src="image/f010.jpg"><p>Austria</p></li>
-                          </ul>
-          </div>
-            
-            
+            <div class="partners-carousel">
+              <div class="carousel-title">ETPL Exports to</div>
+                 <ul class="slides-partners clearfix">
+                    <li><img class="img-responsive" src="image/f010.jpg"><p>Germany</p></li>
+                        <li><img class="img-responsive" src="image/f010.jpg"><p>Italy</p></li>
+                        <li><img class="img-responsive" src="image/f010.jpg"><p>USA</p></li>
+                        <li><img class="img-responsive" src="image/f010.jpg"><p>Spain</p></li>
+                        <li><img class="img-responsive" src="image/f010.jpg"><p>Canada</p></li>
+                        <li><img class="img-responsive" src="image/f010.jpg"><p>Denmark</p></li>
+                        <li><img class="img-responsive" src="image/f010.jpg"><p>Belgium</p></li>
+                        <li><img class="img-responsive" src="image/f010.jpg"><p>France</p></li>
+                        <li><img class="img-responsive" src="image/f010.jpg"><p>Turkey</p></li>
+                        <li><img class="img-responsive" src="image/f010.jpg"><p>U.K.</p></li>
+                        <li><img class="img-responsive" src="image/f010.jpg"><p>Sweden</p></li>
+                        <li><img class="img-responsive" src="image/f010.jpg"><p>Austria</p></li>
+                  </ul>
+            </div>
         </div> <!-- span12 -->
     </div>
 

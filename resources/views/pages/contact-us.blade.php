@@ -34,38 +34,35 @@
                      <div class="sidebar clearfix-sidebar clearfix_res1">
                         <div class="contactus" id="nav_menu-2">
                             <h2>Contact Us Now</h2>
-                <div class="border"></div>
-                <br>
-                <p>For any product-related enquiry, feel free to get in touch with us. Leave a message, and our representative will get in touch with you shortly.</p>
-                <br>
-                <div class="contact_details contact_item">
+                        <div class="border"></div>
+                        <br>
+                        <p>For any product-related enquiry, feel free to get in touch with us. Leave a message, and our representative will get in touch with you shortly.</p>
+                        <br>
+                        <div class="contact_details contact_item">
+                            <div class="row contact_icon">
+                            <div class="col-md-2">
+                                <p class="icons icons__mobile"><i class="fa fa-mobile"></i></p>
+                            </div>
+                            <div class="col-md-10">
+                                <h5>Call Us :</h5>
+                                <p>+91 7575880001</p>
+                            </div>
+                         </div>
+                    <div class="clearfix"></div>
                     <div class="row contact_icon">
-                    <div class="col-md-2">
-                        <p class="icons icons__mobile"><i class="fa fa-mobile"></i></p>
-                    </div>
-                    <div class="col-md-10">
-                        <h5>Call Us :</h5>
-                        <p>+91 7575880001</p>
-                    </div>
-                    </div>
-                    <div class="clearfix"></div>
-                <div class="row contact_icon">
-                    <div class="col-md-2">
-                        <p class="icons icons__envelope"><i class="fa fa-envelope"></i></p>
-                    </div>
-                    <div class="col-md-10 email_res">
-                        <h5>Email Us :</h5>
-                        <p><a href="info@energytechnocast.net"> info@energytechnocast.net</a></p>
-                    </div>
-                </div>
-                    <div class="clearfix"></div>
-                   
-                </div>
+                        <div class="col-md-2">
+                            <p class="icons icons__envelope"><i class="fa fa-envelope"></i></p>
                         </div>
-
-                       
+                        <div class="col-md-10 email_res">
+                            <h5>Email Us :</h5>
+                            <p><a href="info@energytechnocast.net"> info@energytechnocast.net</a></p>
                         </div>
                     </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
                     <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact_info">
                         <div class="contact_info active">
@@ -133,24 +130,15 @@
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
+                            </div>
                         </div>
-                    
-                          
+                        </form>
                     </div>
-                </form>
-            </div>
                 </div>
             </div>
-
-      
-
-
-                    </div>
-                    
-
-
-                </div>
-              </div>
+        </div>
+    </div>
+</div>
             
 
 @endsection

@@ -88,13 +88,11 @@
                                       <input type="checkbox" class="custom-control-input" id="is_featured" name="is_featured" value="yes" >
                                       <label class="custom-control-label" for="is_featured">Featured</label>
                                   </div>
-                                </div>  
-                       
-      
+                                </div> 
                               </div>
                             </div>
                           </div>
-                              
+
                             <div class="col-md-4">
                               <div class="row">
                                 <div class="col-md-4 text-center">
@@ -104,15 +102,12 @@
                               </div>
                             </div>
                           </div>
-                          
                         </div>
                        
-                          
-                        
-                          <div class="button">
-                            <a href="{{ route('categories.index') }}" class="btn btn-warning mg-r-1">Cancel</a>
-                            <button type="submit" class="btn btn-primary user-form">Submit</button>
-                         </div>
+                        <div class="button">
+                          <a href="{{ route('categories.index') }}" class="btn btn-warning mg-r-1">Cancel</a>
+                          <button type="submit" class="btn btn-primary user-form">Submit</button>
+                        </div>
                        </form>
                     </div>
                 </div><!-- table-responsive -->

@@ -28,9 +28,9 @@
                                 <ul class="menu__list" id="menu-features">
                                     <li class="tab-link is-active"><a href="/industries-servied-valves" ><i style="font-size:20px" class="fa">&#xf105;</i>Industrial Valves</a></li>
                                    
-                                    <li class="tab-link"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Industrial Pumps</a></li>
+                                    <li class="tab-link"><a href="/industries-servied-valves1"><i style="font-size:20px" class="fa">&#xf105;</i>Industrial Pumps</a></li>
 
-                                    <li class="tab-link"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Automotives</a></li>
+                                    <li class="tab-link"><a href="{{ url('industries-servied-valves') }}" ><i style="font-size:20px" class="fa">&#xf105;</i>Automotives</a></li>
 
                                     <li class="tab-link"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Power Plant Equipment</a></li>
                                     <li class="tab-link"><a href="/industries-servied-valves"><i style="font-size:20px" class="fa">&#xf105;</i>Aerospace</a></li>
@@ -40,128 +40,117 @@
                                 </ul>
                             </div>
                         </div>
-
-                     
                         <div class="divider plus"><span class="plus-ico"></span></div>
                         </div>
                     </div>
 
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-sm-12 col-xs-12">
-                        	<article class="page type-page status-publish hentry">
-                                
-                                <div class="flexslider single-carousel pro-cat-list">
-                                	<ul class="slides portfolio-list__img">
-                                        <li>
-                                            <article class="recent-works">
-                                                <div class="img-format media-thumb">
-                                                    
-                                                      <div class="img-fill1">
-                                                      <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                                          <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
-                                                           <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
-                                                          <div class="w-portfolio-item-meta">
-                                                              <div class="w-portfolio-item-meta-h">
-                                                                   <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
-                                                              </div>
-                                                          </div> 
-                                                      </a>
-                                                  </div>  
-                                                  </div>
-                                              </article>
-                                        </li>
-
-                                        <li>
-                                            <article class="recent-works">
-                                                <div class="img-format media-thumb">
-                                                    
-                                                      <div class="img-fill1">
-                                                      <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                                          <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
-                                                           <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
-                                                          <div class="w-portfolio-item-meta">
-                                                              <div class="w-portfolio-item-meta-h">
-                                                                   <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
-                                                              </div>
-                                                          </div> 
-                                                      </a>
-                                                  </div>  
-                                                  </div>
-                                              </article>
-                                        </li>
-                                        <li>
-                                            <article class="recent-works">
-                                                <div class="img-format media-thumb">
-                                                    
-                                                      <div class="img-fill1">
-                                                      <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                                          <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
-                                                           <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
-                                                          <div class="w-portfolio-item-meta">
-                                                              <div class="w-portfolio-item-meta-h">
-                                                                   <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
-                                                              </div>
-                                                          </div> 
-                                                      </a>
-                                                  </div>  
-                                                  </div>
-                                              </article>
-                                        </li>
-                                     </ul>
-                                     <ul class="slides portfolio-list__img">
-                                        <li>
-                                            <article class="recent-works">
-                                                <div class="img-format media-thumb">
-                                                    
-                                                      <div class="img-fill1">
-                                                      <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                                          <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
-                                                           <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
-                                                          <div class="w-portfolio-item-meta">
-                                                              <div class="w-portfolio-item-meta-h">
-                                                                   <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
-                                                              </div>
-                                                          </div> 
-                                                      </a>
-                                                  </div>  
-                                                  </div>
-                                              </article>
-                                        </li>
-                                        <li>
-                                            <article class="recent-works">
-                                                <div class="img-format media-thumb">
-                                                   
-                                                      <div class="img-fill1">
-                                                      <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                                          <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
-                                                           <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
-                                                          <div class="w-portfolio-item-meta">
-                                                              <div class="w-portfolio-item-meta-h">
-                                                                   <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
-                                                              </div>
-                                                          </div> 
-                                                      </a>
-                                                  </div>  
-                                                  </div>
-                                              </article>
-                                        </li>
-
-                                        <li>
-                                            <article class="recent-works">
-                                              <div class="img-format media-thumb">
-                                                  
-                                                    <div class="img-fill1">
-                                                    <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                                        <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
-                                                         <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
-                                                        <div class="w-portfolio-item-meta">
-                                                            <div class="w-portfolio-item-meta-h">
-                                                                 <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
-                                                            </div>
-                                                        </div> 
-                                                    </a>
-                                                </div>  
+            <div class="col-lg-9 col-md-9 col-sm-9 col-sm-12 col-xs-12">
+                <article class="page type-page status-publish hentry">
+                    <div class="flexslider single-carousel pro-cat-list">
+                        <ul class="slides portfolio-list__img">
+                            <li>
+                                <article class="recent-works">
+                                <div class="img-format media-thumb">
+                                    <div class="img-fill1">
+                                        <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                    <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
+                                            <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
+                                            <div class="w-portfolio-item-meta">
+                                                <div class="w-portfolio-item-meta-h">
+                                                    <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
                                                 </div>
-                                            </article>
+                                            </div> 
+                                        </a>
+                                    </div>  
+                                </div>
+                            </article>
+                        </li>
+                            <li>
+                                <article class="recent-works">
+                                    <div class="img-format media-thumb">
+                                        <div class="img-fill1">
+                                            <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                        <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
+                                            <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
+                                        <div class="w-portfolio-item-meta">
+                                            <div class="w-portfolio-item-meta-h">
+                                                <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
+                                            </div>
+                                        </div> 
+                                            </a>
+                                        </div>  
+                                    </div>
+                                </article>
+                            </li>
+                            <li>
+                                <article class="recent-works">
+                                    <div class="img-format media-thumb">
+                                        <div class="img-fill1">
+                                            <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                        <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
+                                            <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
+                                            <div class="w-portfolio-item-meta">
+                                                <div class="w-portfolio-item-meta-h">
+                                                    <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
+                                                </div>
+                                             </div> 
+                                            </a>
+                                          </div>  
+                                        </div>
+                                    </article>
+                                </li>
+                                </ul>
+                                <ul class="slides portfolio-list__img">
+                                    <li>
+                                        <article class="recent-works">
+                                            <div class="img-format media-thumb">
+                                               <div class="img-fill1">
+                                                    <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                                <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
+                                                   <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
+                                                <div class="w-portfolio-item-meta">
+                                                    <div class="w-portfolio-item-meta-h">
+                                                        <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
+                                                    </div>
+                                                </div> 
+                                            </a>
+                                        </div>  
+                                      </div>
+                                    </article>
+                                    </li>
+                                    <li>
+                                        <article class="recent-works">
+                                            <div class="img-format media-thumb">
+                                                <div class="img-fill1">
+                                                <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                                <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
+                                                <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
+                                                    <div class="w-portfolio-item-meta">
+                                                        <div class="w-portfolio-item-meta-h">
+                                                            <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
+                                                        </div>
+                                                    </div> 
+                                                </a>
+                                            </div>  
+                                        </div>
+                                    </article>
+                                    </li>
+                                    <li>
+                                        <article class="recent-works">
+                                            <div class="img-format media-thumb">
+                                                <div class="img-fill1">
+                                                <a class="w-portfolio-item-anchor" href="https://www.siddhicast.com/products/pump-industries/" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                                <div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)">
+                                                <img src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
+                                                <div class="w-portfolio-item-meta">
+                                                    <div class="w-portfolio-item-meta-h">
+                                                        <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
+                                                    </div>
+                                                </div> 
+                                              </a>
+                                            </div>  
+                                          </div>
+                                        </article>
                                         </li>
                                  	</ul>
                  				</div>

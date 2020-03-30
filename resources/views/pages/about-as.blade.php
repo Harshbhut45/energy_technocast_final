@@ -89,10 +89,10 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="">
-      <div class="partners-carousel">
-        <div class="carousel-title">RTCPL Exports to</div>
+        <div class="container">
+            <div class="">
+                <div class="partners-carousel">
+                    <div class="carousel-title">RTCPL Exports to</div>
                         <ul class="slides-partners clearfix">
                             <li><img class="img-responsive" src="image/f010.jpg"><p>Germany</p></li>
                             <li><img class="img-responsive" src="image/f010.jpg"><p>Italy</p></li>
@@ -106,11 +106,9 @@
                             <li><img class="img-responsive" src="image/f010.jpg"><p>U.K.</p></li>
                             <li><img class="img-responsive" src="image/f010.jpg"><p>Sweden</p></li>
                             <li><img class="img-responsive" src="image/f010.jpg"><p>Austria</p></li>
-                      </ul>
-      </div>
-        
-        
-    </div> <!-- span12 -->
-</div>
+                        </ul>
+                    </div>
+                </div> <!-- span12 -->
+            </div>
 
 @endsection

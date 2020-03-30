@@ -41,8 +41,8 @@
                         </div>
 
                         <div class="divider plus"><span class="plus-ico"></span></div>
-                        </div>
                     </div>
+                </div>
 
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                         <div class="">
@@ -54,7 +54,7 @@
                                 Candidate should submit their resume with photo to :<br>
                                 Candidate are free to walk-in-interview as well with prior appointment</p>
                                 <h3 class="short_title">For HR  &amp; Job Related Inquiries</h3>
-                                <p><strong>Email Id :</strong> <a href="mailto:hrm@rajantechcast.com" style="color:#da251c;">hrm@rajantechcast.com</a> &amp; <a href="mailto:info@rajantechcast.com" style="color:#da251c;">info@rajantechcast.com</a><br>
+                                <p><strong>Email Id :</strong> <a href="mailto:info@rajantechcast.com" style="color:#da251c;">info@rajantechcast.com</a><br>
                                 <strong>Mobile :</strong> +91 9687697728, +91 9687697726</p>
 							</article>
                         </div>
@@ -63,26 +63,24 @@
              
              
                 <div class="">
-                  <div class="partners-carousel">
-                    <div class="carousel-title">ETPL Exports to</div>
-                                    <ul class="slides-partners clearfix">
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>Germany</p></li>
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>Italy</p></li>
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>USA</p></li>
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>Spain</p></li>
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>Canada</p></li>
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>Denmark</p></li>
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>Belgium</p></li>
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>France</p></li>
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>Turkey</p></li>
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>U.K.</p></li>
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>Sweden</p></li>
-                                        <li><img class="img-responsive" src="image/f010.jpg"><p>Austria</p></li>
-                                  </ul>
-                  </div>
-                    
-                    
-                </div> <!-- span12 -->
-            </div>
+                    <div class="partners-carousel">
+                        <div class="carousel-title">ETPL Exports to</div>
+                            <ul class="slides-partners clearfix">
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>Germany</p></li>
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>Italy</p></li>
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>USA</p></li>
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>Spain</p></li>
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>Canada</p></li>
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>Denmark</p></li>
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>Belgium</p></li>
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>France</p></li>
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>Turkey</p></li>
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>U.K.</p></li>
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>Sweden</p></li>
+                                <li><img class="img-responsive" src="image/f010.jpg"><p>Austria</p></li>
+                            </ul>
+                        </div>
+                    </div> <!-- span12 -->
+                </div>
 
 @endsection
