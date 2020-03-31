@@ -107,7 +107,7 @@ table {
 .navbar-brand>img {
     display: block;
     width: 75%;
-    margin-top: -2px;
+    /* margin-top: -2px; */
 }
 .navbar-nav .nav-link{
     display: block;
@@ -134,7 +134,6 @@ table {
     color: #111f28;;
     cursor: pointer;
     position: relative;
-    padding-bottom: 0px!important;
     padding: 5px;
 }
 /* .nav-item .nav-link:after {
@@ -145,17 +144,20 @@ table {
     opacity: 1;
 }
 
-.nav-item .nav-link:after {
+.nav-item1 :after {
     display: block;
     content: '';
     position: absolute;
-    left: 0;
     bottom: -0.4em;
-    margin: 0 auto -2px;
-    height: 2px;
+    margin: 0 auto 0px;
+    height: 3px;
     width: 100%;
     opacity: 0;
     transition: all 0.3s;
+}
+.nav-item1 :after {
+    background-color: #fc6804;
+    /* border: 2px solid; */
 }
 .navbar-nav .nav-link .fa {
     color: #fff;
@@ -167,12 +169,15 @@ table {
     line-height: 32px;
     margin-right: 0px!important;
     float: left;
-    height: 80px;
     font-size: 18px;
     line-height: 20px;
-    /* margin-top: -7px; */
     padding-left: 75px!important;
-    padding-top: 0px!important;
+    float: left;
+    height: 100%!important;
+    padding-top: .25rem!important;
+    padding-bottom: .25rem!important;
+    display: flex;
+    justify-content: center;
 }
 .pd-r {
     padding-right: 110px;
@@ -283,7 +288,6 @@ ul.short__title-list li {
 }
 #footer {
     background-color: #2D3032;
-    border-top: 4px solid #da251c;
     border-bottom: 0px solid #000000;
 
     padding: 45px 0;
@@ -521,11 +525,16 @@ address {
     margin-bottom: 15px;
 }
 .sidebar .menu li, [id^="recent-posts-"] li, [id^="pages-"] li {
-    border-bottom: 1px dotted #dfdfdf;
-    padding: 8px 0 8px 0px;
+    /* padding: 8px 0 8px 0px; */
     text-transform: uppercase;
-    font-size: 11px;
-    font-weight: bold;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 550;
+    border-color: #e0e0e0;
+    border-width: 1px 0 0 !important;
+    border-style: solid;
+    padding: 0.6em 1.2em;
 }
 .sidebar .menu__list li, [id^="recent-posts-"] li, [id^="pages-"] li {
     border-bottom: 1px dotted #dfdfdf;
@@ -655,6 +664,7 @@ h3.short_title {
 }
 .menu li:hover {
     color: #f0801a!important;
+    background-color: #f6f6f6;
 }
 /* quality-assurance */
 
@@ -1496,12 +1506,22 @@ table td strong {
 }
 
 .scrolled-nav {
-    width: 75%!important;
+    width: 88%!important;
     min-height: 50px!important;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transform-origin: 50% 0;
+    transition-duration: 0.9s;
+    flex-shrink: 0;
+    transition: height 0.9s!important;
+    transition: all .9s linear!important;
   }
   .scrolled-nav1 {
     min-height: 35px!important;
     transition-duration: 0.9s;
+    transition: height 0.9s!important;
+    transition: all .9s linear!important;
   }
   .scrolled-nav2 {
     padding-top: 10px!important;
@@ -1833,7 +1853,6 @@ table td strong {
 .submenu-bottom {
     display: none;
     position: fixed;
-    background-color: #e3e4e4;
     padding: 4px 0px 4px 0px;
     text-decoration: none;
     text-align: center;
@@ -1843,8 +1862,13 @@ table td strong {
     width: 82%;
     transform-origin: 0% 100%;
     transition-duration: 1.3s;
- 
+    /* margin-top: 23px; */
+    z-index: 111;
   }
+.head__dropdown {
+    background-color: #e3e4e4;
+    margin-top: 19px;
+}
 .nav-item:hover .submenu-bottom {
     display: block;
     visibility: visible; /* shows sub-menu */
@@ -1852,18 +1876,13 @@ table td strong {
     z-index: 1;
     transition-duration: 1.3s;
 }
-
 .column {
     line-height: 1.5em;
-    padding: 0.6em 20px;
     white-space: nowrap;
     /* transition: color 0.1s, background-color 0.1s; */
     display: flex;
-   
     transition: all 1.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
- 
 }
-
 .column a {
     width: 100%;
     display: block;
@@ -1871,8 +1890,8 @@ table td strong {
     padding: 10px;
     margin-left: 5px;
     margin-right: 5px;
+    text-align: left;
     transition-duration: 0.6s;
-
 }
 .column a:hover {
     width: 100%;

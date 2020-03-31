@@ -99,15 +99,15 @@
        <div class="nav-links">
           <div class="collapse navbar-toggleable-xs  " id="topheader">
               <ul class="nav navbar-nav pull-sm-right ">
-                <li class="nav-item active"><a class="nav-link" href="/home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/abouts-us">About-US</a></li>
-                <li class="nav-item"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
-                <li class="nav-item"><a class="nav-link" href="/process">Process</a></li>
-                <li class="nav-item"><a class="nav-link" href="/quality-assurance">Quality Assurance</a></li>
-                <li class="nav-item"><a class="nav-link" href="/industries-servied">Industries Served</a>
+                <li class="nav-item nav-item1 active"><a class="nav-link" href="/home">Home</a></li>
+                <li class="nav-item nav-item1"><a class="nav-link" href="/abouts-us">About-US</a></li>
+                <li class="nav-item nav-item1"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
+                <li class="nav-item nav-item1"><a class="nav-link" href="/process">Process</a></li>
+                <li class="nav-item nav-item1"><a class="nav-link" href="/quality-assurance">Quality Assurance</a></li>
+                <li class="nav-item nav-item1"><a class="nav-link" href="/industries-servied">Industries Served</a>
                 
          <ul class="submenu-bottom">
-            <div class="row">
+            <div class="row head__dropdown">
                 <div class="column menu__list" id="select-box">
                     <a href="/industries-servied-valves" class="tab-link">Industrial Valves</a>
                     <a href="/industries-servied-valves" class="tab-link">Industrial Pumps</a>
@@ -126,13 +126,19 @@
                         <a href="#">Link 11</a>
                         <a href="#">Link 12</a>
                       </div>
+                      <div class="column ">
+                        <a href="#">Link 13</a>
+                        <a href="#">Link 14</a>
+                        <a href="#">Link 15</a>
+                        <a href="#">Link 16</a>
+                      </div>
                 </div>
          </ul>
       </li>
 
 
-                <li class="nav-item"><a class="nav-link" href="/career">Career</a></li>
-                <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
+                <li class="nav-item nav-item1"><a class="nav-link" href="/career">Career</a></li>
+                <li class="nav-item nav-item1"><a class="nav-link" href="/contact-us">Contact Us</a></li>
                 
               </ul>
   </div>
@@ -150,7 +156,7 @@
         </div>
            @include('includes.footer')
 
-        
+     
      <!-- Navbar-js -->  
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.4/js/tether.min.js"></script>
