@@ -238,7 +238,7 @@ table {
 .clearfix__short {
     padding-left: 15px;
     padding-right: 15px;
-    width: 40%;
+    width: 38%;
 }
 .grp-comp-box {
     list-style: none;
@@ -274,6 +274,10 @@ ul.short__title-list li {
     font-size: 19px;
     line-height: 22px;
     text-align: center;
+}
+.clearfix_res {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* footer */

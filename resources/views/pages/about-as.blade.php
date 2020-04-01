@@ -93,7 +93,7 @@
         <div class="container">
             <div class="">
                 <div class="partners-carousel">
-                    <div class="carousel-title">RTCPL Exports to</div>
+                    <div class="carousel-title">ETPL Exports to</div>
                         <ul class="slides-partners clearfix">
                             <li><img class="img-responsive" src="image/f010.jpg"><p>Germany</p></li>
                             <li><img class="img-responsive" src="image/f010.jpg"><p>Italy</p></li>

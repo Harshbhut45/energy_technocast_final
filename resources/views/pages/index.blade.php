@@ -143,11 +143,29 @@
                     <div class="w-portfolio-item-image">
                         <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries8</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
                     </div>
-                
+                  </div>
                 </div>
-            </div>
               </div>
               <!-- Item -->
+              <div class="ProductBlock">
+                <div class="Content">
+                  <div class="img-fill">
+                    <div class="w-portfolio-item-image">
+                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries9</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Item -->
+              <div class="ProductBlock">
+                <div class="Content">
+                  <div class="img-fill">
+                    <div class="w-portfolio-item-image">
+                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries10</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <!-- Carousel Container -->
           </div>
@@ -175,18 +193,7 @@
       </ul>
     </div>
 
-
-
-    <div class="clearfix__short">
-        <h3 class="short_title bb-solid"> Group of Companies</h3>
-        <ul class="grp-comp-box">
-            <li><img src="image/new_age.png"><div class="icon-box2-title"><a href="#" target="_blank">Newage Precision Cast Pvt. Ltd</a></div></li>
-            <li><img src="image/new_age.png"><div class="icon-box2-title"><a href="https://www.shellmechcast.com/" target="_blank">Shellmech Precision Cast Pvt. Ltd</a></div></li>
-            <li><img src="image/new_age.png"><div class="icon-box2-title"><a href="https://www.apollotechnoforge.com/" target="_blank">Apollo Techno Forge Pvt. Ltd</a></div></li>
-        </ul>
-    </div>
-    </div>
-
+  </div>
 
       <div class="container">
         <div class="">
