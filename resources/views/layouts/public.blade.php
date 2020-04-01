@@ -153,6 +153,7 @@
 
         <div class="">
             @yield('content-company')
+            <a href="#" id="scroll" title="Back to top" aria-hidden="true" style="display: none;"></a>
         </div>
            @include('includes.footer')
 
@@ -170,14 +171,16 @@
       <!-- slider-js --> 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+      <!-- slider-js -->
       <script src="{{ asset('js/slider.js') }}"></script>
+      <!-- active-js -->
       <script src="{{ asset('js/active.js') }}"></script>
+      <!-- scrolled-js -->
       <script src="{{ asset('js/scrolled.js') }}"></script>
-     
+      <!-- Scrollbutton-js --> 
+      <script src="{{ asset('js/scrollbutton.js') }}"></script>
 
    
-
-
    <script>
       $(document).ready(function(){
           $(".dropdown1").hover(       
