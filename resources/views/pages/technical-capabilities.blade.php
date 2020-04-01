@@ -26,7 +26,7 @@
                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 sidebar_res">
                      <div class="sidebar clearfix-sidebar clearfix_res ">
                         <div class="widget" id="nav_menu-2">
-                            <h3 class="short_title">Industries Served ?</h3>
+                            <h3 class="short_title  mr-b-12">Industries Served ?</h3>
                             <div class="menu-features-container">
                                 <ul class="menu" id="menu-features">
                                     <ul class="menu" id="menu-features">
@@ -40,12 +40,13 @@
                                     <li><a href="/industries-servied-valves">Defense</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        
 
                         <div style="text-align:center; margin-bottom:10px;"><img src="image/material-chart.jpg" style=""></div>
                         <div class="divider plus"><span class="plus-ico"></span></div>
                         </div>
                     </div>
+                </div>
 
 
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
