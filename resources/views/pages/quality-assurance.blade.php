@@ -19,125 +19,119 @@
             </div>	
         </div>
 
-        <div role="main" id="content">
-            <div class="row-fluid">
-              <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 ">
-                    <div class="sidebar clearfix-sidebar clearfix_res1">
-                        <div class="widget" id="nav_menu-2">
-                            <h3 class="short_title  mr-b-12">Industries Served ?</h3>
-                            <div class="menu-features-container">
-                                <ul class="menu" id="menu-features">
-                                  <ul class="menu" id="menu-features">
-                                    <li><a href="/industries-servied-valves">Industrial Valves</a></li>
-                                    <li><a href="/industries-servied-valves">Industrial Pumps</a></li>
-                                    <li><a href="/industries-servied-valves">Automotives</a></li>
-                                    <li><a href="/industries-servied-valves">Power Plant Equipment</a></li>
-                                    <li><a href="/industries-servied-valves">Aerospace</a></li>
-                                    <li><a href="/industries-servied-valves">Marine</a></li>
-                                    <li><a href="/industries-servied-valves">Power Plant Boiler Parts</a></li>
-                                    <li><a href="/industries-servied-valves">Defense</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="divider plus"><span class="plus-ico"></span></div>
+
+        <section class="quality-section">
+          <div class="container">
+            <div class="g-cols vc_row type_default valign_top">
+              <div class="vc_col-sm-12 wpb_column vc_column_container animate_afc animate_start">
+                <div class="vc_column-inner">
+                  <div class="quality_wrapper">
+                    <div class="quality_text_column ">
+                        <h3>Energy Cast is ISO 9001 – 2015, PED and AD2000 Merkblatt W0, IBR Approved Company.</h3>
+                        <p style="color: #9ba0a6;"><em>ISO 9001:2015 by TUV/SUD, PED 97/23/EC by TUV/SUD, AD2000 Merkblatt W0 by TUV/SUD</em></p>
+                        <p>All industries now demand greater than ever observance of specifications on material, processing, quality control and delivery conditions. In order to satisfy these increasing requirements, Siddhi Cast operates quality control systems throughout the company. These ensure that customer requirements are met through full understanding and attention to detail at all stages of manufacture from enquiry intake to despatch of completed parts.</p>
+                        <p>All production processes inspection and testing procedures are controlled and fully documented. These procedures are maintained through systematic review by internal quality audits.</p>
+                        <p>All inspection and testing equipment are calibrated and traceable to national standards. We operate a spectrometer facility for the chemical analysis of materials along with outside support of CMM for the accurate dimensional measurement of parts along with shadow graph</p>
+                      
                     </div>
-
-                    <div class="span12" style="margin:0 0;">
-                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 0px -2px; padding: 3px;">
-                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 0px -2px; padding: 3px;">
-                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 0px -2px; padding: 3px;">
-                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 0px -2px; padding: 3px;">
-                        <img src="image/quality8.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 0px -2px; padding: 3px;">
-                    </div>
-                </div>
-
-                <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
-                
-                    <article class="type-page status-publish hentry">
-                        <h3 class="short_title">Quality-Assurance</h3>
-                        <div class="quality-page">
-                        <div class="quality_list">
-                            <ul>
-                                <h4>RTCPL has the Following Certifications :</h4>
-                                <li>ISO/TS 16949:2009 by TUVNORD</li>
-                                <li>DNV / GL Marine Approval</li>
-                                <li>Bureau VERITAS Marine Approval</li>
-                                <li>ISO 14001:2004 by TUVNORD</li>
-                                <li>AD2000 Merkblatt W0 by TUVNORD</li>
-                                <li>PED 97/23/EC by TUVNORD</li>
-                                <li>BS OHSAS 18001:2007 by TUVNORD</li>
-                                <li>LLoyds Marine Approval</li>
-                                <li>American Bureau of Shipping Marine Approval</li>
-                                <li>Norsok M-650 Approval</li>
-                                <li> ISO 9001:2008 by TUVNORD</li>
-                              </ul>
-                              <h4>Chemical Analysis :</h4>
-                                <ul class="list1">
-                                    <li>In house spectrometer with 32 channels capable of testing Fe, Ni, Co based materials and also Nitrogen content..</li>
-                                    <li>All heats poured are tested on-line on Spectrometer.</li>
-                                    <li>All the scrap used are also tested before using.</li>
-                                    <li>Specimens are stored for particular period.</li>
-
-                                <h4> Physical Testing : </h4>
-                                <ul class="list1">
-                                    <li>In house Universal Testing Machine.In house Universal Testing Machine.</li>
-                                    <li>In house Hardness Testing Machine.</li>
-                                    <li>In house Impact test Machine.</li>
-                                </ul>
-                                <h4>Test Provided :</h4>
-                                <ul class="list1">
-                                    <li>Chemical Analysis, Tensile Test, Impact Test, Radiography (X-Ray), Dye Penetrate, Corrosion Test, MPT Test, Microstructure.</li>
-                                </ul>
-                        </div>
-                        <div class="quality-image">
-                            <img src="image/quality2.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                            <img src="image/quality2.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                            <img src="image/quality2.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                            <img src="image/quality2.jpg" class="quality_img" style="border: 1px solid #dfdfdf; margin: 0 0 10px 20px; padding: 3px;">
-                        </div>
-                    </div>
-                </article>
-
-
-                <div class="flexslider single-carousel pro-cat-list">
-                    <ul class="slides portfolio-list">
-                      <li>
-                        <article class="recent-works">
-                          <div class="img-format media-thumb">
-                          <div class="post-date">IMS POLICY </div>
-                            <div class="mask-info">
-                             
-                            </div>
-                            <a href="#"><img src="image/certificate.jpg" alt=""></a></div>
-                        </article>
-                      </li>
-                      <li>
-                        <article class="recent-works">
-                            <div class="img-format media-thumb">
-                          <div class="post-date">QUALITY POLICY </div>
-                            <div class="mask-info">
-                             
-                            </div>
-                            <a href="#"><img src="image/certificate.jpg" alt=""></a></div>
-                        </article>
-                      </li>
-                      <li>
-                        <article class="recent-works">
-                            <div class="img-format media-thumb">
-                          <div class="post-date">IMS POLICY </div>
-                          
-                            <div class="mask-info">
-                             
-                            </div>
-                            <a href="#"><img src="image/certificate.jpg" alt=""></a></div>
-                        </article>
-                      </li>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </section>
+
+
+        <div role="main" id="content1">
+            <div class="row-fluid">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="quality_column-inner ">
+                      <h4>Chemical Analysis</h4>
+                        <p>In house spectrometer with 32 channels capable of testing Fe, Ni, Co based materials and also Nitrogen content.<br> All heats poured are tested on-line on Spectrometer.<br> All the scrap used are also tested before using.<br> Specimens are stored for particular period.</p>
+                    </div>
+                    <div class="vc_empty_space" style="height: 10px;"></div>
+                    <div class="quality_column-inner ">
+                      <h4>Physical Testing</h4>
+                        <p>In house Universal Testing Machine.<br> In house Hardness Testing Machine.<br> In house Impact test Machine.<br> In house metallurgical microscope.</p>
+                    </div>
+                    <div class="vc_empty_space" style="height: 10px;"></div>
+                    <div class="quality_column-inner ">
+                      <h4>Test Provided</h4>
+                        <p>Chemical Analysis, Tensile Test, Impact Test, Radiography (X-Ray), Dye Penetrate, Corrosion Test, MPT Test, Microstructure.<br> Castings can also be supplied under third party inspections such as TUV SUD, TUV NORD, BUREAU VERITAS, LLOYDS and DNV etc.</p>
+                    </div>
+
+
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                    <div class="vc_column-inner">
+                      <div class="qua_wrapper">
+                             <h3>Our Certificate</h3>
+                            <div class="quality">
+                              <div class="qua-just-icon-wrapper">
+                                  <div class="aio-icon-img "> 
+                                    <img class="img-icon" alt="null" src="https://www.siddhicast.com/wp-content/uploads/2018/10/icon.png">
+                                  </div>
+                              </div>
+                            </div>
+                            
+                          <div class="vc_empty_space" style="height: 20px"></div>
+                                <div class="quality-image-h">
+                                  <div class="wpb_wrapper"><div class="w-image align_center style_outlined animate_afc animate_start">
+                                    <div class="w-image-h"><a href="" ref="magnificPopup"><img width="93%" height="300" src="https://www.siddhicast.com/wp-content/uploads/2018/10/ISO-Certificate-1.jpg" class="attachment-full" alt="" ></a>
+                                    </div>
+                                    </div>
+                                  </div>
+                                  <div class="wpb_wrapper">
+                                    <div class="w-image align_center style_outlined animate_afc animate_start">
+                                      <div class="w-image-h"><a href="" ref="magnificPopup"><img width="93%" height="300" src="https://www.siddhicast.com/wp-content/uploads/2018/10/ISO-Certificate-1.jpg" class="attachment-full mr-l-20" alt="" ></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                </div>
+            </div>
+          </div>
+
+
+          <section class="qua-section">
+            <div class="container">
+              <div class="qua-gallery-list">
+                  <a class="w-gallery-item order_1" href="" title="q1">
+                    <div class="w-gallery-item-img">
+                       <img width="100%" height="200" src="https://www.siddhicast.com/wp-content/uploads/2018/10/q1-350x328.jpg" class="attachment-tnail-1x1-small size-tnail-1x1-small" alt="">
+                    </div>
+                  </a>
+                  <a class="w-gallery-item order_2" href="" title="q2">
+                    <div class="w-gallery-item-img">
+                       <img width="100%" height="200" src="https://www.siddhicast.com/wp-content/uploads/2018/10/q2-350x350.jpg" class="attachment-tnail-1x1-small size-tnail-1x1-small" alt="" >
+                      </div>
+                  </a>
+                  <a class="w-gallery-item order_3" href="" title="q3">
+                    <div class="w-gallery-item-img">
+                      <img width="100%" height="200" src="https://www.siddhicast.com/wp-content/uploads/2018/10/q3-350x350.jpg" class="attachment-tnail-1x1-small size-tnail-1x1-small" alt="" >
+                    </div>
+                  </a>
+                  <a class="w-gallery-item order_4" href="" title="q4">
+                    <div class="w-gallery-item-img">
+                      <img width="100%" height="200" src="https://www.siddhicast.com/wp-content/uploads/2018/10/q4-350x350.jpg" class="attachment-tnail-1x1-small size-tnail-1x1-small" alt="" >
+                    </div>
+                  </a>
+                  <a class="w-gallery-item order_5" href="" title="q5">
+                    <div class="w-gallery-item-img">
+                      <img width="100%
+                      " height="200" src="https://www.siddhicast.com/wp-content/uploads/2018/10/q5-350x262.jpg" class="attachment-tnail-1x1-small size-tnail-1x1-small" alt="" >
+                    </div>
+                  </a>
+              </div> 
+            </div>           
+          </section>
+
+
         </div>
 @endsection

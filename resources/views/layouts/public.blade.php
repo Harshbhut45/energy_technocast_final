@@ -24,6 +24,8 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600%2C400%7CRoboto:500" rel="stylesheet" property="stylesheet" type="text/css" media="all">
 
+    {{-- <link href='https://fonts.googleapis.com/css?family=Carrois Gothic SC' rel='stylesheet'>    --}}
+
    <!-- slider-CSS -->
    <link href="https://googledrive.com/host/0B1RR6fhjI2QROGt0MTFoVkhMdUk/fonts.css">
    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
