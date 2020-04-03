@@ -36,7 +36,10 @@
     <div class="welcome-block">
 		<div class="row-fluid">
 			<div class="container">
-				<p> More than 5000 different types of components developed for various industries.</p>	
+				<p> More than 2500 different types of components developed for various industries. Energy Technocast is an ISO 9001 : 2008 certified company and engaged in manufacturing of Ferrous & Non-ferrous Investment Castings using Lost wax process.
+          Energy Technocast is already develop of casting components with weight range of few Gms. (10Gms.) To 100kgs. Single piece casting and in minimum wall thickness up to 1.5mm
+          Energy Technocast is equipped with all major Quality control equipment, such as Single spark Spectrometer for Chemical Analysis, Universal Testing Machine for testing physical properties, Hardness Testing Machine, Die penetration Test, Magnetic Particle Test machine, Impact testing machine, static and dynamic load testing machine, All Types of Measuring Instruments etc.
+          </p>	
 			</div>	
             	
 		</div>		
@@ -46,7 +49,8 @@
     <div id="content" role="main">
         <div class="container">	
             <div class="slider-header">
-                <h3 class="text-center"> <strong>STAINLESS STEELS, DUPLEX STAINLESS STEELS, NICKEL BASED ALLOYS, COBALT BASED ALLOYS, CARBON STEELS. </strong></h3>
+                <h3 class="text-center"> <strong>Energy Technocast Pvt. Ltd.(a manufacturer of Ferrous & Non-ferrous investment casting) was established in 2013 a gold to be india's leading quality Investment Casting manufacturer through innovative and edge technologies.
+                </strong></h3>
                 <div class="divider plus"></div>
             </div>
             
@@ -183,13 +187,12 @@
     <div class="clearfix__short">
         <h3 class="short_title bb-solid">  Why us?</h3>
       <ul class="short__title-list">
-        <li>Expertized in Investment Casting foundry</li>
-        <li>Expeditious responses to inquiries / RFQs during working days.</li>
-        <li>Reliable, Ductile & Uniform Quality by experienced workers.</li>
-        <li>Product quantity can be made with any Grade or Material depends on customer’s Requirement.</li>
-        <li>Shorter lead time for final product completion .</li>
-        <li>Engineers and Managers are highly skilled and experienced.</li>
-        <li>Our aim to make customer fully satisfied and build good human & business relations.</li>
+        <li>Implement Quality, Environmental, Health and Safety Management System.</li>
+        <li>Exceed the customer expectations in Quality, Cost & Delivery.</li>
+        <li>Achieve sustainable growth by adapting latest technology and invovations.</li>
+        <li>Continually improve the processes and reduce waste through training & motivation.</li>
+        <li>Implement Eco-Friendly, Healthy and Safe enviroment along with conservation of key resources.</li>
+
       </ul>
     </div>
 

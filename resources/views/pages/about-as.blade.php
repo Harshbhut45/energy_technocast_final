@@ -49,8 +49,11 @@
             <div class="about-group">
                 <article class="page type-page status-publish hentry">
                     <h3 class="short_title"> The Company</h3>
-                    <p>The seeds of <strong>Energy Techno Cast Pvt. Ltd. </strong> were sown in 1992 by Mr. Parshottambhai Patel, with production capacity of 20 Tones of Lost Wax Investment Castings per month. Since then we have progressed exponentially and today the company produces 100 Tons of lost wax Investment Castings per month. Till now we have developed more than 1500 components applicable to a wide range of Industries and today we are one of the largest manufacturers of lost wax investment castings in INDIA.<br>
-                    This success and continuous growth was only possible because of our commitment to produce best quality Investment Castings with on time deliveries to our customers.</p>
+                    <p>Energy Technocast Pvt. Ltd. (ETPL) is a sterling manufacturer of <strong>Lost	 wax Investment Castings </strong>established in 2013 at Rajkot, Gujarat. We deliver a customer centric approach to our clients to uphold the values and morale of the company in casting industry. Our objective is to serve superior industrial solutions and mechanical capabilities through cutting edge technologies, intensive research & development, superior quality standards and on-time delivery approach.</p>
+                    <p>ETPL expertise in manufacturing of Ferrous – Stainless Steel, Carbon Steel, Resistance Steel, Alloy Steel, Heavy Melting Steel, Wear Resistance Alloy, Ni Based Alloys like Iconels, Monels, etc., Cast Iron & Non Ferrous like Aluminum and Copper based alloys as per National & International norms and standards. ETPL has installed a extensive capacity plant with concurrent processing departments like Raw Material & Maintenance Room, Quality Control & Test Lab, Machining Shop, Drying & Pressing Room, Heat Treatment lab, Finished Product Warehouse with ultra modern storage facilities to uphold various technical, mechanical and managerial grounds.</p>
+                    <p>Energy Technocast PVT LTD is a <strong>Investment Casting Manufacturer carrying the motto and vision of persistence and excellence in the field of different products 	Investment Casting,	 Fittings Investment Casting Parts, 	Casting of earth moving equipment 	Precision Investment Casting, 	Nickel Based Alloy Casting, 	Copper based Alloy Casting , 	Cobalt Base Alloy Casting, 	Super Alloy Castings , 	Nickel Alloy Castings, 	Pump Castings, 	Lost Wax Casting, 	Valve Castings, 	Precision Casting India, 	Duplex Castings, </strong>	Investment Casting Foundry etc..</p>
+                    <p>ETPL is serving a vast range of industries such as 	Valves Castings, Pumps, Pharmaceutical Industry, Industrial Machinery, Agricultural Equipments, Defence & Fire Fighting Equipments, Medical/Orthopedic Implants, Food & Beverages, Aerospace & Railway Parts and many more. Our foremost motive is to uphold the core values of the company by providing our clients the best in terms of quality, durability and reliability to fulfill our motto – “Extensive Reach, Intensive Delivery”.
+                        </p>
                     <div style="text-align:center; margin: 0 0 10px 20px; padding: 3px;"><img src="image/production_chart.jpg"  class="about_img" style="border: 1px solid #dfdfdf;"></div>
                     <div class="clearfix"></div>
                     <p>Today <strong>RTCPL </strong> has team of well qualified and professional team of engineers, technicians and workers to satisfy your needs.<br>
@@ -67,21 +70,17 @@
                         <li>American Bureau of Shipping Marine Approval</li>
                         <li>Norsok M-650 Approval</li>
                     </ul>
-                    <h3 class="short_title"> Vision : </h3>
-                    <p> We shall strive to be leaders in this business by offering products of a world class quality, and through constant technological innovation. We understand the needs of our customers and shall stay focused on them by offering them products, service and solutions of the highest quality.</p>
-                    <h3 class="short_title"> Mission :</h3>
-                    <ul class="list1">
-                        <li>To develop long-term business relations with its customers.</li>
-                        <li>Poised to be Global Investment casting manufacturer.</li>
-                        <li>To grow steadily and becoming profitable gradually.</li>
-                    </ul>
-                    <h3 class="short_title"> Our Strength : </h3>
-                    <ul class="list1">
-                        <li>On time Delivery.</li>
-                        <li>Superior Investment Castings quality adhering to various standards.</li>
-                        <li>Flexibility in planning and development of Samples for approval.</li>
-                        <li>Continuous training of our engineers and technicians for best efficiency and quality workmanship.</li>
-                    </ul>
+                    <h3 class="short_title"> Vision-Mission : </h3>
+                    <p>	To provide quality products to the customers through continuous innovation & upgradation in company’s resources.</p>
+                    <p>To develop cordial business relationship with customers, To aim to be market leader, To grow with customers, suppliers & human resource.</p>
+                    <p>On time delivery, Superior Quality of products, Continuous training of human resource with respect to change in market scenario.</p>
+                    <p>Increase Global presence, providing effective business solutions through Competitive Pricing, including Quality,Delivery & Service.
+                        </p>
+                   
+                    <h3 class="short_title"> Research & Development : </h3>
+                    
+                        <p>Energy Technocast Pvt. Ltd. (ETPL)  alike its manufacturing facilities and concern to keep the top machines and equipment, also looks after the way of improvisation through the research and development. The company is always more than happy to take up new and innovative ways for the constant growth. The Research and Development department holds the responsibility to make the company moving ahead and ahead.</p>
+                
                 </article>
             </div>
         </div>

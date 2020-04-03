@@ -27,11 +27,30 @@
                 <div class="vc_column-inner">
                   <div class="quality_wrapper">
                     <div class="quality_text_column ">
-                        <h3>Energy Cast is ISO 9001 – 2015, PED and AD2000 Merkblatt W0, IBR Approved Company.</h3>
-                        <p style="color: #9ba0a6;"><em>ISO 9001:2015 by TUV/SUD, PED 97/23/EC by TUV/SUD, AD2000 Merkblatt W0 by TUV/SUD</em></p>
-                        <p>All industries now demand greater than ever observance of specifications on material, processing, quality control and delivery conditions. In order to satisfy these increasing requirements, Siddhi Cast operates quality control systems throughout the company. These ensure that customer requirements are met through full understanding and attention to detail at all stages of manufacture from enquiry intake to despatch of completed parts.</p>
-                        <p>All production processes inspection and testing procedures are controlled and fully documented. These procedures are maintained through systematic review by internal quality audits.</p>
-                        <p>All inspection and testing equipment are calibrated and traceable to national standards. We operate a spectrometer facility for the chemical analysis of materials along with outside support of CMM for the accurate dimensional measurement of parts along with shadow graph</p>
+                        <h3>ETPL manufactures Lost Wax Investment Castings for a wide range of industries. In general we can make any intricate Lost Wax Investment Castings for various industries.</h3>
+                        <h4>Quality at Every Step</h4>
+                         <p> Casting process control begins and ends with our process sheet, also known as the work construction. The process sheet assigns every product a part number, along with a list of operations that each part will undergo. All ETPL departments, from tool making to packaging, can refer to the process sheet to verify what actions were performed at previous stations and what is in queue. This internal checks and balances system produces the most consistent results with the highest levels of part-specific control.
+                          </p>
+                         <h4> TOOL MAKING</h4>
+                         <p>3D modeling, either customer-submitted or in-house designed, is included with the process sheet to guarantee tooling accuracy. With over 35 years experience in tool making, ETPL engineers are experts in gating tooling models with pinpoint precision. Samples are run to verify tooling accuracy. Visit our casting tooling page for additional information.<p>
+                        <h4>WAX ROOM</h4>
+                           <p> Our wax room is equipped with temperature and humidity controls to manage the consistency of our wax patterns. To avoid wax dimensional changes, we purchase wax exactly to our specifications. We adhere to all temperature tolerances outlined in the process sheet to eliminate wax expansion and contraction.
+                          </p>
+                        <h4>DIP ROOM</h4>
+                          <p>Once again, temperature and humidity are the focal point of our dip room process control. We use proprietary formulas for our slurries which are designed for maximum consistency. Each part has different dipping procedures, which are clearly outlined in the process sheet.</p>
+                        <h4>DEWAX PHASE</h4>
+                          <p>Computerized temperature controls are built into our dewaxing equipment. Our dewaxing equipment quickly ramps up to the temperature specified in the process sheet, holds that temp for a period of time, then ramps down.</p>
+                        <h4>POURING</h4>
+                          <p>The process sheet outlines part-specific pouring and shell temperatures, as well as solidification control techniques. Chemical analysis is performed at this station to verify the chemistry of the metal.</p>
+
+                        <h4>FINISHING</h4>
+                          <p>Here we perform blasting, grinding, and runner system removal from parts. Once again, the process sheet dictates information on part-specific blast types and gate grinding.</p>
+                          <h4>HEAT TREATMENT</h4>
+                          <p>We can meet all heat treatment requirements, including MIL-H-6875. Please refer to our heat treatment page for more information on our heat treatment services.Non-destructive testing through a combination of in-house resources and outside vendors, we can meet any NDT specification. Our casting designers can also assist with developing part-specific NDT techniques.</p>
+                        </div>
+                        
+                         
+
                       
                     </div>
                   </div>
@@ -41,6 +60,7 @@
           </div>
         </section>
 
+      
 
         <div role="main" id="content1">
             <div class="row-fluid">
@@ -49,17 +69,27 @@
                   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="quality_column-inner ">
                       <h4>Chemical Analysis</h4>
-                        <p>In house spectrometer with 32 channels capable of testing Fe, Ni, Co based materials and also Nitrogen content.<br> All heats poured are tested on-line on Spectrometer.<br> All the scrap used are also tested before using.<br> Specimens are stored for particular period.</p>
+                        <p>In house spectrometer with 32 channels capable of testing Fe, Ni, Co based materials and also Nitrogen content.<br>
+                          All heats poured are tested on-line on Spectrometer.<br>
+                          All the scrap used are also tested before using.<br>
+                          Specimens are stored for particular period.<br>
+                          </p>
                     </div>
                     <div class="vc_empty_space" style="height: 10px;"></div>
                     <div class="quality_column-inner ">
                       <h4>Physical Testing</h4>
-                        <p>In house Universal Testing Machine.<br> In house Hardness Testing Machine.<br> In house Impact test Machine.<br> In house metallurgical microscope.</p>
+                        <p>In house Universal Testing Machine.<br>
+                          In house Hardness Testing Machine.<br>
+                          In house Impact test Machine.<br>
+                          In house metallurgical microscope.
+                          </p>
                     </div>
                     <div class="vc_empty_space" style="height: 10px;"></div>
                     <div class="quality_column-inner ">
                       <h4>Test Provided</h4>
-                        <p>Chemical Analysis, Tensile Test, Impact Test, Radiography (X-Ray), Dye Penetrate, Corrosion Test, MPT Test, Microstructure.<br> Castings can also be supplied under third party inspections such as TUV SUD, TUV NORD, BUREAU VERITAS, LLOYDS and DNV etc.</p>
+                        <p>Chemical Analysis, Tensile Test, Impact Test, Radiography (X-Ray), Dye Penetrate, Corrosion Test, MPT Test, Microstructure.<br>
+                          Castings can also be supplied under third party inspections such as TUV SUD, TUV NORD, BUREAU VERITAS, LLOYDS and DNV etc.
+                          </p>
                     </div>
 
 
