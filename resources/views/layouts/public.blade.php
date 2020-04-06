@@ -12,10 +12,6 @@
     <meta name="author" content="ThemePixels">
 
     <title>@stack('title')</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{ ('/css/energy_custom.css') }}">
-
   
     <!-- Navbar-CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" rel="stylesheet">
@@ -24,8 +20,6 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600%2C400%7CRoboto:500" rel="stylesheet" property="stylesheet" type="text/css" media="all">
 
-    {{-- <link href='https://fonts.googleapis.com/css?family=Carrois Gothic SC' rel='stylesheet'>    --}}
-
    <!-- slider-CSS -->
    <link href="https://googledrive.com/host/0B1RR6fhjI2QROGt0MTFoVkhMdUk/fonts.css">
    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
@@ -33,8 +27,8 @@
    <!-- header-dropdown-CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   
-  
-
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ ('/css/energy_custom.css') }}">
 </head>
     <body>
       <div id="entry-wrapper" >
