@@ -44,7 +44,7 @@
                   <div class="col-sm-9 col-xs-12">
                     <ul class="list-inline helpdesk">
                       <li><a><img src="image/email.png" style="height:15px;width:15px;margin-right:10px;">info@energytechnocast.net</a></li>
-                      <li><a><span class="fa fa-phone" style="color:#d65d27;height:15px;width:15px;margin-right:10px;"></span> +91 7575880001</a></li>                                        
+                      <li><a><span class="fa fa-phone" style="color:#d65d27;height:15px;width:15px;"></span> +91 7575880001</a></li>                                        
                       <li><img src="image/EnergyTechnocastISO.png" style="height:15px;width:15px;margin-right:10px;">ISO 9001:2008 CERTIFICATE</a></li>
                   </ul>
                   </div>
@@ -96,10 +96,10 @@
           <div class="collapse navbar-toggleable-xs  " id="topheader">
               <ul class="nav navbar-nav pull-sm-right ">
                 <li class="nav-item nav-item1 active"><a class="nav-link" href="/home">Home</a></li>
-                <li class="nav-item nav-item1"><a class="nav-link" href="/abouts-us">About-US</a></li>
+                <li class="nav-item nav-item1"><a class="nav-link" href="/abouts-us">About Us</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/process">Process</a></li>
-                <li class="nav-item nav-item1"><a class="nav-link" href="/quality-assurance">Quality Assurance</a></li>
+                <li class="nav-item nav-item1"><a class="nav-link" href="/quality-assurance">Quality</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/industries-servied">Industries Served</a>
                 
          <ul class="submenu-bottom">

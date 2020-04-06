@@ -35,10 +35,10 @@
                 <h3>Links</h3>
                 <ul>
                     <li><a title="" href="/home">Home</a></li>
-                    <li><a title="" href="/abouts-us">About-US</a></li>
+                    <li><a title="" href="/abouts-us">About-Us</a></li>
                     <li><a title="" href="/technical-capabilities">Technical Capabilities</a></li>
                     <li><a title="" href="/process">Process</a></li>
-                    <li><a title="" href="/quality-assurance">Quality Assurance</a></li>
+                    <li><a title="" href="/quality-assurance">Quality</a></li>
                     <li><a title="" href="/industries-servied">Industries Served</a></li>
                     <li><a title="" href="/career">Career</a></li>
                     <li><a title="" href="/contact-us">Contact Us</a></li>
@@ -66,11 +66,42 @@
                            
                                 <div class="w-socials-list">
                                     <ul class="social-media">
-                                        <li><a href="" target="_blank" class="fa fa-facebook"></a></li>
+                                        {{-- <li><a href="" target="_blank" class="fa fa-facebook"></a></li>
                                         <li><a href="" target="_blank" class="fa fa-twitter"></a></li>
                                         <li><a href="" target="_blank" class="fa fa-google-plus"></a></li>
                                         <li><a href="" target="_blank" class="fa fa-youtube"></a></li>
-                                        <li><a href="" target="_blank" class="fa fa-linkedin"></a></li>
+                                        <li><a href="" target="_blank" class="fa fa-linkedin"></a></li> --}}
+
+                                        <div class="w-socials align_left style_outlined color_brand index_1" style="font-size:16px;">
+                                            <div class="w-socials-list">
+                                                <div class="w-socials-item facebook"> 
+                                                    <a class="w-socials-item-link fb" href=""> 
+                                                        <span class="w-socials-item-link-hover"></span> 
+                                                        <span class="w-socials-item-link-title">Facebook</span> 
+                                                    </a>
+                                                </div>
+                                                <div class="w-socials-item twitter"> 
+                                                    <a class="w-socials-item-link twt" href=""> 
+                                                        <span class="w-socials-item-link-hover"></span> 
+                                                        <span class="w-socials-item-link-title">Twitter</span> </a>
+                                                    </div>
+                                                    <div class="w-socials-item google"> 
+                                                        <a class="w-socials-item-link ggl" href=""> 
+                                                            <span class="w-socials-item-link-hover"></span> <span class="w-socials-item-link-title">Google+</span> 
+                                                        </a>
+                                                    </div>
+                                                    <div class="w-socials-item linkedin"> 
+                                                        <a class="w-socials-item-link lkin" href=""> 
+                                                            <span class="w-socials-item-link-hover"></span> <span class="w-socials-item-link-title">LinkedIn</span> </a>
+                                                        </div>
+                                                        <div class="w-socials-item youtube"> 
+                                                            <a class="w-socials-item-link ytube" href=""> 
+                                                              <span class="w-socials-item-link-hover"></span> 
+                                                              <span class="w-socials-item-link-title">YouTube</span> 
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                     </ul>
 
                                 </div>
@@ -87,7 +118,7 @@
 
 </footer>
 
-        <div class="footer-copyrights">
+        {{-- <div class="footer-copyrights">
             <div class="container">
                 <div class="footer-copyrights-details">
                     <div class="footer-company-name">
@@ -95,8 +126,8 @@
                     </div>
                        {{-- <div class="footer-company-Visitors">Total Visitors : <img src="https://counter6.statcounterfree.com/private/freecounterstat.php?c=73b0f56daeed1c9dacc7dc59776063da" border="0" title="" alt=""> 
                        </div> --}}
-                    <div class="additional-info">
-                        Design By :<a href="#">KonnectionIndia.com</a></div> 
-                </div> <!-- /container -->	
+                    {{-- <div class="additional-info">
+                        Design By :<a href="#">KonnectionIndia.com</a></div>  --}}
+                {{-- </div> <!-- /container -->	
             </div> <!-- /row-fluid -->	
-        </div>
+        </div> --}} 
