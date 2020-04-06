@@ -11,7 +11,10 @@
                     <a class="foot-logo col-xs-12 " href="#">ENERGY <span>Technocast PVT.LTD</span></a>
                     <address class="foot-address">
                         <div class="col-xs-12 no-pad"><i class="fa fa-globe"></i>
-                        <p>Rajan Techno Cast Pvt. Ltd.<br>Shapar Industrial Area,<br>Rajkot - Gondal Highway,<br>Dist. : Rajkot - 360 002.</p>
+                        <p>Energy Techno Cast Pvt. Ltd.<br>
+                            Shapar Industrial Area,<br>
+                            Rajkot - Gondal Highway, Dist. : Rajkot - 360 002.
+                            Gujarat / India.</p>
                         </div>
                         <div class="col-xs-12 no-pad">
                         <i class="fa fa-phone"></i>
@@ -31,15 +34,14 @@
                 <div class="footer-widget">
                 <h3>Links</h3>
                 <ul>
-                    <li><a title="" href="index.html">Home</a></li>
-                    <li><a title="" href="about-us.html">The Compny</a></li>
-                    <li><a title="" href="group-company.html">Group Companies</a></li>
-                    <li><a title="" href="technical-capabilities.html">Technical Capabilities</a></li>
-                    <li><a title="" href="process.html">Process</a></li>
-                    <li><a title="" href="quality-assurance.html">Quality Assurance</a></li>
-                    <li><a title="" href="industries-served.html">Industries Served</a></li>
-                    <li><a title="" href="career.html">Career</a></li>
-                    <li><a title="" href="contact-us.html">Contact Us</a></li>
+                    <li><a title="" href="/home">Home</a></li>
+                    <li><a title="" href="/abouts-us">About-US</a></li>
+                    <li><a title="" href="/technical-capabilities">Technical Capabilities</a></li>
+                    <li><a title="" href="/process">Process</a></li>
+                    <li><a title="" href="/quality-assurance">Quality Assurance</a></li>
+                    <li><a title="" href="/industries-servied">Industries Served</a></li>
+                    <li><a title="" href="/career">Career</a></li>
+                    <li><a title="" href="/contact-us">Contact Us</a></li>
                 </ul>
                 </div>
          

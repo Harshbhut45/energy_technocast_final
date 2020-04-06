@@ -49,9 +49,6 @@
                           <p>We can meet all heat treatment requirements, including MIL-H-6875. Please refer to our heat treatment page for more information on our heat treatment services.Non-destructive testing through a combination of in-house resources and outside vendors, we can meet any NDT specification. Our casting designers can also assist with developing part-specific NDT techniques.</p>
                         </div>
                         
-                         
-
-                      
                     </div>
                   </div>
                 </div>
@@ -59,8 +56,6 @@
             </div>
           </div>
         </section>
-
-      
 
         <div role="main" id="content1">
             <div class="row-fluid">
@@ -89,7 +84,7 @@
                       <h4>Test Provided</h4>
                         <p>Chemical Analysis, Tensile Test, Impact Test, Radiography (X-Ray), Dye Penetrate, Corrosion Test, MPT Test, Microstructure.<br>
                           Castings can also be supplied under third party inspections such as TUV SUD, TUV NORD, BUREAU VERITAS, LLOYDS and DNV etc.
-                          </p>
+                        </p>
                     </div>
 
 
@@ -99,11 +94,6 @@
                       <div class="qua_wrapper">
                              <h3>Our Certificate</h3>
                             <div class="quality">
-                              <div class="qua-just-icon-wrapper">
-                                  <div class="aio-icon-img "> 
-                                    <img class="img-icon" alt="null" src="https://www.siddhicast.com/wp-content/uploads/2018/10/icon.png">
-                                  </div>
-                              </div>
                             </div>
                             
                           <div class="vc_empty_space" style="height: 20px"></div>

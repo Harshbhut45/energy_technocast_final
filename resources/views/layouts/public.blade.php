@@ -136,23 +136,16 @@
                       </div>
                 </div>
          </ul>
-      </li>
-
-
-                <li class="nav-item nav-item1"><a class="nav-link" href="/career">Career</a></li>
-                <li class="nav-item nav-item1"><a class="nav-link" href="/contact-us">Contact Us</a></li>
-                
-              </ul>
-  </div>
-</div>
+          </li>
+            <li class="nav-item nav-item1"><a class="nav-link" href="/career">Career</a></li>
+            <li class="nav-item nav-item1"><a class="nav-link" href="/contact-us">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
 </div>
 
-
-            
-      </header>
-    
-
-
+ </header>
+ 
         <div class="">
             @yield('content-company')
             <a href="#" id="scroll" title="Back to top" aria-hidden="true" style="display: none;"></a>
@@ -200,7 +193,5 @@
       });
    </script>
 
-
-        
-    </body>
+  </body>
 </html>
