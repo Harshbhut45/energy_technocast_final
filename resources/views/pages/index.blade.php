@@ -11,10 +11,6 @@
       <div class="img-fill">
         <img src="image/slider-img1.jpg">
         <div class="info">
-          <div>
-            <h3>Full Width Slider With Layers</h3>
-            <h5>You can easily add image, html formatted texts and video layers over each slide and each layer accepts unique animation.</h5>
-          </div>
         </div>
       </div>
     </div>
@@ -24,10 +20,6 @@
       <div class="img-fill">
         <img src="image/slider-img2.jpg">
         <div class="info">
-          <div>
-            <h3>Fully responsive Scales with its container</h3>
-            <h5>Donec id ornare dui. Aenean tristique condimentum elit, quis blandit nisl varius sit amet. Sed eleifend felis quis massa viverra</h5>
-          </div>
         </div>
       </div>
     </div>
@@ -174,7 +166,7 @@
             <!-- Carousel Container -->
           </div>
     </div>
-</div>
+
 
 
 <div class="container row-fluid clearfix clearfix_res">
@@ -219,7 +211,7 @@
             </div>
         </div> <!-- span12 -->
     </div>
-
+  </div>
 
         
 @endsection

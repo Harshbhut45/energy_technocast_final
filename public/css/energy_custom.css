@@ -22,11 +22,15 @@ table {
 #header-default.scroll-fixed > .entry-top {
     display: none;
 }
+.helpdesk {
+    padding-top: 4px;
+    margin-left: 5px;
+}
 .list-inline>li {
     display: inline-block;
     padding-right: 5px;
     padding-left: 5px;
-    font-size: 12px;
+    font-size: 14px;
 }
 .entry-top {
     color: #FFF;
@@ -126,7 +130,6 @@ table {
 }
 .bg-faded {
     /* background-color: #f0801a; */
-    padding:0px!important;
     display: flex;
     align-items: center;
 }
@@ -137,7 +140,10 @@ table {
     padding: 5px;
     font-family: "Carrois Gothic",sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
+}
+.navbar-nav .nav-item1+.nav-item {
+    margin-left: 2rem;
 }
 /* .nav-item .nav-link:after {
     background-color: #fc6804;
@@ -152,8 +158,8 @@ table {
     content: '';
     position: relative;
     bottom: -0.4em;
-    margin: 0 auto 0px;
-    height: 3px;
+    margin: 2px auto 0px;
+    height: 2px;
     /* width: 100%; */
     opacity: 0;
     transition: all 0.3s;
@@ -174,11 +180,13 @@ table {
     float: left;
     font-size: 18px;
     line-height: 20px;
-    padding-left: 75px!important;
+    /* padding-left: 75px!important; */
+    padding: 0px!important;
     float: left;
     height: 100%!important;
     padding-top: .25rem!important;
     padding-bottom: .25rem!important;
+    margin-left: -30px;
     display: flex;
     justify-content: center;
 }
@@ -239,13 +247,14 @@ table {
 }
 .nav-flex-icons {
     padding-top: 4px;
+    padding-right: 5px;
 }
 
 /* home-page */
 .welcome-block p {
     color: #414243;
-    line-height: 36px;
-    font-size: 26px;
+    line-height: 1.6;
+    font-size: 18px;
     font-style: normal;
     font-family: "Open Sans",sans-serif;
 }
@@ -312,7 +321,7 @@ a, a:link, a:visited, .entry-single a {
     transition: all .2s linear;
 }
 ul.short__title-list li {
-    line-height: 23px;
+    line-height: 1.6;
     font-size: 16px;
     border-bottom: 1px solid #ccc;
  
@@ -338,13 +347,12 @@ ul.short__title-list li {
 }
 /* footer */
 .no-pad {
-    line-height: 1.4rem;
+    line-height: 1.6;
     margin-bottom: 0.6rem;
     display: flex;
-    align-items: center;
 }
 .no-pad p {
-    line-height: 2.0rem;
+    line-height: 1.6;
     margin-bottom: 0.6rem;
 }
 #footer {
@@ -375,9 +383,8 @@ address {
 #footer ul li {
     color: #bcbec0;
     float: left;
-    /* line-height: 14px; */
     width: 100%;
-    line-height: 1.4rem;
+    line-height: 1.6;
     margin-bottom: 0.6rem;
 }
 #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
@@ -398,7 +405,6 @@ address {
     font-style: normal;
 }
 .foot-address .no-pad:first-child .fa {
-    padding-bottom: 80px;
     font-size: 18px;
 }
 .foot-address .no-pad .fa {
@@ -470,13 +476,14 @@ address {
     font-size: 16px;
 }
 #footer a:hover, .footer-copyrights a:hover {
-    /* color: #fc6804; */
+    color: #fc6804;
     text-decoration: none;
 }
 #footer ul li:hover {
     color: #FFFFFF;
     text-decoration: none;
 }
+
 .w-socials-list ul {
     display: flex;
     padding: 0px;
@@ -585,7 +592,7 @@ address {
     height: 0%;
     display: block;
     color: #fff !important;
-    background-color: #db4437;
+    background-color: #117eb9;
     position: absolute;
     left: 0%;
     opacity: 0;
@@ -773,7 +780,7 @@ address {
     text-transform: uppercase;
     font-weight: 100;
     font-size: 24px;
-    line-height: 32px;
+    line-height: 1.6;
     margin-bottom: 0px;
     color: #fff;
     display: inline-block;
@@ -794,11 +801,12 @@ address {
     border: 1px solid #CFCFCF;
     margin-bottom: 0;
     padding: 5px 10px;
-    font-size: 10px;
+    font-size: 11px;
 }
 .entry-head {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .entry-head-servied {
     display: flex;
@@ -847,7 +855,7 @@ address {
     text-transform: uppercase;
     font-family: "Open Sans",sans-serif;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 1.6;
     font-weight: 550;
     border-color: #e0e0e0;
     border-width: 1px 0 0 !important;
@@ -881,10 +889,11 @@ h3.short_title {
 }
 .hentry p {
     font-size: 16px;
+    line-height: 1.6;
 }
 .about-group p {
     color: #555555;
-    line-height: 22px;
+    line-height: 1.6;
     font-size: 16px;
 }    
 /* export-to */
@@ -966,6 +975,7 @@ h3.short_title {
     margin-bottom: 10px;
     list-style: none;
     font-size: 16px;
+    line-height: 1.6;
 }
 .process_list ul li:last-child {
     border-bottom: none;
@@ -1039,6 +1049,7 @@ h3.short_title {
 .quality_column-inner p {
     font-family: "Open Sans",sans-serif;
     font-size: 16px;
+    line-height: 1.6;
 }
 .qua_wrapper h3 {
     color: #fc6804;
@@ -1256,6 +1267,7 @@ table {
 }
 .table__Material p {
     font-size: 16px;
+    line-height: 1.6;
 }
 .mr-l-20 {
     margin-left: 20px;
@@ -1310,6 +1322,7 @@ table td strong {
 }
 .contactus p {
     color: #686D71;
+    line-height: 1.6;
 }
 .contact_details h5 {
     font-size: 18px;
@@ -1348,6 +1361,7 @@ table td strong {
 .contact_info .form-control1 {
     height: 60px!important;
     background-color: #F3F3F3;
+    font-size: 15px;
     padding: 18px 12px;
     border: 1px solid #ccc;
     border-radius: 0px;
@@ -1561,7 +1575,7 @@ table td strong {
   .Modern-Slider .item h5{
     margin:0;
     padding:0;
-    font:15px/30px RalewayR;
+    font:16px/30px RalewayR;
     color:#FFF;
     max-width:600px;
     overflow:hidden;
@@ -1784,6 +1798,7 @@ table td strong {
     /* over-flow: hidden; */
     border-bottom:1px solid rgba(0,0,0,.25);
     font-size: 24px;
+    letter-spacing: 1.2px;
   }
   
   .Container .Head .Arrows {
@@ -1861,7 +1876,7 @@ table td strong {
     color: #fff;
 }
 .w-portfolio-item-title {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: 0;
     margin-bottom: 0;
     position: relative;
@@ -1950,10 +1965,13 @@ table td strong {
     min-height: 35px!important;
     transition-duration: 0.9s;
     transition: height 0.9s!important;
-    transition: all .9s linear!important;
+    transition: all .5s linear!important;
   }
   .scrolled-nav2 {
     padding-top: 10px!important;
+}
+.head__dropdown1 {
+    margin-top: 9px!important;
 }
 /* responsive-all-pages */
 
@@ -2268,7 +2286,7 @@ table td strong {
   }
 .head__dropdown {
     background-color: #e3e4e4;
-    margin-top: 19px;
+    margin-top: 18px;
 }
 .nav-item:hover .submenu-bottom {
     display: block;

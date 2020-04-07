@@ -8,7 +8,7 @@
             <div class="container">
                 <div class="entry-head">
                     <div class="entry-header">	
-                        <h1 class="entry-title">Quality-Assurance</h1>
+                        <h1 class="entry-title">Quality</h1>
                         <div class="clear"></div>
                             Energy Techno Cast Pvt. Ltd.
                     </div>
@@ -28,24 +28,23 @@
                   <div class="quality_wrapper">
                     <div class="quality_text_column ">
                         <h3>ETPL manufactures Lost Wax Investment Castings for a wide range of industries. In general we can make any intricate Lost Wax Investment Castings for various industries.</h3>
-                        <h4>Quality at Every Step</h4>
+                        <h4>Quality At Every Step</h4>
                          <p> Casting process control begins and ends with our process sheet, also known as the work construction. The process sheet assigns every product a part number, along with a list of operations that each part will undergo. All ETPL departments, from tool making to packaging, can refer to the process sheet to verify what actions were performed at previous stations and what is in queue. This internal checks and balances system produces the most consistent results with the highest levels of part-specific control.
-                          </p>
-                         <h4> TOOL MAKING</h4>
+                         </p>
+                         <h4>Tool Making</h4>
                          <p>3D modeling, either customer-submitted or in-house designed, is included with the process sheet to guarantee tooling accuracy. With over 35 years experience in tool making, ETPL engineers are experts in gating tooling models with pinpoint precision. Samples are run to verify tooling accuracy. Visit our casting tooling page for additional information.<p>
-                        <h4>WAX ROOM</h4>
-                           <p> Our wax room is equipped with temperature and humidity controls to manage the consistency of our wax patterns. To avoid wax dimensional changes, we purchase wax exactly to our specifications. We adhere to all temperature tolerances outlined in the process sheet to eliminate wax expansion and contraction.
+                        <h4>Wax Room</h4>
+                          <p> Our wax room is equipped with temperature and humidity controls to manage the consistency of our wax patterns. To avoid wax dimensional changes, we purchase wax exactly to our specifications. We adhere to all temperature tolerances outlined in the process sheet to eliminate wax expansion and contraction.
                           </p>
-                        <h4>DIP ROOM</h4>
+                        <h4>Dip Room</h4>
                           <p>Once again, temperature and humidity are the focal point of our dip room process control. We use proprietary formulas for our slurries which are designed for maximum consistency. Each part has different dipping procedures, which are clearly outlined in the process sheet.</p>
-                        <h4>DEWAX PHASE</h4>
+                        <h4>Dewax Phase</h4>
                           <p>Computerized temperature controls are built into our dewaxing equipment. Our dewaxing equipment quickly ramps up to the temperature specified in the process sheet, holds that temp for a period of time, then ramps down.</p>
-                        <h4>POURING</h4>
+                        <h4>Pouring</h4>
                           <p>The process sheet outlines part-specific pouring and shell temperatures, as well as solidification control techniques. Chemical analysis is performed at this station to verify the chemistry of the metal.</p>
-
-                        <h4>FINISHING</h4>
+                        <h4>Finishing</h4>
                           <p>Here we perform blasting, grinding, and runner system removal from parts. Once again, the process sheet dictates information on part-specific blast types and gate grinding.</p>
-                          <h4>HEAT TREATMENT</h4>
+                        <h4>Heat Treatment</h4>
                           <p>We can meet all heat treatment requirements, including MIL-H-6875. Please refer to our heat treatment page for more information on our heat treatment services.Non-destructive testing through a combination of in-house resources and outside vendors, we can meet any NDT specification. Our casting designers can also assist with developing part-specific NDT techniques.</p>
                         </div>
                         

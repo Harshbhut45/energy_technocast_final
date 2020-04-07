@@ -46,7 +46,7 @@ Route::get('/', function () {
         return view('pages.process');
     });
     
-    Route::get('/quality-assurance', function () {
+    Route::get('/quality', function () {
         return view('pages.quality-assurance');
     });
     

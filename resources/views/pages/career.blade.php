@@ -82,5 +82,5 @@
                         </div>
                     </div> <!-- span12 -->
                 </div>
-
+            </div>
 @endsection

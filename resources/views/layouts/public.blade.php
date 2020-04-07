@@ -78,7 +78,7 @@
     
           <!-- <input type="checkbox" id="nav-check"> -->
          
-       
+          <div class="container bg-faded">
           <div class="nav-header">
             <div class="nav-title">
             <a class="navbar-brand"  href="/"><img src="image/logo.png"></a>
@@ -99,7 +99,7 @@
                 <li class="nav-item nav-item1"><a class="nav-link" href="/abouts-us">About Us</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/process">Process</a></li>
-                <li class="nav-item nav-item1"><a class="nav-link" href="/quality-assurance">Quality</a></li>
+                <li class="nav-item nav-item1"><a class="nav-link" href="/quality">Quality</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/industries-servied">Industries Served</a>
                 
          <ul class="submenu-bottom">
@@ -137,7 +137,7 @@
       </div>
     </div>
 </div>
-
+        </div>
  </header>
  
         <div class="">
