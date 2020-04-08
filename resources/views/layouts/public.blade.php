@@ -78,7 +78,7 @@
     
           <!-- <input type="checkbox" id="nav-check"> -->
          
-          <div class="container bg-faded">
+         
           <div class="nav-header">
             <div class="nav-title">
             <a class="navbar-brand"  href="/"><img src="image/logo.png"></a>

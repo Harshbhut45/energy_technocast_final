@@ -6,6 +6,7 @@ body {
     font-style: normal;
     background: #f9f9f9!important;
     position: relative;
+    overflow-x: hidden;
 }
 html {
     font-family: "Open Sans",sans-serif;
@@ -132,6 +133,12 @@ table {
     /* background-color: #f0801a; */
     display: flex;
     align-items: center;
+    padding-left: 100px;
+}
+.top__head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navbar-nav .nav-link {
     color: #111f28;;
@@ -143,7 +150,7 @@ table {
     font-size: 16px;
 }
 .navbar-nav .nav-item1+.nav-item {
-    margin-left: 2rem;
+    margin-left: 2.1rem;
 }
 /* .nav-item .nav-link:after {
     background-color: #fc6804;
@@ -862,6 +869,7 @@ address {
     border-style: solid;
     padding: 0.6em 1.2em;
 }
+
 .sidebar .menu__list li, [id^="recent-posts-"] li, [id^="pages-"] li {
     border-bottom: 1px dotted #dfdfdf;
     padding: 8px 0 8px 15px;
@@ -1001,7 +1009,7 @@ h3.short_title {
 .process-image {
     width: fit-content;
 }
-.menu a:hover {
+.menu li:hover a {
     color: #f0801a!important;
     text-decoration: none;
 }
@@ -1792,17 +1800,18 @@ table td strong {
   }
   
   .Container .Head {
-    font: 20px/50px NeoSansR;
     color: #f0801a;
     height: 52px;
     /* over-flow: hidden; */
     border-bottom:1px solid rgba(0,0,0,.25);
+    line-height: 3;
     font-size: 24px;
     letter-spacing: 1.2px;
   }
   
   .Container .Head .Arrows {
     float: right;
+    margin-top: -15px;
   }
   
   .Container .Head .Slick-Next,
@@ -1986,7 +1995,7 @@ table td strong {
       display: inline-block;
       width: 50px;
       height: 50px;
-      padding: 13px;
+      padding: 4px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
       background-color: rgba(0, 0, 0, 0.3);
@@ -2024,6 +2033,14 @@ table td strong {
   @media (max-width:1199px) {
     .navbar-nav {
         margin: 7.5px -15px!important;
+        padding-top: 0px;
+    }
+    .navbar-nav .nav-link {
+        color: #111f28;
+        cursor: pointer;
+        position: relative;
+        padding: 0px;
+        
     }
       .clearfix_res {
           display: grid;
@@ -2097,6 +2114,12 @@ table td strong {
     }
     .list-inline>li {
         padding-left: 0px!important;
+    }
+    .list-inline>li {
+        display: inline-block;
+        padding-right: 2px;
+        padding-left: 2px;
+        font-size: 9px;
     }
     
     #footer ul.social-media li {
@@ -2195,6 +2218,12 @@ table td strong {
     .w-socials-list ul {
         justify-content: center;
     }
+    .no-pad p {
+        width: 220px;
+    }
+    .footer-widget i {
+        padding-right: 0px;
+    }
     
 }
 
@@ -2262,6 +2291,9 @@ table td strong {
     .contact_icon {
         align-items: center;
         justify-content: center;
+    }
+    .bg-faded {
+        padding-left: 0px;
     }
     
 }
