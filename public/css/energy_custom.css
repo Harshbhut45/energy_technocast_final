@@ -952,7 +952,7 @@ h3.short_title {
 }
 .divider.plus {
     height: 1px;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 0px solid #bbb;
     position: relative;
 }
 /* process */
