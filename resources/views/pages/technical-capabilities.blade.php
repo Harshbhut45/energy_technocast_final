@@ -49,7 +49,7 @@
                 </div>
 
 
-                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 technical-title">
                         <article class="type-page status-publish hentry">
                             <h3 class="short_title">Technical Capabilities</h3>
                             <h4>Materials Poured at RTCPL : </h4>

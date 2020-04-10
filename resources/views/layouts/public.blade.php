@@ -35,9 +35,9 @@
      <header id="header-default">
 				<div class="entry-top">	
         <nav class="navbar-light" id="menu-main-menu">
-            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+            {{-- <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
               &#9776;
-            </button>
+            </button> --}}
             <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
                 <div class="container">
                  <div class="row">
@@ -73,11 +73,10 @@
           </nav>
         </div>
         <div class="topheader">
-        
+          {{-- <div class="nav"> --}}
         <div class="nav navbar1 bg-faded">
-    
-          <!-- <input type="checkbox" id="nav-check"> -->
-         
+          
+           <input type="checkbox" id="nav-check"> 
          
           <div class="nav-header">
             <div class="nav-title">
@@ -91,9 +90,9 @@
               <span></span>
             </label>
           </div>
-  
-       <div class="nav-links">
-          <div class="collapse navbar-toggleable-xs  " id="topheader">
+        
+
+          <div class="nav-links navbar-toggleable-x  " id="topheader">
               <ul class="nav navbar-nav pull-sm-right ">
                 <li class="nav-item nav-item1 active"><a class="nav-link" href="/home">Home</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/abouts-us">About Us</a></li>
@@ -137,6 +136,7 @@
       </div>
     </div>
 </div>
+        </div>
         </div>
  </header>
  

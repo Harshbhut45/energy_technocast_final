@@ -172,7 +172,7 @@
 <div class="container row-fluid clearfix clearfix_res">
     <div class="clearfix__short">
         <h3 class="short_title bb-solid">Foundry Approvals</h3>
-        <img src="image/foundry-aproval.jpg">
+        <img src="image/foundry-aproval.jpg" class="clearfix__img">
     </div>
     
    
