@@ -1508,6 +1508,7 @@ table td strong {
     border-radius: 0px;
     margin-top: 0px;
 }
+
 .form-control:focus {
     border-color: #66afe9!important;
     background-color: #F3F3F3!important;
@@ -2122,7 +2123,18 @@ table td strong {
 /* responsive-all-pages */
 
   @media (max-width:1329px) {
-    
+    .head__dropdown {
+        display: none;
+    }
+    .nav>li>a:focus, .nav>li>a:hover {
+        text-decoration: none;
+        background-color: #eee;
+        width: 30%;
+    }
+    .navbar-nav .nav-link {
+        padding-left: 10px!important;
+        display: flex;
+    }
     .nav > .nav-btn {
         display: inline-block;
         position: absolute;
@@ -2164,6 +2176,10 @@ table td strong {
         overflow-y: hidden;
         top: 75px;
         left: 0px;
+        z-index: 1;
+      }
+      .nav-links1 {
+        top: 55px!important;
       }
       .nav > .nav-links > a {
         display: block;
@@ -2173,9 +2189,9 @@ table td strong {
         height: 0px;
       }
       .nav > #nav-check:checked ~ .nav-links {
-        height: calc(60vh - 50px);
+        /* height: calc(60vh - 50px); */
         overflow-y: auto;
-        /* height: auto; */
+        height: auto;
       }
     }
 
@@ -2269,8 +2285,11 @@ table td strong {
   @media (max-width:1024px) {
     .nav-flex-icons {
         padding-top: 4px;
-        padding-right: 70px;
+        padding-right: 25px;
     }
+    /* .nav > #nav-check:checked ~ .nav-links {
+        height: calc(17vh - 50px);
+    } */
   }
   @media (max-width:991px) {
     .nav-flex-icons {
@@ -2397,9 +2416,13 @@ table td strong {
     
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
+    .bg-faded {
+        padding-left: 25px;
+    }
     .type-page {
         text-align: center;
+        margin-left: 0px;
     }
     .quality_list ul li:before {
         position: relative;
@@ -2452,6 +2475,13 @@ table td strong {
         justify-content: center;
         margin-bottom: 20px;
     }
+    .clearfix {
+        margin-top: 0px;
+    }
+    /* .nav > #nav-check:checked ~ .nav-links {
+        height: calc(22vh - 50px);
+    } */
+    
 }
    @media (max-width:590px) {
     .navbar-brand {
@@ -2513,6 +2543,9 @@ table td strong {
     .w-gallery-item-img {
         width: 100%;
     }
+    /* .nav > #nav-check:checked ~ .nav-links {
+        height: calc(35vh - 50px);
+    } */
 }
 @media (max-width:376px) {
     .clearfix__img {
@@ -2551,7 +2584,9 @@ table td strong {
     .mr-l-20 {
         margin-left: 0px!important;
     }
-  
+    /* .nav > #nav-check:checked ~ .nav-links {
+        height: calc(35vh - 50px);
+    } */
 
 }
 @media (max-width:354px) {
@@ -2572,6 +2607,11 @@ table td strong {
     .contact_info h3 {
         font-size: 24px;
     }
+    /* .nav > #nav-check:checked ~ .nav-links {
+        height: calc(45vh - 50px);
+    } */
 }
 
  
+
+

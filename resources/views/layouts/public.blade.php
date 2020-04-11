@@ -93,7 +93,7 @@
         
 
           <div class="nav-links navbar-toggleable-x  " id="topheader">
-              <ul class="nav navbar-nav pull-sm-right ">
+              <ul class="nav navbar-nav">
                 <li class="nav-item nav-item1 active"><a class="nav-link" href="/home">Home</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/abouts-us">About Us</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
@@ -135,10 +135,12 @@
         </ul>
       </div>
     </div>
+    
 </div>
         </div>
         </div>
  </header>
+ 
  
         <div class="">
             @yield('content-company')
@@ -188,4 +190,5 @@
    </script>
 
   </body>
-</html>
+
+  </html>
