@@ -69,11 +69,10 @@ table {
     margin-bottom: 0px!important;
     border: 1px solid transparent;
 }
-.nav {
+/* .nav {
     overflow-x: hidden;
     overflow-y: hidden;
-}
-
+} */
 .nav-links {
     margin: -2px;
 }
@@ -470,7 +469,6 @@ ul.short__title-list li {
     text-align: center;
 }
 .clearfix_res {
-    display: flex;
     justify-content: space-between;
 }
 .pd-l-100 {
@@ -1433,11 +1431,17 @@ table td strong {
     margin: 0;
     padding: 0;
     list-style: none;
+    /* display: flex; */
+}
+.portfolio-list__img {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     display: flex;
 }
 .pro-cat-list > ul.portfolio-list__img > li {
     float: left;
-    margin-right: 19px;
+    margin-right: 7px;
     display: block;
 }
 
@@ -2117,13 +2121,16 @@ table td strong {
 
 /* responsive-all-pages */
 
-
   @media (max-width:1329px) {
+    
     .nav > .nav-btn {
         display: inline-block;
         position: absolute;
         right: 100px;
         top: 12px;
+      }
+      .nav-btn1 {
+        top: 2px!important;
       }
       .nav > .nav-btn > label {
         display: inline-block;
@@ -2138,6 +2145,7 @@ table td strong {
         position: relative;
         display: block;
         width: 100%;
+        margin-left: 2.1rem;
     }
       .nav > .nav-btn > label > span {
         display: block;
@@ -2149,11 +2157,12 @@ table td strong {
         position: absolute;
         display: block;
         width: 100%;
-        background-color: #333;
+        background-color: #111f28;
+        color: #ffffff;
         height: 0px;
         transition: all 0.3s ease-in;
         overflow-y: hidden;
-        top: 50px;
+        top: 75px;
         left: 0px;
       }
       .nav > .nav-links > a {
@@ -2164,8 +2173,9 @@ table td strong {
         height: 0px;
       }
       .nav > #nav-check:checked ~ .nav-links {
-        height: calc(100vh - 50px);
+        height: calc(60vh - 50px);
         overflow-y: auto;
+        /* height: auto; */
       }
     }
 
@@ -2175,12 +2185,19 @@ table td strong {
         padding-top: 0px;
     }
     .navbar-nav .nav-link {
-        color: #111f28;
+        color: #fff;
         cursor: pointer;
         position: relative;
         padding: 0px;
         
     }
+    .portfolio-list__img {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+    }
+    
       .clearfix_res {
           display: grid;
       }
@@ -2232,6 +2249,7 @@ table td strong {
     }
     .type-page {
         text-align: center;
+        margin-left: 40px;
     }
     .tagcloud {
         justify-content: center;
@@ -2296,7 +2314,7 @@ table td strong {
     margin-top: 10px;
     }
     .clearfix-sidebar {
-        width: 250px;
+        width: 100%;
     }
     .sidebar_res {
         justify-content: center;
@@ -2461,6 +2479,15 @@ table td strong {
         width: auto;
         height: 140px;
     }
+    .pro-cat-list {
+        justify-content: center;
+        display: block;
+        align-items: center;
+    }
+    .type-page {
+        text-align: center;
+        margin-left: 0px;
+    }
 }
 @media (max-width:544px) {
     .entry-top {
@@ -2475,6 +2502,7 @@ table td strong {
         margin-right: 15px;
         width: 90%;
     }
+   
    
 
 }

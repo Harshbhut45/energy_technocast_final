@@ -25,7 +25,7 @@
         <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 col-xs-12 sidebar_res">
-            <div class="sidebar clearfix-sidebar ">
+            <div class="sidebar clearfix-sidebar clearfix_res">
                 <div class="widget" id="nav_menu-2">
                     <h3 class="short_title mr-b-12">Industries Served ?</h3>
                     <div class="menu-features-container">

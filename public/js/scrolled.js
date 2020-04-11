@@ -15,11 +15,13 @@ $(document).ready(function(){
         $('#header-default .nav').addClass('scrolled-nav1');
         $('#header-default .pd-r').removeClass('scrolled-nav2');
         $('#header-default .head__dropdown').addClass('head__dropdown1');
+        $('#header-default .nav > .nav-btn').addClass('nav-btn1');
       } else if (scrollTop < 100) {
         $('#header-default .navbar-brand').removeClass('scrolled-nav');
         $('#header-default .nav').removeClass('scrolled-nav1');
         $('#header-default .pd-r').removeClass('scrolled-nav2');
         $('#header-default .head__dropdown').removeClass('head__dropdown1');
+        $('#header-default .nav > .nav-btn').removeClass('nav-btn1');
       } 
       
     }); 

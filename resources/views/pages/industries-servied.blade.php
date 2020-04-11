@@ -23,8 +23,8 @@
             <div class="row-fluid">
               <div class="container">
                 <div class="row">
-                   <div class="col-lg-3 col-md-3 col-sm-3 col-sm-12 col-xs-12">
-                     <div class="sidebar clearfix-sidebar ">
+                   <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 col-xs-12">
+                     <div class="sidebar clearfix-sidebar clearfix_res ">
                         <div class="widget" id="nav_menu-2">
                             <h3 class="short_title  mr-b-12">Industries Served ?</h3>
                             <div class="menu-features-container">
@@ -47,7 +47,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-9 col-md-9 col-sm-9 col-sm-12 col-xs-12">
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-sm-12 col-xs-12">
                         	<article class="page type-page status-publish hentry">
                                 <h3 class="short_title">Industries Served</h3>
                                 <p>RTCPL manufactures Lost Wax Investment Castings for a wide range of industries such as :</p>
