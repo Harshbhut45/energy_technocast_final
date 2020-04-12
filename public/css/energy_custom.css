@@ -73,9 +73,7 @@ table {
     overflow-x: hidden;
     overflow-y: hidden;
 } */
-.nav-links {
-    margin: -2px;
-}
+
 #menu-main-menu {
     color: #FFF;
     font-size: 20px;
@@ -1025,6 +1023,12 @@ h3.short_title {
 .hentry p {
     font-size: 16px;
     line-height: 1.6;
+    margin: 0px;
+}
+.hentry li {
+    font-size: 16px;
+    line-height: 1.6;
+    list-style: none;
 }
 .about-group p {
     color: #555555;
@@ -1067,7 +1071,8 @@ h3.short_title {
     margin-top: 40px;
     /* width: 150px; */
     text-align: center;
-    margin-right: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .slides-partners li img {
     border: 1px solid #dfdfdf;
@@ -1457,7 +1462,7 @@ table td strong {
     font-size: 35px;
 }
 .border {
-    width: 28px;
+    width: 97%;
     height: 2px;
     background: #191E22;
 }
@@ -2129,10 +2134,11 @@ table td strong {
     .nav>li>a:focus, .nav>li>a:hover {
         text-decoration: none;
         background-color: #eee;
-        width: 30%;
+        width: 50%;
     }
     .navbar-nav .nav-link {
         padding-left: 10px!important;
+        color: #fff;
         display: flex;
     }
     .nav > .nav-btn {
@@ -2151,7 +2157,7 @@ table td strong {
         padding: 13px;
       }
       .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: #f0801a;
       }
       .nav>li {
         position: relative;
@@ -2191,7 +2197,9 @@ table td strong {
       .nav > #nav-check:checked ~ .nav-links {
         /* height: calc(60vh - 50px); */
         overflow-y: auto;
+        overflow-x: hidden;
         height: auto;
+        width: 101%;
       }
     }
 
@@ -2199,6 +2207,7 @@ table td strong {
     .navbar-nav {
         margin: 7.5px -15px!important;
         padding-top: 0px;
+        overflow-x: hidden;
     }
     .navbar-nav .nav-link {
         color: #fff;
@@ -2476,7 +2485,20 @@ table td strong {
         margin-bottom: 20px;
     }
     .clearfix {
-        margin-top: 0px;
+        margin-top: 20px;
+        padding-left: 15px;
+    }
+    .hentry p {
+        font-size: 18px;
+        padding-left: 7px;
+    }
+    .hentry li {
+        font-size: 18px;
+        text-align: left;
+        padding-left: 7px;
+    }
+    .list-inline>li {
+        font-size: 12px;
     }
     /* .nav > #nav-check:checked ~ .nav-links {
         height: calc(22vh - 50px);
@@ -2546,6 +2568,16 @@ table td strong {
     /* .nav > #nav-check:checked ~ .nav-links {
         height: calc(35vh - 50px);
     } */
+    .slides-partners li {
+        margin-top: 20px;
+    }
+    #entry-separator {
+        background: none;
+        width: 100%;
+        background-size: cover;
+        height: 230px;
+        background-color: #3ca1cb!important;
+    }
 }
 @media (max-width:376px) {
     .clearfix__img {
@@ -2554,6 +2586,10 @@ table td strong {
     .clearfix_res {
         width: 100%;
     }
+    .clearfix {
+        padding-left: 0px;
+    }
+  
     .Container .Head .Slick-Next, .Container .Head .Slick-Prev {
         display: inline-block;
         width: 30px;
@@ -2589,6 +2625,11 @@ table td strong {
     } */
 
 }
+@media (max-width:360px) {
+    .clearfix {
+        padding-left: 30px;
+    }
+}
 @media (max-width:354px) {
     .Container .Head {
         color: #f0801a;
@@ -2610,6 +2651,15 @@ table td strong {
     /* .nav > #nav-check:checked ~ .nav-links {
         height: calc(45vh - 50px);
     } */
+    .clearfix {
+        padding-left: 10px;
+    }
+    h3.short_title {
+        width: 100%;
+    }
+    .hentry p {
+        font-size: 17px;
+    }
 }
 
  

@@ -23,7 +23,7 @@
               <div class="container">
                 <div class="row">
                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 sidebar_res">
-                     <div class="sidebar clearfix-sidebar ">
+                     <div class="sidebar clearfix-sidebar clearfix_res">
                         <div class="widget" id="nav_menu-2">
                             <h3 class="short_title  mr-b-12">Industries Served ?</h3>
                             <div class="menu-features-container">
@@ -40,7 +40,6 @@
                             </div>
                         </div>
 
-                        <div class="divider plus"><span class="plus-ico"></span></div>
                     </div>
                 </div>
 
@@ -48,11 +47,11 @@
                         <div class="">
                         	<article class="page type-page status-publish hentry">
                                 <h3 class="short_title">Jobs / Career</h3>
-                                <p>If you are passionate about making hight quality Investment castings &amp; machining , then RTCPL is the right place for you.<br>
-                                Since 1994 RTCPL is continoulsy growing its strength and building a world class foundry team.<br>
-                                Due to our continuous growth and ventures in the new markets, we recruiting the best qualified persons.<br>
-                                Candidate should submit their resume with photo to :<br>
-                                Candidate are free to walk-in-interview as well with prior appointment</p>
+                                <p><li>If you are passionate about making hight quality Investment castings &amp; machining , then RTCPL is the right place for you.</li>
+                                <li>Since 1994 RTCPL is continoulsy growing its strength and building a world class foundry team.</li>
+                                <li>Due to our continuous growth and ventures in the new markets, we recruiting the best qualified persons.  </li>
+                                <li>Candidate should submit their resume with photo to :  </li>
+                                <li>Candidate are free to walk-in-interview as well with prior appointment</li></p>
                                 <h3 class="short_title">For HR  &amp; Job Related Inquiries</h3>
                                 <p><strong>Email Id :</strong> <a href="mailto:info@rajantechcast.com" style="color:#da251c;">info@rajantechcast.com</a><br>
                                 <strong>Mobile :</strong> +91 9687697728, +91 9687697726</p>
