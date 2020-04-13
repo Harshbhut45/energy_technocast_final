@@ -57,7 +57,7 @@
         </section>
 
         <div role="main" id="content1">
-            <div class="row-fluid">
+            <div class="row-fluid quality__inner-data">
               <div class="container">
                 <div class="row">
                   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">

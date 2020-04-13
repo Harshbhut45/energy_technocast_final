@@ -509,9 +509,9 @@ address {
     line-height: 20px;
     font-size: 16px;
 }
-.row-fluid {
+/* .row-fluid {
     display: flex;
-}
+} */
 #footer ul li {
     color: #bcbec0;
     float: left;
@@ -969,7 +969,6 @@ address {
 .widget {
     font-size: 12px;
     color: #777;
-    padding-bottom: 15px;
     position: relative;
 }
 .widget > h3.short_title {
@@ -1109,7 +1108,7 @@ h3.short_title {
 }
 .process_list ul li {
     position: relative;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     border-bottom: 1px solid #999;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -1160,7 +1159,7 @@ h3.short_title {
 }
 .quality_text_column h3 {
     color: #fc6804;
-    text-align: center;
+    text-align: left;
     line-height: 1.4;
     margin: 0 0 2.5rem;
 }
@@ -2156,20 +2155,22 @@ table td strong {
         height: 50px;
         padding: 13px;
       }
-      .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      /* .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
         background-color: #f0801a;
-      }
+      } */
       .nav>li {
         position: relative;
         display: block;
         width: 100%;
         margin-left: 2.1rem;
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
       .nav > .nav-btn > label > span {
         display: block;
         width: 25px;
         height: 10px;
-        border-top: 2px solid #eee;
+        border-top: 2px solid #f0801a;
       }
       .nav > .nav-links {
         position: absolute;
@@ -2236,7 +2237,7 @@ table td strong {
         width: 100%;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        /* text-align: center; */
     }
     td {
         padding: 10px!important;
@@ -2273,7 +2274,7 @@ table td strong {
         align-items: center;
     }
     .type-page {
-        text-align: center;
+        /* text-align: center; */
         margin-left: 40px;
     }
     .tagcloud {
@@ -2284,9 +2285,6 @@ table td strong {
         justify-content: center;
     }
     .location__foot h3 {
-        text-align: center;
-    }
-    .quality_column-inner {
         text-align: center;
     }
   }
@@ -2369,7 +2367,7 @@ table td strong {
         width: 90%;
     }
     h3.short_title {
-        width: 90%;
+        width: 100%;
     }
 
     .capability-table {
@@ -2422,7 +2420,9 @@ table td strong {
     .footer-widget i {
         padding-right: 0px;
     }
-    
+    .hentry p {
+        font-size: 18px;
+    }
 }
 
 @media (max-width:768px) {
@@ -2430,7 +2430,7 @@ table td strong {
         padding-left: 25px;
     }
     .type-page {
-        text-align: center;
+        /* text-align: center; */
         margin-left: 0px;
     }
     .quality_list ul li:before {
@@ -2490,15 +2490,19 @@ table td strong {
     }
     .hentry p {
         font-size: 18px;
-        padding-left: 7px;
     }
     .hentry li {
         font-size: 18px;
         text-align: left;
-        padding-left: 7px;
     }
     .list-inline>li {
         font-size: 12px;
+    }
+    .quality__inner-data .container {
+        max-width: 100%!important;
+    }
+    .quality-section .container {
+        max-width: 100%!important;
     }
     /* .nav > #nav-check:checked ~ .nav-links {
         height: calc(22vh - 50px);
@@ -2523,7 +2527,21 @@ table td strong {
     .process_list ul li {
         padding-left: 0px;
     }
-   
+    .quality-image-h {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .w-image-h{
+        padding-top: 10px;
+    }
+    .mr-l-20 {
+        margin-left: 0px!important;
+    }
+    .attachment-full {
+        height: auto;
+    }
     
 }
 @media (max-width:573px) {
@@ -2537,7 +2555,6 @@ table td strong {
         align-items: center;
     }
     .type-page {
-        text-align: center;
         margin-left: 0px;
     }
 }
@@ -2554,7 +2571,7 @@ table td strong {
         margin-right: 15px;
         width: 90%;
     }
-   
+    
    
 
 }
@@ -2571,11 +2588,14 @@ table td strong {
     .slides-partners li {
         margin-top: 20px;
     }
+    .slides-partners, .slides-partners li {
+        margin-top: 20px;
+    }
     #entry-separator {
         background: none;
         width: 100%;
         background-size: cover;
-        height: 230px;
+        /* height: 230px; */
         background-color: #3ca1cb!important;
     }
 }
@@ -2620,6 +2640,9 @@ table td strong {
     .mr-l-20 {
         margin-left: 0px!important;
     }
+    .short_title {
+        font-size: 21px;
+    }
     /* .nav > #nav-check:checked ~ .nav-links {
         height: calc(35vh - 50px);
     } */
@@ -2659,6 +2682,9 @@ table td strong {
     }
     .hentry p {
         font-size: 17px;
+    }
+    .widget {
+        width: 100%;
     }
 }
 

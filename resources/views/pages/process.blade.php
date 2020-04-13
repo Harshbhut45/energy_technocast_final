@@ -42,7 +42,6 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="divider plus"><span class="plus-ico"></span></div>
                     </div>
                
             </div>
