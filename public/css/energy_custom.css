@@ -1949,7 +1949,7 @@ table td strong {
   
   .Container .Head .Arrows {
     float: right;
-    margin-top: -15px;
+    margin-top: -10px;
   }
   
   .Container .Head .Slick-Next,
@@ -1962,7 +1962,7 @@ table td strong {
     color: #FFF;
     margin-left: 5px;
     cursor: pointer;
-    font: 18px/36px FontAwesome;
+    font: 17px/37px FontAwesome;
     text-align: center;
     transition: all 0.5s;
   }
@@ -2614,11 +2614,11 @@ table td strong {
         display: inline-block;
         width: 30px;
         height: 30px;
-        font: 13px/34px FontAwesome;
+        font: 15px/30px FontAwesome;
     }
     .Container .Head .Arrows {
         float: right;
-        margin-top: -5px;
+        margin-top: -8px;
         height: 65px;
     }
     .about_img {
@@ -2685,6 +2685,9 @@ table td strong {
     }
     .widget {
         width: 100%;
+    }
+    .Container .Head .Arrows {
+        margin-top: -5px;
     }
 }
 
