@@ -43,7 +43,7 @@
                         
 
                         <div style="text-align:center; margin-bottom:10px;"><img src="image/material-chart.jpg" style=""></div>
-                        <div class="divider plus"><span class="plus-ico"></span></div>
+                    
                         </div>
                     </div>
                 </div>
@@ -548,11 +548,13 @@
                         </div>
                     </div>
                 </div>
-                    <div class="container">
-                        <div class="">
-                          <div class="partners-carousel">
-                            <div class="carousel-title">RTCPL Exports to</div>
-                                <ul class="slides-partners">
+            </div>
+      
+                <div class="container">
+                    <div class="">
+                        <div class="partners-carousel">
+                            <div class="carousel-title">ETPL Exports to</div>
+                                <ul class="slides-partners clearfix">
                                     <li><img class="img-responsive" src="image/f010.jpg"><p>Germany</p></li>
                                     <li><img class="img-responsive" src="image/f010.jpg"><p>Italy</p></li>
                                     <li><img class="img-responsive" src="image/f010.jpg"><p>USA</p></li>
@@ -566,12 +568,11 @@
                                     <li><img class="img-responsive" src="image/f010.jpg"><p>Sweden</p></li>
                                     <li><img class="img-responsive" src="image/f010.jpg"><p>Austria</p></li>
                                 </ul>
-                           </div>
-                        </div> 
+                            </div>
+                        </div> <!-- span12 -->
                     </div>
                 </div>
             </div>
-        </div>
                
 
 @endsection

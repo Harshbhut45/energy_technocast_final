@@ -2364,7 +2364,7 @@ table td strong {
         left: 45%;
     }
     .about-group p {
-        width: 90%;
+        width: 100%;
     }
     h3.short_title {
         width: 100%;
@@ -2598,6 +2598,43 @@ table td strong {
         /* height: 230px; */
         background-color: #3ca1cb!important;
     }
+    .mr-b-12 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    h3.short_title {
+        margin-top: 5px;
+    }
+    .process_list ul h4 {
+        font-size: 22px;
+    }
+    .quality-section {
+        padding: 2rem 0;
+    }
+    .quality_text_column p {
+        margin: 0 0 1.2rem;
+    }
+    .quality_text_column h3 {
+        margin: 0px 0 1.2rem;
+    }
+    .qua-section {
+        margin-top: 30px;
+    }
+    .qua_wrapper h3 {
+        margin: 1.5rem 0 1.5rem;
+    }
+    .recent-works {
+        padding-top: 0px;
+    }
+    .hentry p {
+        font-size: 17px;
+    }
+    .pro-cat-list {
+        padding-top: 10px;
+    }
+    #content {
+        margin-bottom: 10px;
+    }
 }
 @media (max-width:376px) {
     .clearfix__img {
@@ -2643,9 +2680,16 @@ table td strong {
     .short_title {
         font-size: 21px;
     }
-    /* .nav > #nav-check:checked ~ .nav-links {
-        height: calc(35vh - 50px);
-    } */
+    .widget ul, .widget ol {
+        margin-bottom: 0px;
+    }
+    .process_list ul h4 {
+        font-size: 20px;
+    }
+    .hentry p {
+        font-size: 15px;
+    }
+    
 
 }
 @media (max-width:360px) {
@@ -2689,6 +2733,10 @@ table td strong {
     .Container .Head .Arrows {
         margin-top: -5px;
     }
+    .short_title {
+        font-size: 18px;
+    }
+   
 }
 
  

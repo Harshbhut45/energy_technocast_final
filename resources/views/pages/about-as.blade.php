@@ -53,8 +53,8 @@
                     <p>Energy Technocast PVT LTD is a <strong>Investment Casting Manufacturer carrying the motto and vision of persistence and excellence in the field of different products 	Investment Casting,	 Fittings Investment Casting Parts, 	Casting of earth moving equipment 	Precision Investment Casting, 	Nickel Based Alloy Casting, 	Copper based Alloy Casting , 	Cobalt Base Alloy Casting, 	Super Alloy Castings , 	Nickel Alloy Castings, 	Pump Castings, 	Lost Wax Casting, 	Valve Castings, 	Precision Casting India, 	Duplex Castings, </strong>	Investment Casting Foundry etc..</p>
                     <p>ETPL is serving a vast range of industries such as 	Valves Castings, Pumps, Pharmaceutical Industry, Industrial Machinery, Agricultural Equipments, Defence & Fire Fighting Equipments, Medical/Orthopedic Implants, Food & Beverages, Aerospace & Railway Parts and many more. Our foremost motive is to uphold the core values of the company by providing our clients the best in terms of quality, durability and reliability to fulfill our motto – “Extensive Reach, Intensive Delivery”.
                         </p>
-                    <div class="about-production__img" style="text-align:center; margin: 0 0 10px 10px; padding: 3px;"><img src="image/production_chart.jpg"  class="about_img" style="border: 1px solid #dfdfdf;"></div>
-                    <div class="clearfix"></div>
+                    <div class="about-production__img" style="text-align:center; margin: 10px 0 10px 0px; padding: 3px;"><img src="image/production_chart.jpg"  class="about_img" style="border: 1px solid #dfdfdf;"></div>
+                  
                     <p>Today <strong>RTCPL </strong> has team of well qualified and professional team of engineers, technicians and workers to satisfy your needs.<br>
                     <strong>RTCPL </strong> is aggregated to the following certificates :</p>
                     <ul class="list1">
