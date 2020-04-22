@@ -5,6 +5,7 @@ use App\Http\Requests\CategoryRequest;
 use Illuminate\Http\Request;
 use App\Category;
 use Image;
+use Illuminate\Support\Str;
 
 class CategoryController extends Controller
 {
@@ -17,6 +18,7 @@ class CategoryController extends Controller
     {
  
         $categories = Category::paginate(20);
+        
         return view('categories.index',compact('categories'));
      
     }
@@ -30,6 +32,7 @@ class CategoryController extends Controller
     {
         $categories = Category::all();
         $statuses = ['Active', 'Inactive'];
+        
         return view('categories.create', compact('categories', 'statuses'));
     }
 
@@ -46,49 +49,20 @@ class CategoryController extends Controller
         $category->name = $request->input('name');
         $category->status = $request->input('status');
         $category->save();
-        \Toastr::success('Point Created successfully', 'Success', []);
-     
-        if($request->hasfile('profile'))
-        {
-            $file = $request->file('profile');
-            $extension = $file->getClientOriginalExtension();
-            $filename = time().'.' .$extension;
-            $category->profile = $filename;
-           
-            $data = $request->profile_picture;
-            list($type, $data) = explode(';', $data);
-            list(, $data)      = explode(',', $data);
-            $data = base64_decode($data);
 
-            $public_storage_path = 'app/public/';
-            $path = 'categories/' . $category->id . '/';
-            $app_path = storage_path($public_storage_path . $path);
-            if (!file_exists($app_path)) {
-                \File::makeDirectory($app_path, 0777, true);
-            }
-            // $file->move($app_path, $filename);
-            file_put_contents($app_path.$filename, $data);
-        
-           
-    
-        //   thumbnail resize image
-            // $sizes = [32, 64, 128];
-            // foreach ($sizes as $size) {
-            //     $public_storage_path = 'app/public/';
-            //     $thumbnailPath = ('users/' . $user->id . '/'.$size."/");
-            //     $thumb_path = storage_path($public_storage_path . $thumbnailPath);
-            //     $file = storage_path($thumb_path, $filename);
-            //     if (!file_exists($thumb_path)) {
-            //         \File::makeDirectory($thumb_path, 0777, true);
-            //     }
-            //     \Image::make($app_path. '/' .$filename)
-            //     ->resize(null,$size, function ($constraint) {
-            //         $constraint->aspectRatio();
-            //     })->save($thumb_path. '/' .$filename);
-            // }
+        if($request->has('image')) {
+            $image = $request->file('image');
+            $path = 'categories/' . $category->id . '/image/';
+            $filename = Str::random(16) . '.' . $image->getClientOriginalExtension();
+
+            $this->imageUpload($image, $path, $filename);
+
+            $category->image = $filename;
         }
-    
-      
+
+        $category->update();
+        
+        \Toastr::success('Category Created successfully', 'Success', []); 
        
         $category->update();
 

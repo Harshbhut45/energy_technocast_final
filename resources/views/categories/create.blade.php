@@ -29,78 +29,55 @@
                         <form action="{{ isset($category) ? route('categories.update',['id' => $category->id]) : route('categories.store') }}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="row">
-                          <div class="col-md-8">
+                          <div class="col-md-12">
                             <div class="row">
-                          <div class="col-md-6">
+                          <div class="col-md-4">
                             <div class="form-group">
                               <label for="name">Name <span class="tx-danger">*</span></label>
-                              <input type="text" class="form-control"  id="name" name="name" placeholder="Name" maxlength="30" value="{{isset($category) ? $category->name : old('name') }}" required >   
+                              <input type="text" class="form-control" id="name" name="name" placeholder="Name" maxlength="30" value="{{isset($category) ? $category->name : old('name') }}" required>   
                               @if($errors->has('name'))
-                                  <div class="error">{{ $errors->first('name') }}</div>
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $errors->first('name') }}</strong>
+                                </span>
                               @endif
                             </div>
                           </div>
                           
-                          <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="inputGroupFile01">Profile Picture: <span class="tx-danger">*</span>
+                          <div class="col-md-4">
+                              <label for="inputGroupFile01">Image: <span class="tx-danger">*</span>
                                 </label>
                                 <div class="input-group">
                                     <div class="custom-file">
-                                        <input type="file" class="custom-file-input {{ $errors->has('profile') ? ' is-invalid' : '' }}" id ="image"
-                                            aria-describedby="inputGroupFileAddon01" name='profile' value="{{isset($category) ? $category->profile : old('profile') }}">
+                                        <input type="file" class="custom-file-input {{ $errors->has('image') ? ' is-invalid' : '' }}" id ="image"
+                                            aria-describedby="inputGroupFileAddon01" name='image' value="{{isset($category) ? $category->image : old('image') }}" required>
                                         <label class="custom-file-label upload-image" for="inputGroupFile01">Choose file</label>
                                     </div>
                                 </div>
-                            </div>
-                                <div class="media-files-name" >
-                                    @if (isset($category->profile))
-                                        <input id="upload-demo-image" type="hidden" value="/storage/categories/{{ $category->id }}/{{ $category->profile }}">
-                                        
-                                    @else
-                                    <p>No image found</p>
-                                    @endif
-                                    <input type="hidden" id="profile_picture" name="profile_picture">
-                                </div>
-                                @if($errors->has('profile'))
-                                  <div class="error">{{ $errors->first('profile') }}</div>
+                                @if($errors->has('image'))
+                                  <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $errors->first('image') }}</strong>
+                                  </span>
                                 @endif
-                              </div>
+                            </div>
 
-                              <div class="col-md-6">
+                              <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="status">Status: <span class="tx-danger">*</span></label>
-                                    <select class="form-control {{ $errors->has('status') ? ' is-invalid' : '' }} user-status-select" id="status" name="status" >
+                                    <select class="form-control {{ $errors->has('status') ? ' is-invalid' : '' }} user-status-select" id="status" name="status" required>
                                         <option disabled selected value>Select Status</option>
                                         @foreach($statuses as $status)
                                         <option value="{{ $status }}" @if(isset($category) && $category->status == $status) selected @endif>{{ $status }}</option>
                                     @endforeach
                                     </select>
                                     @if($errors->has('status'))
-                                       <div class="error">{{ $errors->first('status') }}</div>
+                                      <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('status') }}</strong>
+                                      </span>
                                     @endif
                                 </div>
                               </div>
-
-                              <div class="col-md-6 m-t-38" >
-                                <div class="form-group">
-                                    <div class="custom-control custom-checkbox">
-                                      <input type="checkbox" class="custom-control-input" id="is_featured" name="is_featured" value="yes" >
-                                      <label class="custom-control-label" for="is_featured">Featured</label>
-                                  </div>
-                                </div> 
-                              </div>
                             </div>
                           </div>
-
-                            <div class="col-md-4">
-                              <div class="row">
-                                <div class="col-md-4 text-center">
-                                    <div id="upload-demo"></div>
-                                </div>
-                                <div class="col-md-4" style="padding:5%;"></div>
-                              </div>
-                            </div>
                           </div>
                         </div>
                        

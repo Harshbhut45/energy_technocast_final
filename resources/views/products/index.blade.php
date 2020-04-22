@@ -30,11 +30,11 @@
                   <table class="table table-striped table-bordered table-hover">
                     <thead>
                       <tr>
-                        <th>ID</th>
+                        <th>@sortablelink('id', 'ID')</th>
                         <th>@sortablelink('name', 'Name')</th>
-                        <th>@sortablelink('profile', 'Profile')</th>
-                        <th>@sortablelink('category-Name', 'Category-Name')</th>
-                        <th>@sortablelink('status', 'Status')</th>
+                        <th>Image</th>
+                        <th>Category</th>
+                        <th>Status</th>
                         <th>Action</th>
                       </tr>
                     </thead>
@@ -44,8 +44,7 @@
                         <td>{{ $product->id }}</td>
                         <td>{{ $product->name }}</td>
                         <td>
-                          <img src="/storage/products/{{ $product->id }}/{{ $product->profile }}" height="70px"
-                              width="70px" class="rounded" id="upload-demo-image">
+                          <img src="{{ $product->image_full_path }}" style="max-height: 64px;">
                         </td>
                         <td>{{ $product->category->name }}</td>
                         <td>{{ $product->status }}</td>

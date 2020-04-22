@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Product;
 use App\Category;
 use Image;
+use Illuminate\Support\Str;
 
 class ProductController extends Controller
 {
@@ -43,54 +44,23 @@ class ProductController extends Controller
         $product = new Product();
        
         $product->name = $request->input('name');
-        $product->category_id=$request->input('category');
+        $product->category_id = $request->input('category');
         $product->status = $request->input('status');
         $product->save();
-        \Toastr::success('Point Created successfully', 'Success', []);
-     
-        if($request->hasfile('profile'))
-        {
-            $file = $request->file('profile');
-            $extension = $file->getClientOriginalExtension();
-            $filename = time().'.' .$extension;
-            $product->profile = $filename;
-           
-            $data = $request->profile_picture;
-            list($type, $data) = explode(';', $data);
-            list(, $data)      = explode(',', $data);
-            $data = base64_decode($data);
 
-            $public_storage_path = 'app/public/';
-            $path = 'products/' . $product->id . '/';
-            $app_path = storage_path($public_storage_path . $path);
-            if (!file_exists($app_path)) {
-                \File::makeDirectory($app_path, 0777, true);
-            }
-            $file->move($app_path, $filename);
-            // file_put_contents($app_path.$filename, $data);
-        
-           
-    
-        //   thumbnail resize image
-            // $sizes = [32, 64, 128];
-            // foreach ($sizes as $size) {
-            //     $public_storage_path = 'app/public/';
-            //     $thumbnailPath = ('users/' . $user->id . '/'.$size."/");
-            //     $thumb_path = storage_path($public_storage_path . $thumbnailPath);
-            //     $file = storage_path($thumb_path, $filename);
-            //     if (!file_exists($thumb_path)) {
-            //         \File::makeDirectory($thumb_path, 0777, true);
-            //     }
-            //     \Image::make($app_path. '/' .$filename)
-            //     ->resize(null,$size, function ($constraint) {
-            //         $constraint->aspectRatio();
-            //     })->save($thumb_path. '/' .$filename);
-            // }
+        if($request->has('image')) {
+            $image = $request->file('image');
+            $path = 'products/' . $product->id . '/image/';
+            $filename = Str::random(16) . '.' . $image->getClientOriginalExtension();
+
+            $this->imageUpload($image, $path, $filename);
+
+            $product->image = $filename;
         }
-    
-      
-       
+        
         $product->update();
+
+        \Toastr::success('Product Created successfully', 'Success', []);
 
         return redirect()->route('home');
     }
