@@ -16,7 +16,7 @@ class UsersTableSeeder extends Seeder
         User::insert([
             [
                 'name' => 'Jhalak Javiya',
-                'email' => 'jhalakjaviya@gamil.com',
+                'email' => 'jhalakjaviya@gmail.com',
                 'password'	=> bcrypt('zncjK9Qax3CMFVtt'),
                 'status' => 'Active',
                 'created_at' => Carbon::now(),
@@ -24,7 +24,7 @@ class UsersTableSeeder extends Seeder
             ],
             [
                 'name' => 'Kapeel Patel',
-                'email' => 'matrixmob@gamil.com',
+                'email' => 'matrixmob@gmail.com',
                 'password' => bcrypt('KzCL3cgU8p78Kvxz'),
                 'status' => 'Active',
                 'created_at' => Carbon::now(),
