@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::get('/', 'PublicController@index');
+
+Route::get('/products/{slug}', 'PublicController@products')->name('products.public');
 
 Auth::routes(['register' => false, 'reset' => false, 'verify' => false]);
 
@@ -60,8 +60,4 @@ Route::get('/career', function () {
 
 Route::get('/contact-us', function () {
     return view('pages.contact-us');
-});
-
-Route::get('/industries-servied-valves', function () {
-    return view('pages.industries-servied-valves');
 });

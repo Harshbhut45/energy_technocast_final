@@ -51,117 +51,21 @@
             <h3 class="Head">INDUSTRIES SERVED <span class="Arrows"></span></h3>
             <!-- Carousel Container -->
             <div class="SlickCarousel">
+              @foreach($categories as $category)
               <!-- Item -->
               <div class="ProductBlock">
                 <div class="Content">
                   <div class="img-fill">
                     <div class="w-portfolio-item-image">
-                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries1</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                    </div>
-                
-                </div>
-            </div>
-              </div>
-              <!-- Item -->
-              <!-- Item -->
-              <div class="ProductBlock">
-                <div class="Content">
-                  <div class="img-fill">
-                    <div class="w-portfolio-item-image">
-                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries2</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                    </div>
-                
-                </div>
-            </div>
-              </div>
-              <!-- Item -->
-              <!-- Item -->
-              <div class="ProductBlock">
-                <div class="Content">
-                  <div class="img-fill">
-                    <div class="w-portfolio-item-image">
-                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries3</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                    </div>
-                
-                </div>
-            </div>
-              </div>
-              <!-- Item -->
-              <!-- Item -->
-              <div class="ProductBlock">
-                <div class="Content">
-                  <div class="img-fill">
-                    <div class="w-portfolio-item-image">
-                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries4</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                    </div>
-                
-                </div>
-            </div>
-              </div>
-              <!-- Item -->
-              <!-- Item -->
-              <div class="ProductBlock">
-                <div class="Content">
-                  <div class="img-fill">
-                    <div class="w-portfolio-item-image">
-                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries5</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                    </div>
-                
-                </div>
-            </div>
-              </div>
-              <!-- Item -->
-              <div class="ProductBlock">
-                <div class="Content">
-                  <div class="img-fill">
-                    <div class="w-portfolio-item-image">
-                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries6</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                    </div>
-                
-                </div>
-            </div>
-              </div>
-              <!-- Item -->
-              <div class="ProductBlock">
-                <div class="Content">
-                  <div class="img-fill">
-                    <div class="w-portfolio-item-image">
-                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries7</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                    </div>
-                
-                </div>
-            </div>
-              </div>
-              <!-- Item -->
-              <div class="ProductBlock">
-                <div class="Content">
-                  <div class="img-fill">
-                    <div class="w-portfolio-item-image">
-                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries8</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
+                        <a class="w-portfolio-item-anchor" href="{{ route('products.public', ['slug' => $category->slug ]) }}" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                          <div class="w-portfolio-item-image" style="background-image: url({{ $category->image_full_path }})">
+                            
+                          </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">{{ $category->name }}</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- Item -->
-              <div class="ProductBlock">
-                <div class="Content">
-                  <div class="img-fill">
-                    <div class="w-portfolio-item-image">
-                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries9</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Item -->
-              <div class="ProductBlock">
-                <div class="Content">
-                  <div class="img-fill">
-                    <div class="w-portfolio-item-image">
-                        <a class="w-portfolio-item-anchor" href="/industries-servied-valves" style="background-color: rgba(0,0,0,0.9);color: #ffffff;"><div class="w-portfolio-item-image" style="background-image: url(https://www.siddhicast.com/wp-content/uploads/2014/05/pump.png)"> </div><div class="w-portfolio-item-meta"><div class="w-portfolio-item-meta-h"><h2 class="w-portfolio-item-title">Pump Industries10</h2> <span class="w-portfolio-item-arrow"></span></div></div> </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              @endforeach
             </div>
             <!-- Carousel Container -->
           </div>
