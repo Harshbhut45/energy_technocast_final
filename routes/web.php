@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('pages.index');
 });
 
+Auth::routes(['register' => false, 'reset' => false, 'verify' => false]);
+
 // categories CRUD
     Route::get('/categories', 'CategoryController@index')->name('categories.index');
     Route::get('/categories/create', 'CategoryController@create')->name('categories.create');
@@ -70,5 +72,4 @@ Route::get('/', function () {
         return view('pages.industries-servied-valves');
     });
 
-    Auth::routes();
     Route::get('/home', 'HomeController@index')->name('home');
