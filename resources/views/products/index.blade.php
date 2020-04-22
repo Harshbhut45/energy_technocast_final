@@ -1,13 +1,13 @@
 @extends('layouts.admin')
 
-@php($title = 'Create Product')
+@php($title = 'Products')
 @push('title', yieldTitle($title))
 
 @section('breadcrumb-title', $title)
 
 @section('breadcrumb-link')
     <li class="breadcrumb-item active" aria-current="page">
-        <a href="{{ route('products.index') }}">Products</a>
+        <a href="{{ route('home') }}">Products</a>
     </li>
 @endsection
 

@@ -7,7 +7,7 @@
 
 @section('breadcrumb-link')
     <li class="breadcrumb-item active" aria-current="page">
-        <a href="{{ route('products.index') }}">Products</a>
+        <a href="{{ route('home') }}">Products</a>
     </li>
 
     <li class="breadcrumb-item active" aria-current="page">{{ $title }}</li>
@@ -121,7 +121,7 @@
                         </div>
                        
                           <div class="button">
-                            <a href="{{ route('products.index') }}" class="btn btn-warning mg-r-1">Cancel</a>
+                            <a href="{{ route('home') }}" class="btn btn-warning mg-r-1">Cancel</a>
                             <button type="submit" class="btn btn-primary user-form">Submit</button>
                          </div>
                        </form>

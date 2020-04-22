@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@php($title = 'Create Category')
+@php($title = 'Categories')
 @push('title', yieldTitle($title))
 
 @section('breadcrumb-title', $title)

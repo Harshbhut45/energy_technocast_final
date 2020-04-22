@@ -17,7 +17,7 @@ class ProductController extends Controller
     public function index()
     {
         $products = Product::with('category')->paginate(20);
-        return view('products.index',compact('products'));
+        return view('products.index', compact('products'));
     }
 
     /**
@@ -92,7 +92,7 @@ class ProductController extends Controller
        
         $product->update();
 
-        return redirect()->route('products.index');
+        return redirect()->route('home');
     }
 
     /**
@@ -139,7 +139,7 @@ class ProductController extends Controller
         $product->save();
         \Toastr::success('Point Update successfully', 'Success', []);
         
-        return redirect()->route('products.index')
+        return redirect()->route('home')
                         ->with('success','Department update successfully');
     }
 
@@ -156,7 +156,7 @@ class ProductController extends Controller
         $product->delete();
         \Toastr::success('Department Deleted successfully', 'Success', []);
 
-        return redirect()->route('products.index')
+        return redirect()->route('home')
                         ->with('success','Point deleted successfully');
     }
 }
