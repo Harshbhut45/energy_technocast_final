@@ -47,6 +47,7 @@ class CategoryController extends Controller
         $category = new Category();
        
         $category->name = $request->input('name');
+        $category->slug = Str::slug($category->name);
         $category->status = $request->input('status');
         $category->save();
 

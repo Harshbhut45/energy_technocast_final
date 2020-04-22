@@ -44,6 +44,7 @@ class ProductController extends Controller
         $product = new Product();
        
         $product->name = $request->input('name');
+        $product->slug = Str::slug($product->name);
         $product->category_id = $request->input('category');
         $product->status = $request->input('status');
         $product->save();
