@@ -193,8 +193,7 @@
 
 {{-- image-zoom --}}
     <script>
-            // Get the modal
-      var modal = document.getElementById('myModal');
+     var modal = document.getElementById('myModal');
       console.log("modal:: ", modal);
       // Get the image and insert it inside the modal - use its "alt" text as a caption
       var img = document.getElementById('myImg');
@@ -213,8 +212,6 @@
           modalImg.alt = this.alt;
           captionText.innerHTML = this.alt;
       }
-
-
       // When the user clicks on <span> (x), close the modal
       modal.onclick = function() {
           img01.className += " out";
@@ -224,10 +221,15 @@
           }, 400);
           
       }
+
+      // When the user clicks on <span> (x), close the modal
+      
       </script>
 
 
-
+<!-- imagezoom-js --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="{{ asset('js/imagezoom.js') }}"></script>
 
 
   </body>

@@ -53,10 +53,7 @@
                     <p>Energy Technocast PVT LTD is a <strong>Investment Casting Manufacturer carrying the motto and vision of persistence and excellence in the field of different products 	Investment Casting,	 Fittings Investment Casting Parts, 	Casting of earth moving equipment 	Precision Investment Casting, 	Nickel Based Alloy Casting, 	Copper based Alloy Casting , 	Cobalt Base Alloy Casting, 	Super Alloy Castings , 	Nickel Alloy Castings, 	Pump Castings, 	Lost Wax Casting, 	Valve Castings, 	Precision Casting India, 	Duplex Castings, </strong>	Investment Casting Foundry etc..</p>
                     <p>ETPL is serving a vast range of industries such as 	Valves Castings, Pumps, Pharmaceutical Industry, Industrial Machinery, Agricultural Equipments, Defence & Fire Fighting Equipments, Medical/Orthopedic Implants, Food & Beverages, Aerospace & Railway Parts and many more. Our foremost motive is to uphold the core values of the company by providing our clients the best in terms of quality, durability and reliability to fulfill our motto – “Extensive Reach, Intensive Delivery”.
                         </p>
-                    <div class="about-production__img" style="text-align:center; margin: 10px 0 10px 0px; padding: 3px;"><img src="image/production_chart.jpg"  class="about_img" style="border: 1px solid #dfdfdf;"></div>
-                  
-                    <p>Today <strong>ETPL </strong> has team of well qualified and professional team of engineers, technicians and workers to satisfy your needs.<br>
-                   
+        
                     <h3 class="short_title"> Vision-Mission : </h3>
                     <p>	To provide quality products to the customers through continuous innovation & upgradation in company’s resources.</p>
                     <p>To develop cordial business relationship with customers, To aim to be market leader, To grow with customers, suppliers & human resource.</p>
@@ -65,7 +62,6 @@
                         </p>
                    
                     <h3 class="short_title"> Research & Development : </h3>
-                    
                         <p>Energy Technocast Pvt. Ltd. (ETPL)  alike its manufacturing facilities and concern to keep the top machines and equipment, also looks after the way of improvisation through the research and development. The company is always more than happy to take up new and innovative ways for the constant growth. The Research and Development department holds the responsibility to make the company moving ahead and ahead.</p>
                 
                 </article>

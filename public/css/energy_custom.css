@@ -1584,6 +1584,7 @@ table td strong {
     position: relative;
     display: inline-block;
     max-width: none;
+    cursor: pointer;
   }
   
   *,
@@ -2020,10 +2021,11 @@ table td strong {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 4rem 2rem 1.5rem;
+    padding: 0rem 2rem 1.5rem;
     background: none;
     transition: color 0.4s;
     color: #fff;
+    cursor: pointer;
 }
 .w-portfolio-item-title {
     font-size: 1.5rem;
@@ -2088,7 +2090,7 @@ table td strong {
 }
 .w-portfolio-item-image:after {
     display: block;
-    content: '';
+    /* content: ''; */
     position: absolute;
     top: 0;
     left: 0;
@@ -2759,7 +2761,8 @@ table td strong {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 30px; /* Location of the box */
+    padding-bottom: 30px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -2773,7 +2776,8 @@ table td strong {
 .modal-content {
     margin: auto;
     display: block;
-    width: 75%;
+    width: 30%;
+    height: 100%;
 }
 
 /* Caption of Modal Image */
@@ -2842,7 +2846,15 @@ table td strong {
 }
 
 
-/******************** zoom-img2 ************/
+/******************** imagezoom ************/
 
-
+.gallery__grid .row:nth-child(n+2) {
+    /* Adding some margin to create a bit of space under rows */
+    margin-top: 1rem;
+  }
+  .gallery__column {
+    /* In case the image is bigger than the column */
+    overflow: hidden;
+  }
+  
 

@@ -95,28 +95,27 @@
                             <div class="quality">
                             </div>
                             
-                          <div class="vc_empty_space" style="height: 20px"></div>
-                                <div class="quality-image-h">
-                                  <div class="wpb_wrapper"><div class="w-image align_center style_outlined animate_afc animate_start">
-                                    <div  class="w-image-h"><a  ref="magnificPopup"><img id="myImg" width="93%" height="300" src="https://www.siddhicast.com/wp-content/uploads/2018/10/ISO-Certificate-1.jpg" class="attachment-full" alt="" ></a>
-                                    </div>
-                                    </div>
-                                  </div>
-                                  <!-- The Modal -->
-                                  <div id="myModal" class="modal">
-                                    <img class="modal-content" id="img01">
-                                  </div>
+                            <div class="vc_empty_space" style="height: 20px"></div>
+                            <div class="quality-image-h">
+                              <div class="wpb_wrapper"><div class="w-image align_center style_outlined animate_afc animate_start">
+                                <div  class="w-image-h"><a  ref="magnificPopup"><img id="myImg" width="93%" height="300" src="https://www.siddhicast.com/wp-content/uploads/2018/10/ISO-Certificate-1.jpg" class="attachment-full" alt="" ></a>
+                                </div>
+                                </div>
+                              </div>
+                              <!-- The Modal -->
+                             
 
-                                  <div class="wpb_wrapper">
-                                    <div class="w-image align_center style_outlined animate_afc animate_start">
-                                      <div class="w-image-h"><a ref="magnificPopup"><img id="myImg1" width="93%" height="300" src="https://www.siddhicast.com/wp-content/uploads/2018/10/ISO-Certificate-1.jpg" class="attachment-full mr-l-20" alt="" ></a>
-                                      </div>
-                                    </div>
+                              <div class="wpb_wrapper">
+                                <div class="w-image align_center style_outlined animate_afc animate_start">
+                                  <div class="w-image-h"><a ref="magnificPopup"><img id="myImg1" width="93%" height="300" src="https://www.siddhicast.com/wp-content/uploads/2018/10/ISO-Certificate-1.jpg" class="attachment-full mr-l-20" alt="" ></a>
                                   </div>
-                                  <!-- The Modal -->
-                                  <div id="myModal" class="modal">
-                                    <img class="modal-content" id="img01">
-                                  </div>
+                                </div>
+                              </div>
+                              <!-- The Modal -->
+                              <div id="myModal" class="modal">
+                                <img class="modal-content" id="img01">
+                              </div>
+                                 
                                 </div>
                             </div>
                           </div>
