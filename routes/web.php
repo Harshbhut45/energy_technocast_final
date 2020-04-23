@@ -39,40 +39,6 @@ Route::get('/abouts-us', function () {
     return view('pages.about-as');
 });
 
-<<<<<<< HEAD
-   
-    Route::get('/index', function () {
-        return view('pages.index');
-    });
-    
-    Route::get('/abouts-us', function () {
-        return view('pages.about-as');
-    });
-    
-    Route::get('/process', function () {
-        return view('pages.process');
-    });
-    
-    Route::get('/quality', function () {
-        return view('pages.quality-assurance');
-    });
-    
-    Route::get('/technical-capabilities', function () {
-        return view('pages.technical-capabilities');
-    });
-    
-    Route::get('/industries-servied', function () {
-        return view('pages.industries-servied');
-    });
-    
-    Route::get('/career', function () {
-        return view('pages.career');
-    });
-    
-    Route::get('/contact-us', function () {
-        return view('pages.contact-us');
-    });
-=======
 Route::get('/process', function () {
     return view('pages.process');
 });
@@ -80,7 +46,6 @@ Route::get('/process', function () {
 Route::get('/quality', function () {
     return view('pages.quality-assurance');
 });
->>>>>>> 55e3fba21400f7c3bfdd160b505d54ccfb4aaf07
 
 Route::get('/technical-capabilities', function () {
     return view('pages.technical-capabilities');
