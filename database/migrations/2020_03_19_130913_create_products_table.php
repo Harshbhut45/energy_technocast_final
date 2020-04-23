@@ -16,15 +16,16 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
+            $table->string('slug')->index();
             $table->unsignedBigInteger('category_id');
-            $table->string('status');
-            $table->string('profile')->nullable();
+            $table->enum('status', ['Active', 'Inactive'])->default('Active');
+            $table->string('image')->nullable();
             $table->timestamps();
             $table->softDeletes();
 
             $table->foreign('category_id')
-            ->references('id')->on('categories')
-            ->onDelete('cascade');
+                ->references('id')->on('categories')
+                ->onDelete('cascade');
         });
     }
 

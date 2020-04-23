@@ -43,9 +43,9 @@
                  <div class="row">
                   <div class="col-sm-9 col-xs-12">
                     <ul class="list-inline helpdesk">
-                      <li><a><img src="image/email.png" style="height:15px;width:15px;margin-right:10px;">info@energytechnocast.net</a></li>
+                      <li><a><img src="/image/email.png" style="height:15px;width:15px;margin-right:10px;">info@energytechnocast.net</a></li>
                       <li><a><span class="fa fa-phone" style="color:#d65d27;height:15px;width:15px;"></span> +91 7575880001</a></li>                                        
-                      <li><img src="image/EnergyTechnocastISO.png" style="height:15px;width:15px;margin-right:10px;">ISO 9001:2008 CERTIFICATE</a></li>
+                      <li><img src="/image/EnergyTechnocastISO.png" style="height:15px;width:15px;margin-right:10px;">ISO 9001:2008 CERTIFICATE</a></li>
                   </ul>
                   </div>
                   <div class="col-sm-3 col-xs-12">
@@ -80,7 +80,7 @@
          
           <div class="nav-header">
             <div class="nav-title">
-            <a class="navbar-brand"  href="/"><img src="image/logo.png"></a>
+            <a class="navbar-brand"  href="/"><img src="/image/logo.png"></a>
             </div>
           </div>
           <div class="nav-btn">

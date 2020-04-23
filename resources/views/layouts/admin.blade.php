@@ -49,7 +49,7 @@
     <header class="navbar navbar-header navbar-header-fixed">
       <a href="" id="sidebarMenuOpen" class="burger-menu"><i data-feather="arrow-left"></i></a>
       <div class="navbar-brand">
-        <a href="../index.html" class="df-logo">Energy<span>Technocast</span></a>
+        <a href="{{ route('home') }}" class="df-logo">Energy<span>Technocast</span></a>
       </div><!-- navbar-brand -->
       <div id="navbarMenu" class="navbar-menu-wrapper">
         <div class="navbar-menu-header">
@@ -58,22 +58,17 @@
         </div><!-- navbar-menu-header -->
         <ul class="nav navbar-menu">
           <li class="nav-label pd-l-20 pd-lg-l-25 d-lg-none">Main Navigation</li>
-          <li class="nav-item active"><a href="{{ route('categories.index') }}" class="nav-link"><i data-feather="box"></i> Categories</a></li>
-          <li class="nav-item">
-            <a href="{{ route('products.index') }}" class="nav-link"><i data-feather="package"></i> Products</a>
+          <li class="nav-item {{ (\Request::is('products*') || \Request::is('home') ? 'active' : '') }}">
+            <a href="{{ route('home') }}" class="nav-link"><i data-feather="package"></i> Products</a>
           </li>
-
-          <li class="nav-item ">
-          <a href="/index" class="nav-link"><i data-feather="package"></i>Add</a>
-                    
-           </li>
-          
-         
-          
+          <li class="nav-item {{ (\Request::is('categories*') ? 'active' : '') }}"><a href="{{ route('categories.index') }}" class="nav-link"><i data-feather="box"></i> Categories</a></li>
         </ul>
       </div><!-- nav-wrapper -->
       <div class="navbar-right">
-        <a href="" class="btn btn-buy"><i data-feather="shopping-bag"></i> <span>Buy Now</span></a>
+        <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><span><i data-feather="log-out"></i> {{ __('Sign Out') }}</span></a>
+        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+            @csrf
+        </form>
       </div><!-- az-header-right -->
     </header>
 

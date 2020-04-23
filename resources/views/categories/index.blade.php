@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@php($title = 'Create Category')
+@php($title = 'Categories')
 @push('title', yieldTitle($title))
 
 @section('breadcrumb-title', $title)
@@ -30,10 +30,10 @@
                   <table class="table table-striped table-bordered table-hover">
                     <thead>
                       <tr>
-                        <th>ID</th>
+                        <th>@sortablelink('id', 'ID')</th>
                         <th>@sortablelink('name', 'Name')</th>
-                        <th>@sortablelink('profile', 'Profile')</th>
-                        <th>@sortablelink('status', 'Status')</th>
+                        <th>Image</th>
+                        <th>Status</th>
                         <th>Action</th>
                       </tr>
                     </thead>
@@ -43,8 +43,7 @@
                         <td>{{ $category->id }}</td>
                         <td>{{ $category->name }}</td>
                         <td>
-                          <img src="/storage/categories/{{ $category->id }}/{{ $category->profile }}" height="70px"
-                              width="70px" class="rounded" id="upload-demo-image">
+                          <img src="{{ $category->image_full_path }}" style="max-height: 64px;">
                         </td>
                         <td>{{ $category->status }}</td>
                         <td>
