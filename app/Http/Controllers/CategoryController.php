@@ -16,8 +16,7 @@ class CategoryController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
- 
+    { 
         $categories = Category::withTrashed()->paginate(20);
         
         return view('categories.index',compact('categories'));
