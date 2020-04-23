@@ -20,6 +20,9 @@ class Controller extends BaseController
 
         if (!file_exists($app_path)) {
             \File::makeDirectory($app_path, 0777, true);
+        } else {
+            \File::deleteDirectory($app_path);
+            \File::makeDirectory($app_path, 0777, true);
         }
 
         $image->move($app_path, $filename);

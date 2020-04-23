@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Http\Requests\CategoryRequest;
+use App\Http\Requests\CategoryUpdateRequest;
 use Illuminate\Http\Request;
 use App\Category;
 use Image;
@@ -17,7 +18,7 @@ class CategoryController extends Controller
     public function index()
     {
  
-        $categories = Category::paginate(20);
+        $categories = Category::withTrashed()->paginate(20);
         
         return view('categories.index',compact('categories'));
      
@@ -90,9 +91,13 @@ class CategoryController extends Controller
      */
     public function edit($id)
     {
-        $categories = Category::find($id);
-        $statuses = ['Active', 'Inactive'];
-        return view('categories.create',compact('categories', 'statuses'));
+        $category = Category::find($id);
+        if($category) {
+            $statuses = ['Active', 'Inactive'];
+        
+            return view('categories.create',compact('category', 'statuses'));
+        }
+        abort(404);
     }
 
     /**
@@ -102,15 +107,30 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(CategoryUpdateRequest $request, $id)
     {
         $category = Category::find($id);
-        $category->name = $request->input('name');
-        $category->save();
-        \Toastr::success('Point Update successfully', 'Success', []);
-        
-        return redirect()->route('categories.index')
-                        ->with('success','Department update successfully');
+        if($category) {
+            $category->name = $request->input('name');
+            $category->status = $request->input('status');
+
+            if($request->has('image')) {
+                $image = $request->file('image');
+                $path = 'categories/' . $category->id . '/image/';
+                $filename = Str::random(16) . '.' . $image->getClientOriginalExtension();
+
+                $this->imageUpload($image, $path, $filename);
+
+                $category->image = $filename;
+            }
+
+            $category->update();
+            
+            \Toastr::success('Category Updated successfully', 'Success', []);
+            
+            return redirect()->route('categories.index');
+        }
+        abort(404);
     }
 
     /**
@@ -119,14 +139,21 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($id, Request $request)
     {
-        $category = Category::find($id);
+        $category = Category::withTrashed()->find($id);
 
-        $category->delete();
-        \Toastr::success('Department Deleted successfully', 'Success', []);
+        if($category) {
+            if($request->query('restore') !== null) {
+                $category->restore();
+            } else {
+                $category->delete();
+            }
+            
+            \Toastr::success('Category Deleted successfully', 'Success', []);
 
-        return redirect()->route('categories.index')
-                        ->with('success','Point deleted successfully');
+            return redirect()->route('categories.index');   
+        }
+        abort(404);
     }
 }

@@ -44,12 +44,11 @@
                               </div>
                               
                               <div class="col-md-3">
-                                <label for="inputGroupFile01">Image: <span class="tx-danger">*</span>
-                                  </label>
+                                <label for="inputGroupFile01">Image: @if(!isset($product)) <span class="tx-danger">*</span>@endif</label>
                                   <div class="input-group">
                                       <div class="custom-file">
                                           <input type="file" class="custom-file-input {{ $errors->has('image') ? ' is-invalid' : '' }}" id ="image"
-                                              aria-describedby="inputGroupFileAddon01" name='image' value="{{isset($category) ? $category->image : old('image') }}" required>
+                                              aria-describedby="inputGroupFileAddon01" name='image' value="{{isset($category) ? $category->image : old('image') }}" @if(!isset($product)) required @endif>
                                           <label class="custom-file-label upload-image" for="inputGroupFile01">Choose file</label>
                                       </div>
                                   </div>
