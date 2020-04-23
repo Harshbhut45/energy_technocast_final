@@ -33,7 +33,7 @@ Route::get('/', function () {
     Route::get('/products/{id}','ProductController@destroy')->name('products.delete');
 
 
-
+   
     Route::get('/index', function () {
         return view('pages.index');
     });

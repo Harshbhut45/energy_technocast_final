@@ -33,7 +33,7 @@
                 <div class="footer-widget">
                 <h3>Links</h3>
                 <ul>
-                    <li><a title="" href="/home">Home</a></li>
+                    <li><a title="" href="/index">Home</a></li>
                     <li><a title="" href="/abouts-us">About-Us</a></li>
                     <li><a title="" href="/technical-capabilities">Technical Capabilities</a></li>
                     <li><a title="" href="/process">Process</a></li>

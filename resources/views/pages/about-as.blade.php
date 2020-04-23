@@ -5,7 +5,7 @@
 
 @section('content-company')
 
-<div id="entry-separator">
+<div id="entry-separator" >
     <div class="container">
 	    <div class="entry-head">
 		    <div class="entry-header">	
@@ -55,20 +55,8 @@
                         </p>
                     <div class="about-production__img" style="text-align:center; margin: 10px 0 10px 0px; padding: 3px;"><img src="image/production_chart.jpg"  class="about_img" style="border: 1px solid #dfdfdf;"></div>
                   
-                    <p>Today <strong>RTCPL </strong> has team of well qualified and professional team of engineers, technicians and workers to satisfy your needs.<br>
-                    <strong>RTCPL </strong> is aggregated to the following certificates :</p>
-                    <ul class="list1">
-                        <li>ISO/TS 16949:2009 by TUVNORD</li>
-                        <li>DNV / GL Marine Approval</li>
-                        <li>Bureau VERITAS Marine Approval</li>
-                        <li>ISO 14001:2004 by TUVNORD</li>
-                        <li>AD2000 Merkblatt W0 by TUVNORD</li>
-                        <li>PED 97/23/EC by TUVNORD</li>
-                        <li>BS OHSAS 18001:2007 by TUVNORD</li>
-                        <li>LLoyds Marine Approval</li>
-                        <li>American Bureau of Shipping Marine Approval</li>
-                        <li>Norsok M-650 Approval</li>
-                    </ul>
+                    <p>Today <strong>ETPL </strong> has team of well qualified and professional team of engineers, technicians and workers to satisfy your needs.<br>
+                   
                     <h3 class="short_title"> Vision-Mission : </h3>
                     <p>	To provide quality products to the customers through continuous innovation & upgradation in company’s resources.</p>
                     <p>To develop cordial business relationship with customers, To aim to be market leader, To grow with customers, suppliers & human resource.</p>
