@@ -2047,24 +2047,6 @@ table td strong {
     background-repeat: no-repeat;
     background-color: inherit;
 }
-.w-portfolio-item-image {
-    right: -1px;
-    bottom: -1px;
-    transform: translate3d(0,0,0);
-    transition: transform 0.35s;
-}
-.w-portfolio-item-image:after {
-    display: block;
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: opacity 0.4s;
-    background-color: inherit;
-}
 .w-portfolio-item-meta:before {
     content: '';
     position: absolute;
@@ -2078,8 +2060,28 @@ table td strong {
 .w-portfolio-item-anchor:hover .w-portfolio-item-image {
     transform: scale(1.1);
 }
-
+.w-portfolio-item-anchor:hover .w-portfolio-item-image1 {
+    transform: scale(1.1);
+}
 .w-portfolio-item-image {
+    right: -1px;
+    bottom: -1px;
+    transform: translate3d(0,0,0);
+    transition: transform 0.35s;
+}
+.w-portfolio-item-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: inherit;
+}
+.w-portfolio-item-image1 {
     right: -1px;
     bottom: -1px;
     transform: translate3d(0,0,0);
@@ -2087,10 +2089,11 @@ table td strong {
 }
 .w-portfolio-item-anchor:hover .w-portfolio-item-image:after {
     opacity: 0.9;
+   
 }
 .w-portfolio-item-image:after {
     display: block;
-    /* content: ''; */
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -2099,8 +2102,24 @@ table td strong {
     opacity: 0;
     transition: opacity 0.4s;
     background-color: inherit;
+    cursor: pointer;
 }
-
+.w-portfolio-item-anchor:hover .w-portfolio-item-image1:after {
+    opacity: 0.9;
+}
+.w-portfolio-item-image1:after {
+    display: block;
+    content: '';
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s;
+    background-color: inherit;
+    cursor: pointer;
+}
 .scrolled-nav {
     width: 88%!important;
     min-height: 50px!important;
@@ -2429,7 +2448,11 @@ table td strong {
         font-size: 18px;
     }
 }
-
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 100%!important;
+    }
+}
 @media (max-width:768px) {
     .bg-faded {
         padding-left: 25px;
@@ -2509,6 +2532,7 @@ table td strong {
     .quality-section .container {
         max-width: 100%!important;
     }
+    
     /* .nav > #nav-check:checked ~ .nav-links {
         height: calc(22vh - 50px);
     } */

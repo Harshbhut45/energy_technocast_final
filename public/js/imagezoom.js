@@ -29,13 +29,13 @@
           // Styling the modal dialog
           $('.js-modal-dialog').css({
             'position': 'relative',
-            'top': '50%',
+            'top': '45%',
             'right': '0',
             'left': '0',
             'transform': 'translateY(-50%)',
             'margin-right': 'auto',
             'margin-left': 'auto',
-            'max-width': '25rem',
+            'max-width': '98%',
             'text-align': 'center'
           });
           
@@ -55,18 +55,19 @@
           // Styling close button
           modalCloseBtn.css({
             'position': 'absolute',
-            'top': '-25px',
-            'right': '-26px',
+            'top': '-100px',
+            'right': '0px',
             'padding-top': '.75rem',
             'padding-bottom': '.75rem',
             'width': '3rem',
-            'font-size': '1rem',
+            'font-size': '4rem',
             'color': '#fff',
             'border': '0',
             'border-radius': '50%',
             'opacity': '0',
             'cursor': 'pointer',
             'background': '#111',
+            'background': 'rgba(17, 17, 17, 0)',
             'transition': '.25s opacity ease-in-out'
           });
           
@@ -77,7 +78,7 @@
           
           // Styling close button - mouse leaves the overlay
           modalOverlay.on('mouseleave', function() {
-            modalCloseBtn.css({'opacity': '0'});
+            modalCloseBtn.css({'opacity': '1'});
           });
           
           // Styling close button - hover over button itself
@@ -97,17 +98,17 @@
           // Styling the arrows
           $('.js-modal-next, .js-modal-prev').css({
             'position': 'absolute',
-            'top': '50%',
+            'top': '40%',
             'z-index': '91',
             'display': 'block',
             'width': '3rem',
             'height': '3rem',
-            'font-size': '32px',
+            'font-size': '50px',
             'font-weight': '400',
             'text-decoration': 'none',
             'color': '#fff',
             'background': '#111',
-            'box-shadow': '0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24)',
+            'background': 'rgba(17, 17, 17, 0)',
             'opacity': '0',
             'transition': '.25s all ease-in-out'
           });
@@ -125,14 +126,14 @@
           
           // Styling arrows - mouse leaves the overlay
           modalOverlay.on('mouseleave', function() {
-            $('.js-modal-next, .js-modal-prev').css({'opacity': '0'});
+            $('.js-modal-next, .js-modal-prev').css({'opacity': '.5'});
           });
           
           // Styling arrows - hover over the buttons
           $('.js-modal-next, .js-modal-prev').on('mouseenter', function() {
             $(this).css({
               'color': '#fff',
-              'box-shadow': '0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23)',
+              // 'box-shadow': '0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23)',
               'opacity': '1'
             });
           });
@@ -141,7 +142,7 @@
           $('.js-modal-next, .js-modal-prev').on('mouseleave', function() {
             $(this).css({
               'color': '#fff',
-              'box-shadow': '0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24)',
+              // 'box-shadow': '0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24)',
               'opacity': '.5'
             });
           });
@@ -227,7 +228,7 @@
   
               if (currentImageIndex > 0) {
                 // If you are not on the first image, decrease the index by 1
-                prevIndex = currentImageIndex - 1;
+                prevIndex = currentImageIndex + 1;
               } else {
                 // If you are on the first image, go on the last one
                 prevIndex = numOfImages;
