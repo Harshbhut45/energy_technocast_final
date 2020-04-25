@@ -2094,7 +2094,7 @@ table td strong {
 .w-portfolio-item-image:after {
     display: block;
     content: '';
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     right: 0;
@@ -2147,7 +2147,10 @@ table td strong {
 .nav > #nav-check {
     display: none;
   }
-
+.js-modal-dialog__img {
+    width: 400px;
+    height: 250px;
+}
 /* responsive-all-pages */
 
   @media (max-width:1329px) {
