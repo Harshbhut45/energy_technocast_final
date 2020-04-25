@@ -16,9 +16,14 @@ class PublicController extends Controller
   
     public function industries_servied()
     {
-        
         $categories = Category::all();
         return view('pages.industries-servied', compact('categories'));
+    }
+
+    public function industries_servied_valves()
+    {
+        $categories = Category::all();
+        return view('pages.industries-servied-valves', compact('categories'));
     }
 
     public function products($slug)

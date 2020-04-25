@@ -54,13 +54,7 @@ Route::get('/technical-capabilities', function () {
 
 Route::get('/industries-servied', 'PublicController@industries_servied');
 
-// Route::get('/industries-servied', function () {
-//     return view('pages.industries-servied');
-// });
-
-Route::get('/industries-servied-valves', function () {
-    return view('pages.industries-servied-valves');
-});
+Route::get('/industries-servied-valves', 'PublicController@industries_servied_valves');
 
 Route::get('/career', function () {
     return view('pages.career');

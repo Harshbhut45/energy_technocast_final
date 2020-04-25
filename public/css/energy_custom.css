@@ -982,7 +982,10 @@ address {
     font-weight: 550;
 }
 .widget ul, .widget ol {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+}
+.industy__chart {
+    margin-top: 15px;
 }
 .sidebar .menu li, [id^="recent-posts-"] li, [id^="pages-"] li {
     /* padding: 8px 0 8px 0px; */
