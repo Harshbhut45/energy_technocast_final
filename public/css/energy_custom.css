@@ -2094,7 +2094,7 @@ table td strong {
 .w-portfolio-item-image:after {
     display: block;
     content: '';
-    /* position: absolute; */
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;

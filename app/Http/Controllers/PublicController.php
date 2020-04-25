@@ -16,6 +16,7 @@ class PublicController extends Controller
   
     public function industries_servied()
     {
+        
         $categories = Category::all();
         return view('pages.industries-servied', compact('categories'));
     }

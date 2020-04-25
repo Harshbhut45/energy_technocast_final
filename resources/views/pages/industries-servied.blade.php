@@ -60,7 +60,7 @@
                                                 <a class="w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;" >
                                                 <div  class="w-portfolio-item-image1" >
                                                 <a class=" w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                                    <div class="gallery-item w-portfolio-item-image" >
+                                                    <div class="gallery-item w-portfolio-item-image" src="{{ $category->image_full_path }}" >
                                                         <img class="gallery-item" src="{{ $category->image_full_path }}" width="306" height="210" alt="Pump Industries">
                                                     </div>
 

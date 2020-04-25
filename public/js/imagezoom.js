@@ -228,14 +228,14 @@
   
               if (currentImageIndex > 0) {
                 // If you are not on the first image, decrease the index by 1
-                prevIndex = currentImageIndex + 1;
+                prevIndex = currentImageIndex - 2;
               } else {
                 // If you are on the first image, go on the last one
                 prevIndex = numOfImages;
               }
               if ((currentImageIndex + 1) < numOfImages) {
                 // If you are not on the last image, increase the index by 1
-                nextIndex = currentImageIndex + 1;
+                nextIndex = currentImageIndex + 2;
               } else {
                 // If you are on the last image, go on the first one
                 nextIndex = 0;
@@ -255,14 +255,14 @@
   
               if (currentImageIndex > 0) {
                 // If you are not on the first image, decrease the index by 1
-                prevIndex = currentImageIndex - 1;
+                prevIndex = currentImageIndex - 2;
               } else {
                 // If you are on the first image, go on the last one
                 prevIndex = numOfImages;
               }
               if ((currentImageIndex + 1) <= numOfImages) {
                 // If you are not on the last image, increase the index by 1
-                nextIndex = currentImageIndex + 1;
+                nextIndex = currentImageIndex + 2;
               } else {
                 // If you are on the last image, go on the first one
                 nextIndex = 0;

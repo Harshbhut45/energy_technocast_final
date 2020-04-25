@@ -203,7 +203,7 @@
       var img1 = document.getElementById('myImg1');
       var modalImg = document.getElementById("img01");
       var captionText = document.getElementById("caption");
-      img.onclick = function(){
+      /* img.onclick = function(){
           modal.style.display = "block";
           modalImg.src = this.src;
           modalImg.alt = this.alt;
@@ -223,7 +223,7 @@
             img01.className = "modal-content";
           }, 400);
           
-      }
+      } */
 
       // When the user clicks on <span> (x), close the modal
       
