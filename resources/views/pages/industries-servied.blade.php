@@ -31,7 +31,6 @@
                                 @foreach($categories as $category)
                                 <ul class="menu" id="menu-features">
                                     <li><a href="/industries-servied-valves">{{ $category->name }}</a></li>
-                                        
                                 </ul>
                                 @endforeach
                             </div>

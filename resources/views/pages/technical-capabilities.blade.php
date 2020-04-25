@@ -28,26 +28,17 @@
                         <div class="widget" id="nav_menu-2">
                             <h3 class="short_title  mr-b-12">Industries Served ?</h3>
                             <div class="menu-features-container">
+                                @foreach($categories as $category)
                                 <ul class="menu" id="menu-features">
-                                    <ul class="menu" id="menu-features">
-                                    <li><a href="/industries-servied-valves">Industrial Valves</a></li>
-                                    <li><a href="/industries-servied-valves">Industrial Pumps</a></li>
-                                    <li><a href="/industries-servied-valves">Automotives</a></li>
-                                    <li><a href="/industries-servied-valves">Power Plant Equipment</a></li>
-                                    <li><a href="/industries-servied-valves">Aerospace</a></li>
-                                    <li><a href="/industries-servied-valves">Marine</a></li>
-                                    <li><a href="/industries-servied-valves">Power Plant Boiler Parts</a></li>
-                                    <li><a href="/industries-servied-valves">Defense</a></li>
+                                    <li><a href="/industries-servied-valves">{{ $category->name }}</a></li>
                                 </ul>
+                                @endforeach
                             </div>
-                        
-
-                        <div style="text-align:center; margin-bottom:10px;"><img src="image/material-chart.jpg" style=""></div>
-                    
+                            <div style="text-align:center; margin-bottom:10px;"><img src="image/material-chart.jpg" style="">
+                            </div>
                         </div>
                     </div>
                 </div>
-
 
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 technical-title">
                         <article class="type-page status-publish hentry">

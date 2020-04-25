@@ -36,30 +36,19 @@ Route::get('/products/{id}/delete','ProductController@destroy')->name('products.
 // Public Pages
 Route::get('/products/{slug}', 'PublicController@products')->name('products.public');
 
-Route::get('/abouts-us', function () {
-    return view('pages.about-as');
-});
+Route::get('/abouts-us', 'PublicController@about_us');
 
-Route::get('/process', function () {
-    return view('pages.process');
-});
+Route::get('/process', 'PublicController@process');
 
-Route::get('/quality', function () {
-    return view('pages.quality-assurance');
-});
+Route::get('/quality', 'PublicController@quality');
 
-Route::get('/technical-capabilities', function () {
-    return view('pages.technical-capabilities');
-});
+Route::get('/technical-capabilities', 'PublicController@technical_capabilities');
 
 Route::get('/industries-servied', 'PublicController@industries_servied');
 
 Route::get('/industries-servied-valves', 'PublicController@industries_servied_valves');
 
-Route::get('/career', function () {
-    return view('pages.career');
-});
+Route::get('/career', 'PublicController@career');
 
-Route::get('/contact-us', function () {
-    return view('pages.contact-us');
-});
+Route::get('/contact-us', 'PublicController@contact_us');
+

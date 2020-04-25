@@ -95,43 +95,24 @@
           <div class="nav-links navbar-toggleable-x  " id="topheader">
               <ul class="nav navbar-nav">
                 <li class="nav-item nav-item1"><a class="active nav-link" href="/">Home</a></li>
-                <li class="nav-item nav-item1"><a class="nav-link " href="{{ ('/abouts-us') }}">About Us</a></li>
+                <li class="nav-item nav-item1"><a class="nav-link " href="/abouts-us">About Us</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/process">Process</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/quality">Quality</a></li>
                 <li class="nav-item nav-item1"><a class="nav-link" href="/industries-servied">Industries Served</a>
-                
-         <ul class="submenu-bottom">
-         
-            <div class="row head__dropdown">
-                <div class="column menu__list" id="select-box">
-                    <a href="/industries-servied-valves" class="tab-link">Industrial Valves</a>
-                    <a href="/industries-servied-valves" class="tab-link">Industrial Pumps</a>
-                    <a href="/industries-servied-valves">Automotives</a>
-                    <a href="#">Power Plant Equipment</a>
-                </div>
-                
-                <div class="column">
-                    <a href="/industries-servied-valves">Aerospace</a>
-                    <a href="#">Marine</a>
-                    <a href="#">Power Plant Boiler Parts</a>
-                    <a href="#">Defense</a>
-                </div>
-                      <div class="column ">
-                        <a href="#">Link 14</a>
-                        <a href="#">Link 10</a>
-                        <a href="#">Link 11</a>
-                        <a href="#">Link 12</a>
-                      </div>
-                      <div class="column ">
-                        <a href="#">Link 14</a>
-                        <a href="#">Link 14</a>
-                        <a href="#">Link 15</a>
-                        <a href="#">Link 16</a>
-                      </div>
-                </div>
-            
-         </ul>
+              
+              <ul class="submenu-bottom">
+                <div class="row head__dropdown">
+                  @foreach($categories as $category)
+                    <div class="pro-cat-list column menu__list" id="select-box">
+                      <ul class="dropdown__list">
+                        <li>
+                          <a href="/industries-servied-valves" class="tab-link">{{ $category->name }}</a>
+                        </li>
+                      </ul>
+                    </div>
+                  @endforeach 
+              </ul>
           </li>
             <li class="nav-item nav-item1"><a class="nav-link" href="/career">Career</a></li>
             <li class="nav-item nav-item1"><a class="nav-link" href="/contact-us">Contact Us</a></li>
@@ -203,7 +184,7 @@
       var img1 = document.getElementById('myImg1');
       var modalImg = document.getElementById("img01");
       var captionText = document.getElementById("caption");
-      /* img.onclick = function(){
+       img.onclick = function(){
           modal.style.display = "block";
           modalImg.src = this.src;
           modalImg.alt = this.alt;
@@ -223,7 +204,7 @@
             img01.className = "modal-content";
           }, 400);
           
-      } */
+      } 
 
       // When the user clicks on <span> (x), close the modal
       

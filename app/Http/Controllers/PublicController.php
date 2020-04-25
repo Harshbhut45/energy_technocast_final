@@ -14,6 +14,30 @@ class PublicController extends Controller
         return view('pages.index', compact('categories'));
     }
   
+    public function about_us()
+    {
+        $categories = Category::all();
+        return view('pages.about-as', compact('categories'));
+    }
+
+    public function technical_capabilities()
+    {
+        $categories = Category::all();
+        return view('pages.technical-capabilities', compact('categories'));
+    }
+
+    public function process()
+    {
+        $categories = Category::all();
+        return view('pages.process', compact('categories'));
+    }
+
+    public function quality()
+    {
+        $categories = Category::all();
+        return view('pages.quality-assurance', compact('categories'));
+    }
+
     public function industries_servied()
     {
         $categories = Category::all();
@@ -24,6 +48,18 @@ class PublicController extends Controller
     {
         $categories = Category::all();
         return view('pages.industries-servied-valves', compact('categories'));
+    }
+
+    public function career()
+    {
+        $categories = Category::all();
+        return view('pages.career', compact('categories'));
+    }
+
+    public function contact_us()
+    {
+        $categories = Category::all();
+        return view('pages.contact-us', compact('categories'));
     }
 
     public function products($slug)
