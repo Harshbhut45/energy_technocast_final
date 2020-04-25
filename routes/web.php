@@ -13,6 +13,7 @@
 
 Route::get('/', 'PublicController@index');
 
+
 Auth::routes(['register' => false, 'reset' => false, 'verify' => false]);
 
 // Categories CRUD
@@ -51,9 +52,11 @@ Route::get('/technical-capabilities', function () {
     return view('pages.technical-capabilities');
 });
 
-Route::get('/industries-servied', function () {
-    return view('pages.industries-servied');
-});
+Route::get('/industries-servied', 'PublicController@industries_servied');
+
+// Route::get('/industries-servied', function () {
+//     return view('pages.industries-servied');
+// });
 
 Route::get('/industries-servied-valves', function () {
     return view('pages.industries-servied-valves');

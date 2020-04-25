@@ -11,8 +11,13 @@ class PublicController extends Controller
     public function index()
     {
         $categories = Category::all();
-        
         return view('pages.index', compact('categories'));
+    }
+  
+    public function industries_servied()
+    {
+        $categories = Category::all();
+        return view('pages.industries-servied', compact('categories'));
     }
 
     public function products($slug)

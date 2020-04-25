@@ -46,24 +46,31 @@
                         {{-- <div class="divider plus"><span class="plus-ico"></span></div> --}}
                         </div>
                     </div>
-
-                <div id="gallery__grid" class="container gallery__grid" data-element="gallery-item">                
+                       
+                <div id="gallery__grid" class="container gallery__grid" data-element="gallery-item">
+                                    
                     <div class="col-lg-9 col-md-9 col-sm-12 col-sm-12 col-xs-12 ">
-                    
+                        
                         <article class="page type-page status-publish hentry">
+                            @foreach($categories as $category)   
                             <div class="flexslider single-carousel pro-cat-list">
+                               
                                 <ul class="slides portfolio-list__img">
-                                   
+                                                 
                                 <li>
                                     <article class="recent-works">
                                         <div class="img-format media-thumb ">
                                             <div class="img-fill1">
                                                 <a class="w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;" >
                                                 <div  class="w-portfolio-item-image1" >
-                                                    <img class="gallery-item" src="image/pro_6.jpg" width="306" height="210" alt="Pump Industries"></div>
+                                                    
+                                                    <a class=" w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                                          
+                                                        <div class="gallery-item w-portfolio-item-image" style="background-image: url({{ $category->image_full_path }})"></div>
+
                                                      <div class="w-portfolio-item-meta">
                                                         <div class="w-portfolio-item-meta-h">
-                                                            <h2 class="w-portfolio-item-title">Pump Industries</h2> <span class="w-portfolio-item-arrow"></span>
+                                                            <h2 class="w-portfolio-item-title">{{ $category->name }}</h2> <span class="w-portfolio-item-arrow"></span>
                                                         </div>
                                                     </div> 
                                                 </a>
@@ -71,9 +78,17 @@
                                           </div>
                                       </article>
                                 </li>
-                            
-                      
-                                <li>
+                            </ul>
+                            @endforeach
+                        </div>
+                        
+                   </article>
+               </div>
+               
+           </div>
+         
+                               
+                                {{-- <li>
                                     <article class="recent-works">
                                                 <div class="img-format media-thumb">
                                                     <div class="img-fill1">
@@ -161,12 +176,8 @@
                                                         </div>  
                                                       </div>
                                                     </article>
-                                                    </li>
-                                                 </ul>
-                                             </div>
-                                        </article>
-                                    </div>
-                                </div>
+                                                    </li> --}}
+                                           
                             </div>
                         </div>
                     </div>

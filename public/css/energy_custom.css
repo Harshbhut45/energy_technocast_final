@@ -1441,10 +1441,10 @@ table td strong {
     /* display: flex; */
 }
 .portfolio-list__img {
-    width: 100%;
+    width: 103%;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: block;
 }
 .pro-cat-list > ul.portfolio-list__img > li {
     float: left;
@@ -2245,7 +2245,7 @@ table td strong {
         width: 100%;
         justify-content: center;
         align-items: center;
-        display: grid;
+        /* display: grid; */
     }
     
       .clearfix_res {
@@ -2293,9 +2293,10 @@ table td strong {
         float: right;
     }
     .pro-cat-list {
-        justify-content: center;
+        /* justify-content: center;
         display: flex;
-        align-items: center;
+        align-items: center; */
+        display: block;
     }
     .type-page {
         /* text-align: center; */
@@ -2460,6 +2461,8 @@ table td strong {
     .type-page {
         /* text-align: center; */
         margin-left: 0px;
+        display: flex;
+        justify-content: center;
     }
     .quality_list ul li:before {
         position: relative;
