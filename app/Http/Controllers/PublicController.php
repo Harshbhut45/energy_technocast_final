@@ -68,7 +68,8 @@ class PublicController extends Controller
     	if($category) {
     		$products = Product::where('category_id', $category->id)->get();
     		
-        	return view('pages.products', compact('products'));
+            $categories = Category::all();
+        	return view('pages.products', compact('products', 'categories'));
     	}
      	
      	abort(404);   
