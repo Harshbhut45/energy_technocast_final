@@ -47,7 +47,8 @@ class PublicController extends Controller
     public function industries_servied_valves()
     {
         $categories = Category::all();
-        return view('pages.industries-servied-valves', compact('categories'));
+        $products = Product::all();
+        return view('pages.industries-servied-valves', compact('categories', 'products'));
     }
 
     public function career()
