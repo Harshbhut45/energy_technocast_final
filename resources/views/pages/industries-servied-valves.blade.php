@@ -9,9 +9,7 @@
                 <div class="entry-head-servied">
                     <div class="entry-header">	
                         <h1 class="entry-title">Industries-Valves</h1>
-                        
                     </div>
-                    	
                 </div>	
             </div>	
         </div>
@@ -37,36 +35,35 @@
                         </div>
                     </div>
 
-          <div id="gallery__grid" class="container gallery__grid" data-element="gallery-item">                
-            <div class="col-lg-9 col-md-9 col-sm-12 col-sm-12 col-xs-12 ">
-                <article class="page type-page status-publish hentry">
-                    @foreach($categories as $category)   
-                            <div class="flexslider single-carousel pro-cat-list">
-                                <ul class="slides portfolio-list__img">
-                                <li>
-                                    <article class="recent-works">
-                                        <div class="img-format media-thumb ">
-                                            <div class="img-fill1">
-                                                <a class="w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;" >
-                                                <div  class="w-portfolio-item-image1" >
-                                                <a class=" w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                                    <div class="gallery-item w-portfolio-item-image" src="{{ $category->image_full_path }}" >
-                                                        <img class="gallery-item" src="{{ $category->image_full_path }}" width="306" height="210" alt="Pump Industries">
+                    <div id="gallery__grid" class="container gallery__grid" data-element="gallery-item">                
+                        <div class="col-lg-9 col-md-9 col-sm-12 col-sm-12 col-xs-12 ">
+                            <article class="page type-page status-publish hentry">
+                                @foreach($products as $product)   
+                                    <div class="flexslider single-carousel pro-cat-list">
+                                        <ul class="slides portfolio-list__img">
+                                        <li>
+                                            <article class="recent-works">
+                                                <div class="img-format media-thumb ">
+                                                    <div class="img-fill1">
+                                                        <a class="w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;" >
+                                                    <div  class="w-portfolio-item-image1" >
+                                                        <a class=" w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                                    <div class="gallery-item w-portfolio-item-image" src="{{ $product->image_full_path }}" >
+                                                        <img class="gallery-item" src="{{ $product->image_full_path }}" width="306" height="210" alt="Pump Industries">
                                                     </div>
-
-                                                 <div class="w-portfolio-item-meta">
-                                                    <div class="w-portfolio-item-meta-h">
-                                                        <h2 class="w-portfolio-item-title">{{ $category->name }}</h2> <span class="w-portfolio-item-arrow"></span>
-                                                    </div>
-                                                </div> 
-                                                </a>
-                                             </div>  
-                                          </div>
-                                      </article>
-                                </li>
-                               </ul>
-                            @endforeach
-                 				</div>
+                                                    <div class="w-portfolio-item-meta">
+                                                        <div class="w-portfolio-item-meta-h">
+                                                            <h2 class="w-portfolio-item-title">{{ $product->name }}</h2> <span class="w-portfolio-item-arrow"></span>
+                                                        </div>
+                                                    </div> 
+                                                        </a>
+                                                    </div>  
+                                                </div>
+                                            </article>
+                                        </li>
+                                    </ul>
+                                @endforeach
+                                </div>
                             </article>
                         </div>
                     </div>

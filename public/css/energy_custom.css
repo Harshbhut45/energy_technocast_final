@@ -1107,6 +1107,8 @@ h3.short_title {
     -moz-transition: all .2s linear;
     -o-transition: all .2s linear;
     transition: all .2s linear;
+    width: 70px;
+    height: 45px;
 }
 .divider.plus {
     height: 1px;
@@ -1258,6 +1260,9 @@ h3.short_title {
 .quality-image-h {
     display: flex;
     justify-content: space-between;
+}
+.wpb_wrapper {
+    width: 50%;
 }
 .qua-section {
     background-color: #fff!important;
@@ -2166,7 +2171,7 @@ table td strong {
     padding-top: 10px!important;
 }
 .head__dropdown1 {
-    margin-top: 9px!important;
+    margin-top: 12px!important;
 }
 .nav > #nav-check {
     display: none;
@@ -2412,9 +2417,9 @@ table td strong {
         align-items: center;
         text-align: center;
     }
-    .partners-carousel > .carousel-title {
+    /* .partners-carousel > .carousel-title {
         left: 45%;
-    }
+    } */
     .about-group p {
         width: 100%;
     }
@@ -2591,6 +2596,9 @@ table td strong {
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .wpb_wrapper {
+        width: 100%;
     }
     .w-image-h{
         padding-top: 10px;
