@@ -23,7 +23,7 @@
             <div class="row-fluid">
               <div class="container">
                 <div class="row">
-                   <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 col-xs-12">
+                   {{-- <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 col-xs-12">
                      <div class="sidebar clearfix-sidebar clearfix_res ">
                         <div class="widget" id="nav_menu-2">
                             <h3 class="short_title  mr-b-12">Industries Served ?</h3>
@@ -37,12 +37,11 @@
                         </div>
 
                         <div class="industy__chart" style="text-align:center; margin-bottom:10px;"><img src="image/material-chart.jpg" style=""></div>
-                        {{-- <div class="divider plus"><span class="plus-ico"></span></div> --}}
                         </div>
-                    </div>
+                    </div> --}}
                        
                 <div id="gallery__grid" class="container gallery__grid" data-element="gallery-item">
-                    <div class="col-lg-9 col-md-9 col-sm-12 col-sm-12 col-xs-12 ">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-sm-12 col-xs-12 ">
                         <article class="page type-page status-publish hentry">
                             <h3 class="short_title">Industries Served</h3>
                                 <p>ETPL manufactures Lost Wax Investment Castings for a wide range of industries such as</p>
@@ -55,11 +54,12 @@
                                     <article class="recent-works">
                                         <div class="img-format media-thumb ">
                                             <div class="img-fill1">
-                                                <a class="w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;" >
+                                                
                                             <div  class="w-portfolio-item-image1" >
-                                                <a class=" w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                            <div class="gallery-item w-portfolio-item-image" src="{{ $category->image_full_path }}" >
-                                                <img class="gallery-item" src="{{ $category->image_full_path }}" width="306" height="210" alt="Pump Industries">
+                                                <a href="{{ url('industries-servied-valves',['id' => $category->name ])}}" class=" w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                            <div class="gallery-item w-portfolio-item-image" >
+                                             
+                                                <img href="{{ url('industries-servied-valves',['id' => $category->id ])}}" src="{{ $category->image_full_path }}" width="306" height="210" alt="Pump Industries">
                                             </div>
                                             <div class="w-portfolio-item-meta">
                                                 <div class="w-portfolio-item-meta-h">
@@ -81,10 +81,4 @@
         </div>
     </div>
 
-
-
-
-        <!-- imagezoom-js --> 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="{{ asset('js/imagezoom.js') }}"></script>
 @endsection

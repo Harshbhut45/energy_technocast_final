@@ -966,7 +966,7 @@ address {
 }
 .entry-head-servied {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .entry-head-servied h1 {
     font-size: 27px!important;
@@ -1185,6 +1185,14 @@ h3.short_title {
     font-size: 15px;
     line-height: 26px;
     font-weight: 400;
+}
+.menu li.active  {
+    color: #fff!important;
+    background-color: #fc6804!important;
+}
+.menu li.active > a  {
+    color: #fff!important;
+    background-color: #fc6804;
 }
 .quality_text_column h3 {
     color: #fc6804;
@@ -2179,6 +2187,11 @@ table td strong {
 .js-modal-dialog__img {
     width: 400px;
     height: 250px;
+    /* max-height: 420px; */
+}
+.js-modal-dialog__img1 {
+    width: 400px;
+    height: 90%;
 }
 /* responsive-all-pages */
 

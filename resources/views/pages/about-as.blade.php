@@ -31,7 +31,7 @@
                     <div class="menu-features-container">
                         @foreach($categories as $category)
                         <ul class="menu" id="menu-features">
-                            <li><a href="/industries-servied-valves">{{ $category->name }}</a></li>
+                            <li><a href="{{url('industries-servied-valves',['id' => $category->name])}}">{{ $category->name }}</a></li>
                         </ul>
                         @endforeach
                     </div>
@@ -44,7 +44,7 @@
                     <h3 class="short_title"> The Company :</h3>
                     <p>Energy Technocast Pvt. Ltd. (ETPL) is a sterling manufacturer of <strong>Lost	 wax Investment Castings </strong>established in 2013 at Rajkot, Gujarat. We deliver a customer centric approach to our clients to uphold the values and morale of the company in casting industry. Our objective is to serve superior industrial solutions and mechanical capabilities through cutting edge technologies, intensive research & development, superior quality standards and on-time delivery approach.</p>
                     <p>ETPL expertise in manufacturing of Ferrous – Stainless Steel, Carbon Steel, Resistance Steel, Alloy Steel, Heavy Melting Steel, Wear Resistance Alloy, Ni Based Alloys like Iconels, Monels, etc., Cast Iron & Non Ferrous like Aluminum and Copper based alloys as per National & International norms and standards. ETPL has installed a extensive capacity plant with concurrent processing departments like Raw Material & Maintenance Room, Quality Control & Test Lab, Machining Shop, Drying & Pressing Room, Heat Treatment lab, Finished Product Warehouse with ultra modern storage facilities to uphold various technical, mechanical and managerial grounds.</p>
-                    <p>Energy Technocast PVT LTD is a <strong>Investment Casting Manufacturer carrying the motto and vision of persistence and excellence in the field of different products 	Investment Casting,	 Fittings Investment Casting Parts, 	Casting of earth moving equipment 	Precision Investment Casting, 	Nickel Based Alloy Casting, 	Copper based Alloy Casting , 	Cobalt Base Alloy Casting, 	Super Alloy Castings , 	Nickel Alloy Castings, 	Pump Castings, 	Lost Wax Casting, 	Valve Castings, 	Precision Casting India, 	Duplex Castings, </strong>	Investment Casting Foundry etc..</p>
+                    <p>Energy Technocast PVT LTD is a <strong>Investment Casting Manufacturer carrying the motto and vision of persistence and excellence in the field of different products 	Investment Casting,	 Fittings Investment Casting Parts, 	Casting of earth moving equipment 	Precision Investment Casting, 	Nickel Based Alloy Casting, 	Copper based Alloy Casting , 	Cobalt Base Alloy Casting, 	Super Alloy Castings , 	Nickel Alloy Castings, 	Pump Castings, 	Lost Wax Casting, 	Valve Castings, 	Precision Casting India, 	Duplex Castings, </strong>	Investment Casting Foundry etc.</p>
                     <p>ETPL is serving a vast range of industries such as 	Valves Castings, Pumps, Pharmaceutical Industry, Industrial Machinery, Agricultural Equipments, Defence & Fire Fighting Equipments, Medical/Orthopedic Implants, Food & Beverages, Aerospace & Railway Parts and many more. Our foremost motive is to uphold the core values of the company by providing our clients the best in terms of quality, durability and reliability to fulfill our motto – “Extensive Reach, Intensive Delivery”.
                         </p>
         

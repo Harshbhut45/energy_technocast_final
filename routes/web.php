@@ -46,7 +46,7 @@ Route::get('/technical-capabilities', 'PublicController@technical_capabilities')
 
 Route::get('/industries-servied', 'PublicController@industries_servied');
 
-Route::get('/industries-servied-valves', 'PublicController@industries_servied_valves');
+Route::get('/industries-servied-valves/{id}', 'PublicController@industries_servied_valves');
 
 Route::get('/career', 'PublicController@career');
 

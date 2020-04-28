@@ -24,8 +24,8 @@
                             <h3 class="short_title  mr-b-12">Industries Served ?</h3>
                             <div class="menu-features-container">
                                  @foreach($categories as $category)
-                                <ul class="menu" id="menu-features">
-                                    <li><a href="/industries-servied-valves">{{ $category->name }}</a></li>
+                                <ul class="menu" id="menu-features" onclick="item()">
+                                    <li class="nav-item nav-item1 {{ $loop->first ? 'active' : '' }}"><a href="{{ url('industries-servied-valves',['id' => $category->name]) }}">{{ $category->name }}</a></li>
                                         
                                 </ul>
                                 @endforeach
@@ -45,17 +45,11 @@
                                             <article class="recent-works">
                                                 <div class="img-format media-thumb ">
                                                     <div class="img-fill1">
-                                                        <a class="w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;" >
-                                                    <div  class="w-portfolio-item-image1" >
-                                                        <a class=" w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                                    <div class="gallery-item w-portfolio-item-image" src="{{ $product->image_full_path }}" >
-                                                        <img class="gallery-item" src="{{ $product->image_full_path }}" width="306" height="210" alt="Pump Industries">
+                                                    <div class="w-portfolio-item-image1" >
+                                                        <a class="gallery-item w-portfolio-item-anchor" src="{{ $product->image_full_path  }}" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                                    <div class="gallery-item w-portfolio-item-image"  >
+                                                        <img class="gallery-item" src="{{ $product->image_full_path }}" width="306" height="210">
                                                     </div>
-                                                    <div class="w-portfolio-item-meta">
-                                                        <div class="w-portfolio-item-meta-h">
-                                                            <h2 class="w-portfolio-item-title">{{ $product->name }}</h2> <span class="w-portfolio-item-arrow"></span>
-                                                        </div>
-                                                    </div> 
                                                         </a>
                                                     </div>  
                                                 </div>

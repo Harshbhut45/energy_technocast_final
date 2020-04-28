@@ -60,9 +60,6 @@
                             <a class="nav-link waves-effect waves-light"><i class="fa fa-google-plus"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light"><i class="fa fa-youtube"></i></a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link waves-effect waves-light"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
@@ -94,12 +91,12 @@
 
           <div class="nav-links navbar-toggleable-x  " id="topheader">
               <ul class="nav navbar-nav">
-                <li class="nav-item nav-item1"><a class="active nav-link" href="/">Home</a></li>
-                <li class="nav-item nav-item1"><a class="nav-link " href="/abouts-us">About Us</a></li>
-                <li class="nav-item nav-item1"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
-                <li class="nav-item nav-item1"><a class="nav-link" href="/process">Process</a></li>
-                <li class="nav-item nav-item1"><a class="nav-link" href="/quality">Quality</a></li>
-                <li class="nav-item nav-item1"><a class="nav-link" href="/industries-servied">Industries Served</a>
+                <li class="nav-item nav-item1 {{ (\Request::is('*') ? 'active' : '') }}"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item nav-item1 {{ (\Request::is('abouts-us*') ? 'active' : '') }}"><a class="nav-link " href="/abouts-us">About Us</a></li>
+                <li class="nav-item nav-item1 {{ (\Request::is('technical-capabilities*') ? 'active' : '') }}"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
+                <li class="nav-item nav-item1 {{ (\Request::is('process*') ? 'active' : '') }}"><a class="nav-link" href="/process">Process</a></li>
+                <li class="nav-item nav-item1 {{ (\Request::is('quality*') ? 'active' : '') }}"><a class="nav-link" href="/quality">Quality</a></li>
+                <li class="nav-item nav-item1 {{ (\Request::is('industries-servied*') ? 'active' : '') }}"><a class="nav-link" href="/industries-servied">Industries Served</a>
               
               <ul class="submenu-bottom">
                 <div class="row head__dropdown">
@@ -107,15 +104,15 @@
                     <div class="pro-cat-list column menu__list" id="select-box">
                       <ul class="dropdown__list">
                         <li>
-                          <a href="/industries-servied-valves" class="tab-link">{{ $category->name }}</a>
+                          <a href="{{ url('industries-servied-valves',['id' => $category->name ])}}" class="tab-link">{{ $category->name }}</a>
                         </li>
                       </ul>
                     </div>
                   @endforeach 
               </ul>
           </li>
-            <li class="nav-item nav-item1"><a class="nav-link" href="/career">Career</a></li>
-            <li class="nav-item nav-item1"><a class="nav-link" href="/contact-us">Contact Us</a></li>
+            <li class="nav-item nav-item1 {{ (\Request::is('career*') ? 'active' : '') }}"><a class="nav-link" href="/career">Career</a></li>
+            <li class="nav-item nav-item1 {{ (\Request::is('contact-us*') ? 'active' : '') }}"><a class="nav-link" href="/contact-us">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -174,45 +171,12 @@
    </script>
 
 
+<script>
+  $("#menu-features li a").click(function() {
+      $(this).parent().addClass('active').siblings().removeClass('active');
 
-{{-- image-zoom --}}
-    <script>
-     var modal = document.getElementById('myModal');
-      console.log("modal:: ", modal);
-      // Get the image and insert it inside the modal - use its "alt" text as a caption
-      var img = document.getElementById('myImg');
-      var img1 = document.getElementById('myImg1');
-      var modalImg = document.getElementById("img01");
-      var captionText = document.getElementById("caption");
-       img.onclick = function(){
-          modal.style.display = "block";
-          modalImg.src = this.src;
-          modalImg.alt = this.alt;
-          captionText.innerHTML = this.alt;
-      }
-      img1.onclick = function(){
-          modal.style.display = "block";
-          modalImg.src = this.src;
-          modalImg.alt = this.alt;
-          captionText.innerHTML = this.alt;
-      }
-      // When the user clicks on <span> (x), close the modal
-      modal.onclick = function() {
-          img01.className += " out";
-          setTimeout(function() {
-            modal.style.display = "none";
-            img01.className = "modal-content";
-          }, 400);
-          
-      } 
-
-      // When the user clicks on <span> (x), close the modal
-      
-      </script>
-
-
-
-
+  });
+</script>
 
   </body>
 

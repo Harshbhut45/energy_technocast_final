@@ -29,7 +29,7 @@
                             <div class="menu-features-container">
                                 @foreach($categories as $category)
                                 <ul class="menu" id="menu-features">
-                                    <li><a href="/industries-servied-valves">{{ $category->name }}</a></li>
+                                    <li><a href="{{ url('industries-servied-valves',['id' => $category->name]) }}">{{ $category->name }}</a></li>
                                 </ul>
                                 @endforeach
                             </div>

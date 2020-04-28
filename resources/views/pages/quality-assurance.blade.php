@@ -86,8 +86,9 @@
                         </p>
                     </div>
 
-
                   </div>
+
+                <div id="gallery__grid" class="container gallery__grid" data-element="gallery-item">
                   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="vc_column-inner">
                       <div class="qua_wrapper">
@@ -97,33 +98,27 @@
                             
                             <div class="vc_empty_space" style="height: 20px"></div>
                             <div class="quality-image-h">
-                              <div class="wpb_wrapper"><div class="w-image align_center style_outlined animate_afc animate_start">
-                                <div  class="w-image-h"><a  ref="magnificPopup"><img id="myImg" width="93%" height="300" src="image/iso certificat_1.jpg" class="attachment-full" alt="" ></a>
-                                </div>
-                                </div>
-                              </div>
-                              <!-- The Modal -->
-                             
-
                               <div class="wpb_wrapper">
                                 <div class="w-image align_center style_outlined animate_afc animate_start">
-                                  <div class="w-image-h"><a ref="magnificPopup"><img id="myImg1" width="93%" height="300" src="image/iso certificat_2.jpg" class="attachment-full mr-l-20" alt="" ></a>
+                                  <div class="w-image-h"><a  ref="magnificPopup"><img class="gallery-item" width="93%" height="300" src="image/iso certificat_1.jpg" class="attachment-full" alt="" ></a>
                                   </div>
                                 </div>
                               </div>
-                              <!-- The Modal -->
-                              <div id="myModal" class="modal">
-                                <img class="modal-content" id="img01">
-                              </div>
-                                 
+                             
+                              <div class="wpb_wrapper">
+                                <div class="gallery-item w-image align_center style_outlined animate_afc animate_start">
+                                  <div class="w-image-h"><a ref="magnificPopup"><img class="gallery-item" width="93%" height="300" src="image/iso certificat_2.jpg" class="attachment-full mr-l-20" alt="" ></a>
+                                  </div>
                                 </div>
+                              </div>
+                              
+                              </div>
                             </div>
                           </div>
                         </div>
-
+                    </div>
+                  </div>
                 </div>
-            </div>
-          </div>
 
 
           <section class="qua-section">
@@ -161,4 +156,8 @@
 
 
         </div>
+
+      <!-- imagezoom-js --> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="{{ asset('js/certificatezoom.js') }}"></script>
 @endsection

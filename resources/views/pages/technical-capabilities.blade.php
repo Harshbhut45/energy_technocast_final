@@ -30,7 +30,7 @@
                             <div class="menu-features-container">
                                 @foreach($categories as $category)
                                 <ul class="menu" id="menu-features">
-                                    <li><a href="/industries-servied-valves">{{ $category->name }}</a></li>
+                                    <li><a href="{{ url('industries-servied-valves',['id' => $category->name]) }}">{{ $category->name }}</a></li>
                                 </ul>
                                 @endforeach
                             </div>
@@ -43,7 +43,7 @@
                     <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 technical-title">
                         <article class="type-page status-publish hentry">
                             <h3 class="short_title">Technical Capabilities</h3>
-                            <h4>Materials Poured at RTCPL : </h4>
+                            <h4>Materials Poured at ETPL : </h4>
                                 <div class="capability-table">
                                     <div class="pull-left capability_res">
                                         <table width="100%" cellspacing="1" cellpadding="3" bordercolor="#666666" border="1" style="float:left;">

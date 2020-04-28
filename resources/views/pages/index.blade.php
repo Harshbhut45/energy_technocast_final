@@ -74,12 +74,7 @@
 
 
 <div class="container row-fluid clearfix clearfix_res">
-    <div class="clearfix__short">
-        <h3 class="short_title bb-solid">Foundry Approvals</h3>
-        <img src="image/foundry-aproval.jpg" class="clearfix__img">
-    </div>
     
-   
     <div class="clearfix__short">
         <h3 class="short_title bb-solid">  Why us?</h3>
       <ul class="short__title-list">
@@ -99,18 +94,9 @@
             <div class="partners-carousel">
               <div class="carousel-title">ETPL Exports to</div>
                  <ul class="slides-partners clearfix">
-                    <li><img class="img-responsive" src="image/f010.jpg"><p>Germany</p></li>
-                        <li><img class="img-responsive" src="image/f010.jpg"><p>Italy</p></li>
-                        <li><img class="img-responsive" src="image/f010.jpg"><p>USA</p></li>
-                        <li><img class="img-responsive" src="image/f010.jpg"><p>Spain</p></li>
-                        <li><img class="img-responsive" src="image/f010.jpg"><p>Canada</p></li>
-                        <li><img class="img-responsive" src="image/f010.jpg"><p>Denmark</p></li>
-                        <li><img class="img-responsive" src="image/f010.jpg"><p>Belgium</p></li>
-                        <li><img class="img-responsive" src="image/f010.jpg"><p>France</p></li>
-                        <li><img class="img-responsive" src="image/f010.jpg"><p>Turkey</p></li>
-                        <li><img class="img-responsive" src="image/f010.jpg"><p>U.K.</p></li>
-                        <li><img class="img-responsive" src="image/f010.jpg"><p>Sweden</p></li>
-                        <li><img class="img-responsive" src="image/f010.jpg"><p>Austria</p></li>
+                    <li><img class="img-responsive" src="image/india-flag.png"><p>India</p></li>
+                    <li><img class="img-responsive" src="image/usa-flag.png"><p>USA</p></li>
+                    <li><img class="img-responsive" src="image/canada-flag.png"><p>Canada</p></li>
                   </ul>
             </div>
         </div> <!-- span12 -->
