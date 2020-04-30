@@ -91,7 +91,7 @@
 
           <div class="nav-links navbar-toggleable-x  " id="topheader">
               <ul class="nav navbar-nav">
-                <li class="nav-item nav-item1 {{ (\Request::is('*') ? 'active' : '') }}"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item nav-item1 {{ (\Request::is('/*') ? 'active' : '') }}"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item nav-item1 {{ (\Request::is('abouts-us*') ? 'active' : '') }}"><a class="nav-link " href="/abouts-us">About Us</a></li>
                 <li class="nav-item nav-item1 {{ (\Request::is('technical-capabilities*') ? 'active' : '') }}"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
                 <li class="nav-item nav-item1 {{ (\Request::is('process*') ? 'active' : '') }}"><a class="nav-link" href="/process">Process</a></li>
