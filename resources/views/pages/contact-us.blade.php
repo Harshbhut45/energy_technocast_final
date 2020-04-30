@@ -15,8 +15,8 @@
                             Shapar Industrial Area,<br> Rajkot - Gondal Highway, Dist. : Rajkot - 360 002.<br>
                             Gujarat / India. <br><br>
                             
-                            <strong>Phone :</strong> +1 813 517 4367<br>
-                            <strong>Fax :</strong> +1 813 517 4367<br>
+                            <strong>Phone :</strong> +91 7575880001<br>
+                            <strong>Fax :</strong> +91 7575880001<br>
                             <strong>E-Mail :</strong> info@energytechnocast.net																				
                         </header>
                     </div>

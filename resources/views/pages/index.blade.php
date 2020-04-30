@@ -94,7 +94,6 @@
             <div class="partners-carousel">
               <div class="carousel-title">ETPL Exports to</div>
                  <ul class="slides-partners clearfix">
-                    <li><img class="img-responsive" src="image/india-flag.png"><p>India</p></li>
                     <li><img class="img-responsive" src="image/usa-flag.png"><p>USA</p></li>
                     <li><img class="img-responsive" src="image/canada-flag.png"><p>Canada</p></li>
                   </ul>

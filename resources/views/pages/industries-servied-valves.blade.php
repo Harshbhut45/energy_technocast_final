@@ -24,8 +24,8 @@
                             <h3 class="short_title  mr-b-12">Industries Served ?</h3>
                             <div class="menu-features-container">
                                  @foreach($categories as $category)
-                                <ul class="menu" id="menu-features" onclick="item()">
-                                    <li class="nav-item nav-item1 {{ $loop->first ? 'active' : '' }}"><a href="{{ url('industries-servied-valves',['id' => $category->name]) }}">{{ $category->name }}</a></li>
+                                <ul class="menu" id="menu-features">
+                                    <li class="nav-item nav-item1 {{ Request::routeIs('*') ? 'active' : '' }}"><a href="{{ url('industries-servied-valves',['id' => $category->name]) }}">{{ $category->name }}</a></li>
                                         
                                 </ul>
                                 @endforeach
@@ -68,4 +68,6 @@
         <!-- imagezoom-js --> 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
             <script src="{{ asset('js/imagezoom.js') }}"></script>
+
+            
 @endsection

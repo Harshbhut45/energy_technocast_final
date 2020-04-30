@@ -17,11 +17,11 @@
                         </div>
                         <div class="col-xs-12 no-pad">
                         <i class="fa fa-phone"></i>
-                        +1 813 517 4367
+                        +91 7575880001
                         </div>
                         <div class="col-xs-12 no-pad">
                         <i class="fa fa-fax"></i>
-                        +1 813 517 4367
+                        +91 7575880001
                         </div>
                         <div class="col-xs-12 no-pad">
                         <i class="fa fa-envelope-o"></i>
