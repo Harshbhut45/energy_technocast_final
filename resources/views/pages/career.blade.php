@@ -42,14 +42,11 @@
                         <div class="">
                         	<article class="page type-page status-publish hentry">
                                 <h3 class="short_title">Jobs / Career</h3>
-                                <p><li>If you are passionate about making hight quality Investment castings &amp; machining , then RTCPL is the right place for you.</li>
-                                <li>Since 1994 RTCPL is continoulsy growing its strength and building a world class foundry team.</li>
-                                <li>Due to our continuous growth and ventures in the new markets, we recruiting the best qualified persons.  </li>
-                                <li>Candidate should submit their resume with photo to :  </li>
-                                <li>Candidate are free to walk-in-interview as well with prior appointment</li></p>
+                                <p><li>ENERGY TECHNOCAST PVT LTD is a strong believer in teamwork. A strong team can empower the organization to gain an edge in the industry. Our focus is consistently on nurturing our workforce through various employee training and engagement to keep them updated to the latest technology and more to keep the motivation alive. The company takes care of both personal and professional growth of each employee, to ensure a happy and healthy workforce.</li>
+                                <li>ENERGY TECHNOCAST PVT LTD is a fast expanding organization and we are looking for like-minded people to join our team for a long-term association. If you are motivated and would like to be a part of an innovative and professional team, we would be happy to welcome you to ENERGY TECHNOCAST PVT LTD.</li></p>
                                 <h3 class="short_title">For HR  &amp; Job Related Inquiries</h3>
-                                <p><strong>Email Id :</strong> <a href="mailto:info@rajantechcast.com" style="color:#da251c;">info@rajantechcast.com</a><br>
-                                <strong>Mobile :</strong> +91 9687697728, +91 9687697726</p>
+                                <p><strong>Email Id :</strong> <a href="mailto:info@energytechnocast.com" style="color:#da251c;">info@energytechnocast.net</a><br>
+                                <strong>Mobile :</strong> +91 7575880001</p>
 							</article>
                         </div>
                     </div>
@@ -62,6 +59,10 @@
                             <ul class="slides-partners clearfix">
                                 <li><img class="img-responsive" src="image/usa-flag.png"><p>USA</p></li>
                                 <li><img class="img-responsive" src="image/canada-flag.png"><p>Canada</p></li>
+                                <li><img class="img-responsive" src="image/france-flag.png"><p>France</p></li>
+                                <li><img class="img-responsive" src="image/united-kingdom-flag.png"><p>UK</p></li>
+                                <li><img class="img-responsive" src="image/germany-flag.png"><p>Germany</p></li>
+                                <li><img class="img-responsive" src="image/australia-flag.png"><p>Australia</p></li>
                             </ul>
                         </div>
                     </div> <!-- span12 -->

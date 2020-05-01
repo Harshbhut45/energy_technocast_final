@@ -548,6 +548,10 @@
                                 <ul class="slides-partners clearfix">
                                     <li><img class="img-responsive" src="image/usa-flag.png"><p>USA</p></li>
                                     <li><img class="img-responsive" src="image/canada-flag.png"><p>Canada</p></li>
+                                    <li><img class="img-responsive" src="image/france-flag.png"><p>France</p></li>
+                                    <li><img class="img-responsive" src="image/united-kingdom-flag.png"><p>UK</p></li>
+                                    <li><img class="img-responsive" src="image/germany-flag.png"><p>Germany</p></li>
+                                    <li><img class="img-responsive" src="image/australia-flag.png"><p>Australia</p></li>
                                 </ul>
                             </div>
                         </div> <!-- span12 -->

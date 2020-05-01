@@ -80,13 +80,13 @@
                                                 </a>
                                             </div>
                                             <div class="w-socials-item twitter"> 
-                                                <a class="w-socials-item-link twt" href=""> 
+                                                <a class="w-socials-item-link twt" href="https://twitter.com/energy_pvt_ltd?s=08"> 
                                                     <span class="w-socials-item-link-hover"></span> 
                                                     <span class="w-socials-item-link-title">Twitter</span> </a>
                                             </div>
-                                            <div class="w-socials-item google"> 
-                                                <a class="w-socials-item-link ggl" href=""> 
-                                                    <span class="w-socials-item-link-hover"></span> <span class="w-socials-item-link-title">Google+</span> 
+                                            <div class="w-socials-item insta"> 
+                                                <a class="w-socials-item-link ggl" href="https://www.instagram.com/invites/contact/?i=n1owzq73ci8m&utm_content=fzm0da3"> 
+                                                    <span class="w-socials-item-link-hover"></span> <span class="w-socials-item-link-title">Instagram</span> 
                                                 </a>
                                             </div>
                                             <div class="w-socials-item linkedin"> 

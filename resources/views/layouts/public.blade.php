@@ -50,17 +50,17 @@
                   </div>
                   <div class="col-sm-3 col-xs-12">
                     <ul class="navbar-nav nav-flex-icons pull-sm-right m-b-0">
+                      <li class="nav-item">
+                          <a href="" class="nav-link waves-effect waves-light"><i class="fa fa-facebook"></i></a>
+                      </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light"><i class="fa fa-twitter"></i></a>
+                            <a href="https://twitter.com/energy_pvt_ltd?s=08" class="nav-link waves-effect waves-light"><i class="fa fa-twitter"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/invites/contact/?i=n1owzq73ci8m&utm_content=fzm0da3" class="nav-link waves-effect waves-light"><i class="fa fa-instagram"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light"><i class="fa fa-google-plus"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light"><i class="fa fa-linkedin"></i></a>
+                            <a href="" class="nav-link waves-effect waves-light"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                  </div>
