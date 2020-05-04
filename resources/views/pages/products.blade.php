@@ -8,7 +8,7 @@
             <div class="container">
                 <div class="entry-head-servied">
                     <div class="entry-header">	
-                        <h1 class="entry-title">Industries-Valves</h1>
+                        <h1 class="entry-title">{{ $category->name }}</h1>
                         
                     </div>
                     	
