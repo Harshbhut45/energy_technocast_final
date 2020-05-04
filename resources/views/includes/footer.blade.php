@@ -62,12 +62,6 @@
                        
                             <div class="w-socials-list">
                                 <ul class="social-media">
-                                    {{-- <li><a href="" target="_blank" class="fa fa-facebook"></a></li>
-                                    <li><a href="" target="_blank" class="fa fa-twitter"></a></li>
-                                    <li><a href="" target="_blank" class="fa fa-google-plus"></a></li>
-                                    <li><a href="" target="_blank" class="fa fa-youtube"></a></li>
-                                    <li><a href="" target="_blank" class="fa fa-linkedin"></a></li> --}}
-
                                 <div class="w-socials align_left style_outlined color_brand index_1" style="font-size:16px;">
                                     <div class="w-socials-list">
                                         <div class="w-socials-item facebook"> 

@@ -784,7 +784,7 @@ address {
 .w-socials.color_brand .w-socials-item.twitter .w-socials-item-link:hover {
     color: #fff !important;
 }
-.w-socials.color_brand .w-socials-item.google .w-socials-item-link:hover {
+.w-socials.color_brand .w-socials-item.insta .w-socials-item-link:hover {
     color: #fff !important;
 }
 .w-socials.color_brand .w-socials-item.linkedin .w-socials-item-link:hover {
@@ -800,7 +800,7 @@ address {
 .w-socials.color_brand .w-socials-item.twitter .w-socials-item-link {
     color: #55acee!important;
 }
-.w-socials.color_brand .w-socials-item.google .w-socials-item-link {
+.w-socials.color_brand .w-socials-item.insta .w-socials-item-link {
     color: #db4437!important;
 }
 .w-socials.color_brand .w-socials-item.linkedin .w-socials-item-link {
@@ -815,8 +815,8 @@ address {
 .w-socials-item.twitter .w-socials-item-link:after {
     content: '\f099';
 }
-.w-socials-item.google .w-socials-item-link:after {
-    content: '\f0d5';
+.w-socials-item.insta .w-socials-item-link:after {
+    content: "\f16d";
 }
 .w-socials-item.linkedin .w-socials-item-link:after {
     content: '\f0e1';
@@ -1050,6 +1050,9 @@ h3.short_title {
     font-size: 16px;
     line-height: 1.6;
     margin: 0px;
+}
+.hentry p a {
+    text-decoration: none;
 }
 .hentry li {
     font-size: 16px;
@@ -2533,7 +2536,6 @@ table td strong {
     }
     .clearfix {
         margin-top: 20px;
-        padding-left: 15px;
     }
     .hentry p {
         font-size: 18px;
@@ -2641,6 +2643,7 @@ table td strong {
     }
     .slides-partners, .slides-partners li {
         margin-top: 20px;
+        margin-left: 15px;
     }
     #entry-separator {
         background: none;
@@ -2697,6 +2700,9 @@ table td strong {
     .clearfix {
         padding-left: 0px;
     }
+    .slides-partners, .slides-partners li {
+        margin-left: 22px;
+    }
   
     .Container .Head .Slick-Next, .Container .Head .Slick-Prev {
         display: inline-block;
@@ -2745,6 +2751,9 @@ table td strong {
     .clearfix {
         padding-left: 30px;
     }
+    .slides-partners, .slides-partners li {
+        margin-left: 30px;
+    }
 }
 @media (max-width:354px) {
     .Container .Head {
@@ -2779,7 +2788,9 @@ table td strong {
     .short_title {
         font-size: 18px;
     }
-   
+    .slides-partners, .slides-partners li {
+        margin-left: 20px;
+    }
 }
 
  /* image-zoom */
