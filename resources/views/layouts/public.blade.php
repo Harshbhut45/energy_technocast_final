@@ -96,7 +96,7 @@
                 <li class="nav-item nav-item1 {{ (\Request::is('technical-capabilities*') ? 'active' : '') }}"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
                 <li class="nav-item nav-item1 {{ (\Request::is('process*') ? 'active' : '') }}"><a class="nav-link" href="/process">Process</a></li>
                 <li class="nav-item nav-item1 {{ (\Request::is('quality*') ? 'active' : '') }}"><a class="nav-link" href="/quality">Quality</a></li>
-                <li class="nav-item nav-item1 {{ (\Request::is('industries-servied*') ? 'active' : '') }}"><a class="nav-link" href="/industries-servied">Industries Served</a>
+                <li class="nav-item nav-item1 {{ (\Request::is('industries-servied*') ? 'active' : '') }}"><a class="nav-link" href="javascript:;">Industries Served</a>
               
               <ul class="submenu-bottom">
                 <div class="row head__dropdown">
@@ -104,7 +104,7 @@
                     <div class="pro-cat-list column menu__list" id="select-box">
                       <ul class="dropdown__list">
                         <li>
-                          <a href="{{ url('industries-servied-valves',['id' => $category->name ])}}" class="tab-link">{{ $category->name }}</a>
+                          <a href="{{ route('products.public', ['slug' => $category->slug ]) }}" class="tab-link">{{ $category->name }}</a>
                         </li>
                       </ul>
                     </div>
@@ -130,30 +130,30 @@
            @include('includes.footer')
 
      
-     <!-- Navbar-js -->  
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.4/js/tether.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"></script>
+     <!-- Navbar-js --> 
+      <script type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
+
+      <script type="text/javascript" src="{{ asset('js/tether.min.js') }}"></script>
+      <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
     
       <!-- Dropdown-js --> 
-      <script src="{{ asset('js/dropdown.js') }}"></script>
+      <script type="text/javascript" src="{{ asset('js/dropdown.js') }}"></script>
      
       <!-- Scrolltop-js --> 
-      <script src="{{ asset('js/scrolltop.js') }}"></script>
-      <!-- slider-js --> 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-      <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+      <script type="text/javascript" src="{{ asset('js/scrolltop.js') }}"></script>
       <!-- slider-js -->
-      <script src="{{ asset('js/slider.js') }}"></script>
+      <script type="text/javascript" src="{{ asset('js/slick.min.js') }}"></script>
+      <!-- slider-js -->
+      <script type="text/javascript" src="{{ asset('js/slider.js') }}"></script>
       <!-- active-js -->
-      <script src="{{ asset('js/active.js') }}"></script>
+      <script type="text/javascript" src="{{ asset('js/active.js') }}"></script>
       <!-- scrolled-js -->
-      <script src="{{ asset('js/scrolled.js') }}"></script>
+      <script type="text/javascript" src="{{ asset('js/scrolled.js') }}"></script>
       <!-- Scrollbutton-js --> 
-      <script src="{{ asset('js/scrollbutton.js') }}"></script>
+      <script type="text/javascript" src="{{ asset('js/scrollbutton.js') }}"></script>
 
    
-   <script>
+     <script>
       $(document).ready(function(){
           $(".dropdown1").hover(       
                
@@ -168,15 +168,13 @@
               }
           );
       });
-   </script>
+    </script>
+    <script>
+      $("#menu-features li a").click(function() {
+          $(this).parent().addClass('active').siblings().removeClass('active');
 
-
-<script>
-  $("#menu-features li a").click(function() {
-      $(this).parent().addClass('active').siblings().removeClass('active');
-
-  });
-</script>
+      });
+    </script>
 
   </body>
 

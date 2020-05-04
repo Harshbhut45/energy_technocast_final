@@ -1,6 +1,6 @@
 
       /* <![CDATA[ */
-        jQuery.noConflict()(function($){
+        jQuery(document).ready(function($){
           $(document).ready(function() {
         var s = $("#header-default");
         var pos = s.position();					   
@@ -14,7 +14,7 @@
         });
         });
 
-        $(document).ready(function() {
+        jQuery(document).ready(function($){
         var s = $("#entry-wrapper");
         var pos = s.position();					   
         $(window).scroll(function() {

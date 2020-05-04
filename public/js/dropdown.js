@@ -1,19 +1,19 @@
 
 
-$(document).ready(function (){
+jQuery(document).ready(function($){
     $('.form_click_inner1').hide();
+
+    $('#country1').change(function () {
+        var countryCode = $(this).val();
+        $('.form_click_inner1').show();
+        $('#' + $(this).val()).hide();
+        if (countryCode) {
+            $('#cnumber2').val(countryCode);
+        }
+    });
 });
 
-$('#country1').change(function () {
-    var countryCode = $(this).val();
-    $('.form_click_inner1').show();
-    $('#' + $(this).val()).hide();
-    if (countryCode) {
-        $('#cnumber2').val(countryCode);
-    }
-});
-
-function setdata()
+window.setdata = function()
 {
     var select = document.getElementById('country');
  
@@ -37,7 +37,7 @@ function setdata()
     return false;
 }
 
-function setdata1()
+window.setdata1 = function()
 {
     var select1 = document.getElementById('state1');
     

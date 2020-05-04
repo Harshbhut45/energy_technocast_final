@@ -1,4 +1,4 @@
-$(document).ready(function () {
+jQuery(document).ready(function($){
     $('.menu__list').each(function(index) {
       $(this).children('li').first().addClass('is-active').show();
     });

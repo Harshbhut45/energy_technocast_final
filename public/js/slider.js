@@ -1,4 +1,4 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
   
     $(".Modern-Slider").slick({
       autoplay:true,
@@ -22,7 +22,7 @@ $(document).ready(function(){
 
 //   home-slider-2
 
-$(document).ready(function(){
+jQuery(document).ready(function($){
   $(".SlickCarousel").slick({
     rtl:false, // If RTL Make it true & .slick-slide{float:right;}
     autoplay:false, 

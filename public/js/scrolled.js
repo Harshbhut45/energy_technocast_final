@@ -1,4 +1,4 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
     var scrollTop = 0;
     $('.nav-item').hover(function() {
       console.log("hover");

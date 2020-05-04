@@ -5,47 +5,42 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- bootstrap-link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
-      <!-- Meta -->
-      <meta name="description" content="Responsive Bootstrap 4 Dashboard Template">
-      <meta name="author" content="ThemePixels">
-   
-
+    <!-- Meta -->
+    <meta name="description" content="Responsive Bootstrap 4 Dashboard Template">
+    <meta name="author" content="ThemePixels">
 
     <title>@stack('title')</title>
 
-   <!-- DashForge CSS -->
-   <link rel="stylesheet" href="{{ asset('assets/css/dashforge.css') }}">
-   <link rel="stylesheet" href="{{ asset('assets/css/dashforge.demo.css') }}">
-   <link rel="stylesheet" href="{{ ('/css/custom.css') }}">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:600%2C400%7CRoboto:500" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+
+    <!-- bootstrap-link -->
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+
+    <!-- DashForge CSS -->
+    <link rel="stylesheet" href="{{ asset('assets/css/dashforge.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/dashforge.demo.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 
     <!-- Select2 CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('css/select2.min.css') }}">
       
     <!-- toastr -->
-    <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css">
+    <link rel="stylesheet" href="{{ asset('css/toastr.min.css') }}">
+    
     {{-- croppie --}}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/croppie/2.6.2/croppie.min.css">
+    <link rel="stylesheet" href="{{ asset('css/croppie.min.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+
+    <!-- slider-CSS -->
+    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ ('/css/custom.css') }}">
-
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600%2C400%7CRoboto:500" rel="stylesheet" property="stylesheet" type="text/css" media="all">
-
-   <!-- slider-CSS -->
-   <link href="https://googledrive.com/host/0B1RR6fhjI2QROGt0MTFoVkhMdUk/fonts.css">
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
-
-   
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">   
   </head>
   <body>
-
     <header class="navbar navbar-header navbar-header-fixed">
       <a href="" id="sidebarMenuOpen" class="burger-menu"><i data-feather="arrow-left"></i></a>
       <div class="navbar-brand">
@@ -164,8 +159,8 @@
       <!-- Scrolltop-js --> 
       <script src="{{ asset('js/scrolltop.js') }}"></script>
       <!-- slider-js --> 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-      <script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+      <script src="{{ asset('js/jquery.min.js') }}"></script>
+      <script src="{{ asset('js/slick.min.js') }}"></script>
       <script src="{{ asset('js/slider.js') }}"></script>
 
       </body>
