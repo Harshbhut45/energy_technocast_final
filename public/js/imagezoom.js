@@ -167,14 +167,14 @@
   
             if (currentImageIndex > 0) {
               // If you are not on the first image, decrease the index by 1
-              prevIndex = currentImageIndex - 1;
+              prevIndex = currentImageIndex - 2;
             } else {
               // If you are on the first image, go on the last one
               prevIndex = numOfImages;
             }
-            if ((currentImageIndex + 1) < numOfImages) {
+            if ((currentImageIndex + 2) < numOfImages) {
               // If you are not on the last image, increase the index by 1
-              nextIndex = currentImageIndex + 1;
+              nextIndex = currentImageIndex + 2;
             } else {
               // If you are on the last image, go on the first one
               nextIndex = 0;
@@ -226,7 +226,7 @@
               });
               currentImageIndex = prevIndex;
   
-              if (currentImageIndex > 0) {
+              if (currentImageIndex > 2) {
                 // If you are not on the first image, decrease the index by 1
                 prevIndex = currentImageIndex - 2;
               } else {
@@ -242,32 +242,32 @@
               }
             }
   
-            // Show next image
-            function nextImage(e) {
-              e.preventDefault();
-  
-              modalImage.attr({
-                src: $('[data-index=' + nextIndex + ']').attr('src'),
-                alt: $('[data-index=' + nextIndex + ']').attr('alt'),
-                'data-index': $('[data-index=' + nextIndex + ']').attr('data-index')
-              });
-              currentImageIndex = nextIndex;
-  
-              if (currentImageIndex > 0) {
-                // If you are not on the first image, decrease the index by 1
-                prevIndex = currentImageIndex - 2;
-              } else {
-                // If you are on the first image, go on the last one
-                prevIndex = numOfImages;
-              }
-              if ((currentImageIndex + 1) <= numOfImages) {
-                // If you are not on the last image, increase the index by 1
-                nextIndex = currentImageIndex + 2;
-              } else {
-                // If you are on the last image, go on the first one
-                nextIndex = 0;
-              }
+           // Show next image
+          function nextImage(e) {
+            e.preventDefault();
+
+            modalImage.attr({
+              src: $('[data-index=' + nextIndex + ']').attr('src'),
+              alt: $('[data-index=' + nextIndex + ']').attr('alt'),
+              'data-index': $('[data-index=' + nextIndex + ']').attr('data-index')
+            });
+            currentImageIndex = nextIndex;
+
+            if (currentImageIndex > 2) {
+              // If you are not on the first image, decrease the index by 1
+              prevIndex = currentImageIndex - 3;
+            } else {
+              // If you are on the first image, go on the last one
+              prevIndex = numOfImages;
             }
+            if ((currentImageIndex - 2) <= numOfImages) {
+              // If you are not on the last image, increase the index by 1
+              nextIndex = currentImageIndex + 3;
+            } else {
+              // If you are on the last image, go on the first one
+              nextIndex = 0;
+            }
+          }
   
             // Closing Modal Window
             function closeModal(e) {

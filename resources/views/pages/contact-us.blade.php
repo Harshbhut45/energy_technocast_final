@@ -4,7 +4,7 @@
 @push('title', yieldTitle($title))
 
 @section('content-company')
-        <div id="entry-separator" class="energy-contact">
+        <div id="entry-separator" class="energy-contact contact__inner-img">
             <div class="container">
                 <div class="entry-head">
                     <div class="entry-header">	

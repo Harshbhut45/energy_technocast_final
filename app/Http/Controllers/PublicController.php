@@ -48,9 +48,6 @@ class PublicController extends Controller
     {
         $categories = Category::all();
         $products = Product::find([$id]);
-       
-        // $products = Product::where('category_id', $categories->$id)->get()->first();
-       
         return view('pages.industries-servied-valves', compact('categories', 'products' ));
    
     }

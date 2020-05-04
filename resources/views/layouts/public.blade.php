@@ -51,7 +51,7 @@
                   <div class="col-sm-3 col-xs-12">
                     <ul class="navbar-nav nav-flex-icons pull-sm-right m-b-0">
                       <li class="nav-item">
-                          <a href="" class="nav-link waves-effect waves-light"><i class="fa fa-facebook"></i></a>
+                          <a href="https://www.facebook.com/energytechnocastpvtltd/?ti=as" class="nav-link waves-effect waves-light"><i class="fa fa-facebook"></i></a>
                       </li>
                         <li class="nav-item">
                             <a href="https://twitter.com/energy_pvt_ltd?s=08" class="nav-link waves-effect waves-light"><i class="fa fa-twitter"></i></a>

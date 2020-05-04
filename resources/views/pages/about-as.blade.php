@@ -5,7 +5,7 @@
 
 @section('content-company')
 
-<div id="entry-separator" >
+<div id="entry-separator" class="about-us" >
     <div class="container">
 	    <div class="entry-head">
 		    <div class="entry-header">	

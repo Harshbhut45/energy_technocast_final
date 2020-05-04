@@ -65,19 +65,19 @@
                                 <div class="w-socials align_left style_outlined color_brand index_1" style="font-size:16px;">
                                     <div class="w-socials-list">
                                         <div class="w-socials-item facebook"> 
-                                            <a class="w-socials-item-link fb" href=""> 
+                                            <a class="w-socials-item-link fb" href="https://www.facebook.com/energytechnocastpvtltd/?ti=as"> 
                                                 <span class="w-socials-item-link-hover"></span> 
                                                 <span class="w-socials-item-link-title">Facebook</span> 
                                             </a>
                                         </div>
                                         <div class="w-socials-item twitter"> 
-                                            <a class="w-socials-item-link twt" href=""> 
+                                            <a class="w-socials-item-link twt" href="https://twitter.com/energy_pvt_ltd?s=08"> 
                                                 <span class="w-socials-item-link-hover"></span> 
                                                 <span class="w-socials-item-link-title">Twitter</span> </a>
                                         </div>
-                                        <div class="w-socials-item google"> 
-                                            <a class="w-socials-item-link ggl" href=""> 
-                                                <span class="w-socials-item-link-hover"></span> <span class="w-socials-item-link-title">Google+</span> 
+                                        <div class="w-socials-item insta"> 
+                                            <a class="w-socials-item-link insta" href="https://www.instagram.com/invites/contact/?i=n1owzq73ci8m&utm_content=fzm0da3"> 
+                                                <span class="w-socials-item-link-hover"></span> <span class="w-socials-item-link-title">Instagram</span> 
                                             </a>
                                         </div>
                                         <div class="w-socials-item linkedin"> 

@@ -4,7 +4,7 @@
 @push('title', yieldTitle($title))
 
 @section('content-company')
-        <div id="entry-separator">
+        <div id="entry-separator" class="industries__inner-img">
             <div class="container">
                 <div class="entry-head-servied">
                     <div class="entry-header">	
@@ -28,6 +28,7 @@
                         </div>
                     </div>
 
+        <div id="gallery__grid" class="container gallery__grid" data-element="gallery-item"> 
             <div class="col-lg-9 col-md-9 col-sm-12 col-sm-12 col-xs-12">
                 <article class="page type-page status-publish hentry">
                     <div class="flexslider single-carousel pro-cat-list">
@@ -35,15 +36,13 @@
                             @foreach($products as $product)
                             <li>
                                 <article class="recent-works">
-                                    <div class="img-format media-thumb">
+                                    <div class="img-format media-thumb ">
                                         <div class="img-fill1">
-                                            <a class="w-portfolio-item-anchor" href="javascript:;" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                        <div class="w-portfolio-item-image" style="background-image: url({{ $product->image_full_path  }})">
-                                                <div class="w-portfolio-item-meta">
-                                                    <div class="w-portfolio-item-meta-h">
-                                                        <h2 class="w-portfolio-item-title">{{ $product->name }}</h2> <span class="w-portfolio-item-arrow"></span>
-                                                    </div>
-                                                </div> 
+                                        <div class="w-portfolio-item-image1" >
+                                            <a class="gallery-item w-portfolio-item-anchor" src="{{ $product->image_full_path  }}" style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                        <div class="gallery-item w-portfolio-item-image"  >
+                                            <img class="gallery-item" src="{{ $product->image_full_path }}"width="306" height="210">
+                                        </div>
                                             </a>
                                         </div>  
                                     </div>
@@ -55,5 +54,11 @@
                 </div>
             </div>
         </div>
+      </div>
+    </div>
+
+    <!-- imagezoom-js --> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="{{ asset('js/imagezoom.js') }}"></script>
 
 @endsection
