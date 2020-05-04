@@ -732,7 +732,9 @@ address {
     height: 0%;
     display: block;
     color: #fff !important;
-    background-color: #f09433;
+    /* background-color: #f09433; */
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,
+     #d6249f 60%, #285AEB 90%);
     position: absolute;
     left: 0%;
     opacity: 0;
@@ -792,7 +794,6 @@ address {
 }
 .w-socials.color_brand .w-socials-item.youtube .w-socials-item-link:hover {
     color: #fff !important;
-  
 }
 .w-socials.color_brand .w-socials-item.facebook .w-socials-item-link {
     color: #42599e!important;

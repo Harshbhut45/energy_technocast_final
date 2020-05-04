@@ -228,12 +228,12 @@
   
               if (currentImageIndex > 2) {
                 // If you are not on the first image, decrease the index by 1
-                prevIndex = currentImageIndex - 2;
+                prevIndex = currentImageIndex - 1;
               } else {
                 // If you are on the first image, go on the last one
                 prevIndex = numOfImages;
               }
-              if ((currentImageIndex + 1) < numOfImages) {
+              if ((currentImageIndex + 2) < numOfImages) {
                 // If you are not on the last image, increase the index by 1
                 nextIndex = currentImageIndex + 2;
               } else {
@@ -253,14 +253,14 @@
             });
             currentImageIndex = nextIndex;
 
-            if (currentImageIndex > 2) {
+            if (currentImageIndex > 1) {
               // If you are not on the first image, decrease the index by 1
               prevIndex = currentImageIndex - 3;
             } else {
               // If you are on the first image, go on the last one
               prevIndex = numOfImages;
             }
-            if ((currentImageIndex - 2) <= numOfImages) {
+            if ((currentImageIndex - 1) <= numOfImages) {
               // If you are not on the last image, increase the index by 1
               nextIndex = currentImageIndex + 3;
             } else {
@@ -268,8 +268,8 @@
               nextIndex = 0;
             }
           }
-  
-            // Closing Modal Window
+          
+          // Closing Modal Window
             function closeModal(e) {
               e.preventDefault();
               modalOverlay.css({
