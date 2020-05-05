@@ -73,9 +73,9 @@
                                     <div class="form-group col-md-12">
                                         <select id="country" class="dropdown form-control form-control1" >
                                             <option for="country" selected="" disabled="">--- Select Country ---</option>
-                                            <option data-ccode="+91"  data-nnumber="813-521-9635" value="all" data-consernname="Mr. Harsh Bhut">India</option>
-                                            <option data-ccode="+1 " data-nnumber="813-521-9635" value="all" data-consernname="Mr. Savan Goswami- ">USA</option>
-                                            <option data-ccode="+39" data-nnumber="813-521-9635" value="all" data-consernname="Mr. KZ">Canada</option>
+                                            <option data-ccode="+91"  data-nnumber="+7575880001" value="all" data-consernname="Mr. Ketan Raiyani" data-email="info@energytechnocast.net">India</option>
+                                            <option data-ccode="+1 " data-nnumber="+8135174367, +18135219635" value="all" data-consernname="1) Mr. Savan Goswami, 2) Mr. Ajay Vekaria " data-email="ajay@energytechnocast.net,  savan@energytechnocast.net">USA</option>
+                                            <option data-ccode="+12" data-nnumber="+269754646" value="all" data-consernname="1) Mr. Hiren Limbasiya, 2) Mr. Parth Chaniyara" data-email="hiren@energytechnocast.net">Canada</option>
                                         </select>
                                     </div>
                                  
@@ -96,7 +96,12 @@
                                     <input type="text" name="fnamecontact" placeholder="Full Name*" class="form-control form-control1" required="">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <input type="text" name="emailidcontact" placeholder="Email Id*" class="form-control form-control1" required="">
+                                    <div class="col-md-3 nopadding">
+                                        <h5 class="form-control email form-control1">Contact Email</h5>
+                                    </div>
+                                    <div class="col-md-9 nopadding">
+                                        <span name="contactemail" id="show_exploreemail" class="form-control form-control1"></span>
+                                    </div>
                                 </div>
                                 <div class="clearfix"></div>
 

@@ -33,6 +33,7 @@ window.setdata = function()
         document.getElementById('show_exploreccode').innerText  = option.dataset.ccode;
         document.getElementById('show_explorename').innerText  = option.dataset.consernname;
         document.getElementById('show_explorennumber').innerText  = option.dataset.nnumber;
+        document.getElementById('show_exploreemail').innerText  = option.dataset.email;
     }
     return false;
 }
@@ -45,6 +46,7 @@ window.setdata1 = function()
     document.getElementById('show_exploreccode').innerText = option1.dataset.ccode1;
     document.getElementById('show_explorename').innerText = option1.dataset.consernname1;
     document.getElementById('show_explorennumber').innerText  = option.dataset.nnumber;
+    document.getElementById('show_exploreemail').innerText  = option.dataset.email;
 
     return false;
 }
