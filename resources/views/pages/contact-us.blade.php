@@ -74,7 +74,7 @@
                                         <select id="country" class="dropdown form-control form-control1" >
                                             <option for="country" selected="" disabled="">--- Select Country ---</option>
                                             <option data-ccode="+91"  data-nnumber="+7575880001" value="all" data-consernname="Mr. Ketan Raiyani" data-email="info@energytechnocast.net">India</option>
-                                            <option data-ccode="+1 " data-nnumber="+8135174367, +18135219635" value="all" data-consernname="1) Mr. Savan Goswami, 2) Mr. Ajay Vekaria " data-email="ajay@energytechnocast.net,  savan@energytechnocast.net">USA</option>
+                                            <option data-ccode="+1 " data-nnumber="+8135174367, +8135219635" value="all" data-consernname="1) Mr. Savan Goswami, 2) Mr. Ajay Vekaria " data-email="ajay@energytechnocast.net,  savan@energytechnocast.net">USA</option>
                                             <option data-ccode="+12" data-nnumber="+269754646" value="all" data-consernname="1) Mr. Hiren Limbasiya, 2) Mr. Parth Chaniyara" data-email="hiren@energytechnocast.net">Canada</option>
                                         </select>
                                     </div>
