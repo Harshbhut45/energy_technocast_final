@@ -14,7 +14,7 @@
                             Energy Techno Cast Pvt. Ltd.
                     </div>
                     <div class="entry-breadcrumb">
-                        <p class="breadcrumb"><i class="fa fa-home "></i><a href="/">Home </a>&nbsp;/&nbsp;&nbsp; About Company</p>
+                        <p class="breadcrumb"><i class="fa fa-home "></i><a href="/">Home </a>&nbsp;/&nbsp;&nbsp; Technical-Capabilities</p>
                     </div>	
                 </div>	
             </div>	

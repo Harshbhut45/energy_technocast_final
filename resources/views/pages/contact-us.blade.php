@@ -21,7 +21,7 @@
                         </header>
                     </div>
                     <div class="entry-breadcrumb">
-                        <p class="breadcrumb"><i class="fa fa-home "></i><a href="/">Home </a>&nbsp;/&nbsp;&nbsp; About Company</p>
+                        <p class="breadcrumb"><i class="fa fa-home "></i><a href="/">Home </a>&nbsp;/&nbsp;&nbsp; Contact-us</p>
                     </div>	
                 </div>	
             </div>	
