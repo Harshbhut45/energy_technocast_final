@@ -12,7 +12,7 @@
                             <h1 class="entry-title">Contact Us</h1>
                             <div class="clear"></div>
                             <strong>Energy Techno Cast Pvt. Ltd.</strong><br>
-                            Shapar Industrial Area,<br> Rajkot - Gondal Highway, Dist. : Rajkot - 360 002.<br>
+                            Shapar Industrial Area,<br> Rajkot - Gondal Highway, <br> Dist. : Rajkot - 360 002.<br>
                             Gujarat / India. <br><br>
                             
                             <strong>Phone :</strong> +91 7575880001<br>

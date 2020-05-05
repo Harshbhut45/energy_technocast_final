@@ -20,7 +20,7 @@
             <div class="row-fluid">
               <div class="container">
                 <div class="row">
-                   <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 col-xs-12">
+                   <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 col-xs-12 sidebar_res">
                      <div class="sidebar clearfix-sidebar clearfix_res">
                         @include('includes.industries-served-sidebar')
 
@@ -29,7 +29,7 @@
                     </div>
 
         <div id="gallery__grid" class="container gallery__grid" data-element="gallery-item"> 
-            <div class="col-lg-9 col-md-9 col-sm-12 col-sm-12 col-xs-12">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-sm-12 col-xs-12 img__gallery">
                 <article class="page type-page status-publish hentry">
                     <div class="flexslider single-carousel pro-cat-list">
                         <ul class="slides portfolio-list__img">
