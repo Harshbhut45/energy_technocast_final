@@ -27,6 +27,9 @@
    <!-- header-dropdown-CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   
+   <!-- toastr -->
+    <link rel="stylesheet" href="{{ asset('css/toastr.min.css') }}">
+
     <!-- CSS -->
     <link rel="stylesheet" href="{{ ('/css/energy_custom.css') }}">
 </head>
@@ -152,7 +155,9 @@
       <!-- Scrollbutton-js --> 
       <script type="text/javascript" src="{{ asset('js/scrollbutton.js') }}"></script>
 
-   
+      <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
+      {!! Toastr::message() !!} 
+     
      <script>
       $(document).ready(function(){
           $(".dropdown1").hover(       

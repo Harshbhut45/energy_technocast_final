@@ -50,3 +50,6 @@ Route::get('/career', 'PublicController@career');
 
 Route::get('/contact-us', 'PublicController@contact_us');
 
+//send mail
+Route::post('/send-mail', 'PublicController@sendMail')->name('sendMail');
+

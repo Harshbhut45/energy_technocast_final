@@ -53,4 +53,54 @@ class Controller extends BaseController
             'status' => true
         ];
     }
+
+    protected function createFile($app_path, $image, $filename = null, $delete_directory = true)
+    {
+        if (!file_exists($app_path)) {
+            \File::makeDirectory($app_path, 0777, true);
+        } else {
+            if ($delete_directory) {
+                \File::deleteDirectory($app_path, true);
+            }
+        }
+
+        if ($filename !== null) {
+            $file = $filename . '.' . $image->getClientOriginalExtension();
+        } else {
+            $file_original_name = $image->getClientOriginalName();
+
+            $new_filename = pathinfo($file_original_name, PATHINFO_FILENAME);
+            $extension = pathinfo($file_original_name, PATHINFO_EXTENSION);
+
+            $file = $new_filename . '--' . \Str::random(12) . '.' . $extension;
+        }
+
+        $image->move($app_path, $file);
+
+        return \URL::to('/data') . '/' . $file;
+    }
+
+    protected function render($__php, $__data)
+    {
+        $obLevel = ob_get_level();
+        ob_start();
+        extract($__data, EXTR_SKIP);
+        try {
+            eval('?' . '>' . $__php);
+        } catch (Exception $e) {
+            while (ob_get_level() > $obLevel) {
+                ob_end_clean();
+            }
+
+            throw $e;
+        } catch (Throwable $e) {
+            while (ob_get_level() > $obLevel) {
+                ob_end_clean();
+            }
+
+            throw new FatalThrowableError($e);
+        }
+
+        return ob_get_clean();
+    }
 }

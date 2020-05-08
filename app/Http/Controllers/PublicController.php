@@ -76,4 +76,37 @@ class PublicController extends Controller
      	
      	abort(404);   
     }
+
+    public function sendMail(Request $request)
+    {
+        try {
+            $to = ["jhalak@matrixmob.com", "kaushal.z@matrixmob.com"];
+            $email = "jhalakjaviya@gmail.com";
+            $contact = $request->input('contact');
+            $name = $request->input('name');
+            $title = 'New Inquiry';
+            $message = $request->input('message');
+            $file = $request->file('dfile');
+
+            $app_path = public_path() . '/data';
+
+            $file = $this->createFile($app_path, $file);
+
+            $php = \Blade::compileString('<h3>New Inquiry,</h3><br/><br/>Name: <b>{{$name}}</b><br/>Contact No: <b>{{$contact}}</b> @if($file !== null)<br/>File: <b><a href="{{$file}}">File Link</a></b> @endif <br/>Message: <b>{{$message}}</b>');
+
+            $email_body = $this->render($php, ['name' => $name, 'contact' => $contact, 'file' => $file, 'message' => $message]);
+
+            \Mail::send([], [], function ($final_message) use ($to, $title, $email_body, $email, $name) {
+                $final_message->setBody($email_body, 'text/html');
+                $final_message->to($to)->subject($title);
+                $final_message->from($email, $name);
+            });
+
+            \Toastr::success('Message submitted successfully', 'Success', []);
+        } catch (\Exception $e) {
+            \Toastr::success('Something went wrong', 'Error', []);
+        }
+
+        return redirect()->back();
+    }
 }

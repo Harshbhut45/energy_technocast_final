@@ -66,16 +66,17 @@
 
                     <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 contact_info">
                         <div class="contact_info active">
-                            <form action="#" method="post" enctype="multipart/form-data" onchange="return setdata();">
+                            <form action="{{ route('sendMail') }}" method="post" enctype="multipart/form-data" onchange="return setdata();">
+                                @csrf
                                 <h3>Drop a Message</h3>
                                 <br>
                              
                                     <div class="form-group col-md-12">
                                         <select id="country" class="dropdown form-control form-control1" >
                                             <option for="country" selected="" disabled="">--- Select Country ---</option>
-                                            <option data-ccode="+91"  data-nnumber="+7575880001" value="all" data-consernname="Mr. Ketan Raiyani" data-email="info@energytechnocast.net">India</option>
-                                            <option data-ccode="+1 " data-nnumber="+8135174367, +8135219635" value="all" data-consernname="1) Mr. Savan Goswami, 2) Mr. Ajay Vekaria " data-email="ajay@energytechnocast.net,  savan@energytechnocast.net">USA</option>
-                                            <option data-ccode="+12" data-nnumber="+269754646" value="all" data-consernname="1) Mr. Hiren Limbasiya, 2) Mr. Parth Chaniyara" data-email="hiren@energytechnocast.net">Canada</option>
+                                            <option data-ccode="+91"  data-nnumber="7575880001" value="all" data-consernname="Mr. Ketan Raiyani" data-email="info@energytechnocast.net">India</option>
+                                            <option data-ccode="+1 " data-nnumber="1) 8135174367, 2) 8135219635" value="all" data-consernname="1) Mr. Savan Goswami, 2) Mr. Ajay Vekaria " data-email="ajay@energytechnocast.net,  savan@energytechnocast.net">USA</option>
+                                            <option data-ccode="+12" data-nnumber="269754646" value="all" data-consernname="1) Mr. Hiren Limbasiya, 2) Mr. Parth Chaniyara" data-email="hiren@energytechnocast.net">Canada</option>
                                         </select>
                                     </div>
                                  
@@ -93,9 +94,6 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="form-group col-md-12">
-                                    <input type="text" name="fnamecontact" placeholder="Full Name*" class="form-control form-control1" required="">
-                                </div>
-                                <div class="form-group col-md-12">
                                     <div class="col-md-3 nopadding">
                                         <h5 class="form-control email form-control1">Contact Email</h5>
                                     </div>
@@ -104,7 +102,6 @@
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
-
                                 <div class="form-group col-md-12">
                                     <div class="col-md-2 nopadding">
                                         <span name="contactnumner" id="show_exploreccode" class="form-control form-control1"></span>
@@ -115,25 +112,29 @@
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
+                                
                                 <div class="clearfix"></div>
                                 <div class="form-group col-md-12">
-                                    <input type="file" name="dfile" id="dfile" class="form_control resume" placeholder="pdf &amp; jpg">
+                                    <input type="text" name="name" placeholder="Your Full Name*" class="form-control form-control1" required="">
+                                </div>
+                                <div class="clearfix"></div>
+
+                                <div class="form-group col-md-12">
+                                    <input type="file" name="dfile" id="dfile" class="form_control resume">
                                 <h6>Upload pdf / jpg / png</h6>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="form-group col-md-12">
-                                    <input type="text" name="locationcontact" id="locationcontact" placeholder="locationcontact*" class="form-control form-control1" required="">
+                                    <input type="text" name="contact" id="locationcontact" placeholder="Your Contact Number*" class="form-control form-control1" required="" maxlength="12">
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="form-group  col-md-12 ">
-                                    <textarea name="message" rows="5" placeholder="Message.." class="form-control" required=""></textarea>
+                                    <textarea name="message" rows="5" placeholder="Message" class="form-control" required=""></textarea>
                                     <br>
                                 </div>
                                 <br><br>
-                                <input type="hidden" id="hiddeninput" name="hiddeninput">
-                                <input type="hidden" id="hiddenname" name="hiddenname">
                                 <div class="form-group col-md-12">
-                                    <input type="submit" name="bookcontact" id="bookcontact" value="Submit" class="btnRead">
+                                    <input type="submit" id="bookcontact" class="btnRead">
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
