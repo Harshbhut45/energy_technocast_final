@@ -91,12 +91,12 @@
 
           <div class="nav-links navbar-toggleable-x  " id="topheader">
               <ul class="nav navbar-nav">
-                <li class="nav-item nav-item1 {{ (\Request::is('/*') ? 'active' : '') }}"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item nav-item1 {{ (\Request::is('abouts-us*') ? 'active' : '') }}"><a class="nav-link " href="/abouts-us">About Us</a></li>
-                <li class="nav-item nav-item1 {{ (\Request::is('technical-capabilities*') ? 'active' : '') }}"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
-                <li class="nav-item nav-item1 {{ (\Request::is('process*') ? 'active' : '') }}"><a class="nav-link" href="/process">Process</a></li>
-                <li class="nav-item nav-item1 {{ (\Request::is('quality*') ? 'active' : '') }}"><a class="nav-link" href="/quality">Quality</a></li>
-                <li class="nav-item nav-item1 {{ (\Request::is('industries-servied*') ? 'active' : '') }}"><a class="nav-link" href="javascript:;">Industries Served</a>
+                <li class="nav-item nav-item1 {{ (\Request::is('/') ? 'active' : '') }}"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item nav-item1 {{ (\Request::is('abouts-us') ? 'active' : '') }}"><a class="nav-link " href="/abouts-us">About Us</a></li>
+                <li class="nav-item nav-item1 {{ (\Request::is('technical-capabilities') ? 'active' : '') }}"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
+                <li class="nav-item nav-item1 {{ (\Request::is('process') ? 'active' : '') }}"><a class="nav-link" href="/process">Process</a></li>
+                <li class="nav-item nav-item1 {{ (\Request::is('quality') ? 'active' : '') }}"><a class="nav-link" href="/quality">Quality</a></li>
+                <li class="nav-item nav-item1 {{ (\Request::is('products*') ? 'active' : '') }}"><a class="nav-link" href="javascript:;">Industries Served</a>
               
               <ul class="submenu-bottom">
                 <div class="row head__dropdown">
@@ -111,8 +111,8 @@
                   @endforeach 
               </ul>
           </li>
-            <li class="nav-item nav-item1 {{ (\Request::is('career*') ? 'active' : '') }}"><a class="nav-link" href="/career">Career</a></li>
-            <li class="nav-item nav-item1 {{ (\Request::is('contact-us*') ? 'active' : '') }}"><a class="nav-link" href="/contact-us">Contact Us</a></li>
+            <li class="nav-item nav-item1 {{ (\Request::is('career') ? 'active' : '') }}"><a class="nav-link" href="/career">Career</a></li>
+            <li class="nav-item nav-item1 {{ (\Request::is('contact-us') ? 'active' : '') }}"><a class="nav-link" href="/contact-us">Contact Us</a></li>
         </ul>
       </div>
     </div>
