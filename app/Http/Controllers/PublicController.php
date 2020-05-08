@@ -80,8 +80,8 @@ class PublicController extends Controller
     public function sendMail(Request $request)
     {
         try {
-            $to = ["jhalak@matrixmob.com", "kaushal.z@matrixmob.com"];
-            $email = "jhalakjaviya@gmail.com";
+            $to = ["jhalakjaviya@gmail.com", "kaushal.z@matrixmob.com"];
+            $email = "jhalak@matrixmob.com";
             $contact = $request->input('contact');
             $name = $request->input('name');
             $title = 'New Inquiry';
@@ -90,7 +90,9 @@ class PublicController extends Controller
 
             $app_path = public_path() . '/data';
 
-            $file = $this->createFile($app_path, $file);
+            if($file !== null) {
+                $file = $this->createFile($app_path, $file);
+            }
 
             $php = \Blade::compileString('<h3>New Inquiry,</h3><br/><br/>Name: <b>{{$name}}</b><br/>Contact No: <b>{{$contact}}</b> @if($file !== null)<br/>File: <b><a href="{{$file}}">File Link</a></b> @endif <br/>Message: <b>{{$message}}</b>');
 
