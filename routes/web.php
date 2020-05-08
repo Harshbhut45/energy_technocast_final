@@ -36,6 +36,8 @@ Route::get('/products/{id}/delete','ProductController@destroy')->name('products.
 // Public Pages
 Route::get('/products/{slug}', 'PublicController@products')->name('products.public');
 
+Route::get('/industries-served', 'PublicController@industries_servied')->name('industries.served');
+
 Route::get('/abouts-us', 'PublicController@about_us');
 
 Route::get('/process', 'PublicController@process');

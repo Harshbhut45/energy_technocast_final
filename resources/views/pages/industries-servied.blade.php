@@ -47,17 +47,16 @@
                                             <div class="img-fill1">
                                                 
                                             <div  class="w-portfolio-item-image1" >
-                                                <a href="{{ url('industries-servied-valves',['id' => $category->name ])}}" class=" w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
-                                            <div class="gallery-item w-portfolio-item-image" >
-                                             
-                                                <img href="{{ url('industries-servied-valves',['id' => $category->id ])}}" src="{{ $category->image_full_path }}" width="306" height="210" alt="Pump Industries">
-                                            </div>
-                                            <div class="w-portfolio-item-meta">
-                                                <div class="w-portfolio-item-meta-h">
-                                                    <h2 class="w-portfolio-item-title">{{ $category->name }}</h2> <span class="w-portfolio-item-arrow"></span>
-                                                </div>
-                                            </div> 
-                                            </a>
+                                                <a href="{{ route('products.public', ['slug' => $category->slug ])}}" class=" w-portfolio-item-anchor"  style="background-color: rgba(0,0,0,0.9);color: #ffffff;">
+                                                    <div class="gallery-item w-portfolio-item-image">
+                                                        <img src="{{ $category->image_full_path }}" width="306" height="210" alt="Pump Industries">
+                                                    </div>
+                                                    <div class="w-portfolio-item-meta">
+                                                        <div class="w-portfolio-item-meta-h">
+                                                            <h2 class="w-portfolio-item-title">{{ $category->name }}</h2> <span class="w-portfolio-item-arrow"></span>
+                                                        </div>
+                                                    </div>
+                                                </a>
                                             </div>  
                                         </div>
                                     </article>

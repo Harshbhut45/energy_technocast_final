@@ -96,7 +96,7 @@
                 <li class="nav-item nav-item1 {{ (\Request::is('technical-capabilities') ? 'active' : '') }}"><a class="nav-link" href="/technical-capabilities">Technical Capabilities</a></li>
                 <li class="nav-item nav-item1 {{ (\Request::is('process') ? 'active' : '') }}"><a class="nav-link" href="/process">Process</a></li>
                 <li class="nav-item nav-item1 {{ (\Request::is('quality') ? 'active' : '') }}"><a class="nav-link" href="/quality">Quality</a></li>
-                <li class="nav-item nav-item1 {{ (\Request::is('products*') ? 'active' : '') }}"><a class="nav-link" href="javascript:;">Industries Served</a>
+                <li class="nav-item nav-item1 {{ (\Request::is('industries-served') ? 'active' : '') }}"><a class="nav-link" href="{{ route('industries.served') }}">Industries Served</a>
               
               <ul class="submenu-bottom">
                 <div class="row head__dropdown">
