@@ -45,7 +45,7 @@
                             </div>
                             <div class="col-md-10">
                                 <h5>Call Us :</h5>
-                                <p>+91 7575880001</p>
+                                <p id="show_explorennumber">+91 7575880001</p>
                             </div>
                          </div>
                     <div class="clearfix"></div>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="col-md-10 email_res">
                             <h5>Email Us :</h5>
-                            <p><a href="info@energytechnocast.net"> info@energytechnocast.net</a></p>
+                            <p  id="show_exploreemail"><a href="info@energytechnocast.net"> info@energytechnocast.net</a></p>
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -74,9 +74,9 @@
                                     <div class="form-group col-md-12">
                                         <select id="country" class="dropdown form-control form-control1" >
                                             <option for="country" selected="" disabled="">--- Select Country ---</option>
-                                            <option data-ccode="+91"  data-nnumber="7575880001" value="all" data-consernname="Mr. Ketan Raiyani" data-email="info@energytechnocast.net">India</option>
-                                            <option data-ccode="+1 " data-nnumber="1) 8135174367, 2) 8135219635" value="all" data-consernname="1) Mr. Savan Goswami, 2) Mr. Ajay Vekaria " data-email="ajay@energytechnocast.net,  savan@energytechnocast.net">USA</option>
-                                            <option data-ccode="+12" data-nnumber="269754646" value="all" data-consernname="1) Mr. Hiren Limbasiya, 2) Mr. Parth Chaniyara" data-email="hiren@energytechnocast.net">Canada</option>
+                                            <option data-ccode="+91"  data-nnumber="+91 7575880001" value="all" data-consernname="Mr. Ketan Raiyani" data-email="info@energytechnocast.net">India</option>
+                                            <option data-ccode="+1 " data-nnumber="1) +1 8135174367, 2) +1 8135219635" value="all" data-consernname="1) Mr. Savan Goswami, 2) Mr. Ajay Vekaria " data-email="ajay@energytechnocast.net,  savan@energytechnocast.net">USA</option>
+                                            <option data-ccode="+1" data-nnumber="+1 269754646" value="all" data-consernname="1) Mr. Hiren Limbasiya, 2) Mr. Parth Chaniyara" data-email="hiren@energytechnocast.net">Canada</option>
                                         </select>
                                     </div>
                                  
@@ -94,12 +94,11 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="form-group col-md-12">
-                                    <div class="col-md-3 nopadding">
-                                        <h5 class="form-control email form-control1">Contact Email</h5>
-                                    </div>
-                                    <div class="col-md-9 nopadding">
-                                        <span name="contactemail" id="show_exploreemail" class="form-control form-control1"></span>
-                                    </div>
+                                    <input type="text" name="name" placeholder="Full Name*" class="form-control form-control1" required="">
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="form-group col-md-12">
+                                    <input type="text" name="name" placeholder="Email Id*" class="form-control form-control1" required="">
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="form-group col-md-12">
@@ -107,26 +106,18 @@
                                         <span name="contactnumner" id="show_exploreccode" class="form-control form-control1"></span>
                                     </div>
                                     <div class="col-md-10 nopadding">
-                                        <!-- <input type="text" name="cnumbercontact" id="cnumbercontact" placeholder="Mobile Number*" class="form-control number form-control1" required=""> -->
-                                        <span name="contactnumner" id="show_explorennumber" class="form-control form-control1"></span>
+                                        <input type="text" name="name" placeholder="Mobile Number*" class="form-control form-control1" required="">
                                     </div>
                                     <div class="clearfix"></div>
                                 </div>
                                 
-                                <div class="clearfix"></div>
-                                <div class="form-group col-md-12">
-                                    <input type="text" name="name" placeholder="Your Full Name*" class="form-control form-control1" required="">
-                                </div>
                                 <div class="clearfix"></div>
 
                                 <div class="form-group col-md-12">
                                     <input type="file" name="dfile" id="dfile" class="form_control resume">
                                 <h6>Upload pdf / jpg / png</h6>
                                 </div>
-                                <div class="clearfix"></div>
-                                <div class="form-group col-md-12">
-                                    <input type="text" name="contact" id="locationcontact" placeholder="Your Contact Number*" class="form-control form-control1" required="" maxlength="12">
-                                </div>
+                                
                                 <div class="clearfix"></div>
                                 <div class="form-group  col-md-12 ">
                                     <textarea name="message" rows="5" placeholder="Message" class="form-control" required=""></textarea>
