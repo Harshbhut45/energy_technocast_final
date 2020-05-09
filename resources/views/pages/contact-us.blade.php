@@ -120,7 +120,7 @@
                                 
                                 <div class="clearfix"></div>
                                 <div class="form-group  col-md-12 ">
-                                    <textarea name="message" rows="5" placeholder="Message" class="form-control" required=""></textarea>
+                                    <textarea name="message" rows="5" placeholder="Message.." class="form-control" required=""></textarea>
                                     <br>
                                 </div>
                                 <br><br>
